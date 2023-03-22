@@ -8,7 +8,16 @@ void fast(){
 }
 
 void solve(){
-    
+    int a,b,c,d;
+    cin>>a>>b>>c>>d;
+    int ct=0;
+    for(int i=0;i<100;i++){
+        if((a+i)%b==(c+i)%d){
+            ct=i;
+            break;
+        }
+    }
+    cout<<ct<<endl;
 
 }
 
