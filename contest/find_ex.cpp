@@ -6,19 +6,20 @@ void fast(){
     cin.tie(0); 
     cout.tie(0);
 }
-
 void solve(){
     int a,b,c,d;
     cin>>a>>b>>c>>d;
-    int ct=0;
-    for(int i=0;i<100;i++){
+    int ct;
+    for(int i=1;i<100;i++){
         if((a+i)%b==(c+i)%d){
             ct=i;
             break;
         }
+        else{
+            continue;
+        }
     }
     cout<<ct<<endl;
-
 }
 
 int main(){
