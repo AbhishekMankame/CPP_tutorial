@@ -1,3 +1,10 @@
+/*
+Vector:
+Vectors are sequence containers representing arrays that can change in size.
+
+
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
