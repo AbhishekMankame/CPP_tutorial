@@ -7,6 +7,7 @@ But unlike arrays, their size can change dynamically, with their storage begin h
 
 #include<bits/stdc++.h>
 using namespace std;
+#define kaushal(n) cout<<n<<endl
 
 void fast(){
     ios_base::sync_with_stdio(0); 
@@ -15,6 +16,8 @@ void fast(){
 }
 
 void solve(){
+    int a=10;
+    kaushal(a);
 
 }
 
