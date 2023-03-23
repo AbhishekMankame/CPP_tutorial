@@ -16,7 +16,7 @@ void fast(){
 }
 
 void solve(){
-    int a=10;
+    int a=100;
     kaushal(a);
 
 }
