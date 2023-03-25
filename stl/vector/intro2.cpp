@@ -17,6 +17,7 @@ void solve(){
     for(int i=0;i<arr.size();i++){
         cout<<arr[i]<<" ";
     }
+    
 
     //size of the vector (Number of elements)
     cout<<arr.size()<<endl;
