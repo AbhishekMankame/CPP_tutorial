@@ -8,6 +8,8 @@ void fast(){
 }
 
 void solve(){
+    vector<int> arr={1,2};
+    cout<<arr.size()<<endl;
 
 }
 
