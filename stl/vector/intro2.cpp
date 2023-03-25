@@ -10,6 +10,8 @@ void fast(){
 void solve(){
     vector<int> arr={1,2};
 
+    
+
     //size of the vector (Number of elements)
     cout<<arr.size()<<endl;
 
