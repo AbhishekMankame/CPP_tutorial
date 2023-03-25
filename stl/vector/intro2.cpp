@@ -10,7 +10,7 @@ void fast(){
 void solve(){
     vector<int> arr={1,2};
 
-    
+    //push_back --> O(1) (Inserts elements at the end of the array/vector)
 
     //size of the vector (Number of elements)
     cout<<arr.size()<<endl;
