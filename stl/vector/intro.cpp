@@ -5,6 +5,8 @@ Just like arrays, vectors use contiguous storage locations for their elements, w
 But unlike arrays, their size can change dynamically, with their storage begin handled automatically by the container.
 */
 
+/*General Complexity of push_back() is O(1)*/
+
 #include<bits/stdc++.h>
 using namespace std;
 //#define kaushal(n) cout<<n<<endl
