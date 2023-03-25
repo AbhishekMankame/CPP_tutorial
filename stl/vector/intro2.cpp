@@ -11,6 +11,7 @@ void solve(){
     vector<int> arr={1,2};
 
     //push_back --> O(1) (Inserts elements at the end of the array/vector)
+    arr.push_back(3);
 
     //size of the vector (Number of elements)
     cout<<arr.size()<<endl;
