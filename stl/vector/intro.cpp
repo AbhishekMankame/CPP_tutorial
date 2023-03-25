@@ -11,7 +11,12 @@ But in some cases it can also be O(n)
 Amortized for every insertion
 
 O(N) ---> N (for N elements)
-O(1) ---> (N/N=1)*/
+O(1) ---> (N/N=1)
+
+Complexity:
+Constant (amortized time, reallocation may happen).
+If a reallocation happens, the reallocation is itself up to linear in the entire size.
+*/
 
 #include<bits/stdc++.h>
 using namespace std;
