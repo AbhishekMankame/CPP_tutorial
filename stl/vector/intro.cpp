@@ -8,7 +8,10 @@ But unlike arrays, their size can change dynamically, with their storage begin h
 /*General Complexity of push_back() is O(1)
 But in some cases it can also be O(n)
 
-Amortized for every insertion*/
+Amortized for every insertion
+
+O(N) ---> N (for N elements)
+O(1) ---> (N/N=1)*/
 
 #include<bits/stdc++.h>
 using namespace std;
