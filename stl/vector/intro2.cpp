@@ -9,7 +9,12 @@ void fast(){
 
 void solve(){
     vector<int> arr={1,2};
+
+    //size of the vector
     cout<<arr.size()<<endl;
+
+    //capacity of the vector
+    cout<<arr.capacity()<<endl;
 
 }
 
