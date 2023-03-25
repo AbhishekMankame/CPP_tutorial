@@ -10,10 +10,10 @@ void fast(){
 void solve(){
     vector<int> arr={1,2};
 
-    //size of the vector
+    //size of the vector (Number of elements)
     cout<<arr.size()<<endl;
 
-    //capacity of the vector
+    //capacity of the vector (Actual memory allocated for the given vector)
     cout<<arr.capacity()<<endl;
 
 }
