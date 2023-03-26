@@ -10,7 +10,8 @@ void fast(){
     cout.tie(0);
 }
 
-void solve(){
+void func(int n){
+    func(n-1);
 
 }
 
@@ -22,7 +23,7 @@ int main(){
 #endif
 
     fast();
-    solve();
+    func(5);
 
     
     return 0;
