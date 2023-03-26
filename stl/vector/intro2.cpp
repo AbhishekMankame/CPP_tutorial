@@ -25,6 +25,13 @@ void solve(){
     //capacity of the vector (Actual memory allocated for the given vector)
     cout<<arr.capacity()<<endl;
 
+    //Pop_back
+    // Print all the elements
+    for(int i=0;i<arr.size();i++){
+        cout<<arr[i]<<" ";
+    }
+    cout<<endl;
+
 }
 
 int main(){
