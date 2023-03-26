@@ -31,6 +31,6 @@ int main(){
 
 /*
 Time Complexity of recursive function:
-1. Number of function calls
-2. What is complexity of each function
+1. Number of function calls --> In this case N calls
+2. What is complexity of each function --> O(1) in this case
 */
