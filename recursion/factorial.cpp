@@ -7,7 +7,8 @@ void fast(){
     cout.tie(0);
 }
 
-void fact(int n){
+int fact(int n){
+     return fact(n-1)*n;
 
 }
 
