@@ -2,7 +2,7 @@
 using namespace std;
 
 // digit sum
-// digit_sum -->
+// digit_sum --> digit_sum(n/10)
 // 1234 --> 4 + digitsum(123)
 
 void fast(){
@@ -11,6 +11,12 @@ void fast(){
     cout.tie(0);
 }
 
+int digit_sum(int n){
+    if(n==0){
+        return 0;
+    }
+    return digit_sum(n/10)+(n%10);
+}
 
 int main(){
 #ifndef ONLINE_JUDGE
@@ -20,6 +26,9 @@ int main(){
 #endif
 
     fast();
+    int n;
+    cin>>n;
+    cout<<digit_sum(1234)<<endl;
 
     
     return 0;
