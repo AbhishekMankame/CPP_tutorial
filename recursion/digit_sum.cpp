@@ -1,15 +1,17 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// sum of array
+// sum(n,a) --> sum of elements in a uptill n index
+
 void fast(){
     ios_base::sync_with_stdio(0); 
     cin.tie(0); 
     cout.tie(0);
 }
 
-int fact(int n){
+int sum(int n){
     if(n==0) return 1; //base condition
-     return fact(n-1)*n;
 
 }
 
