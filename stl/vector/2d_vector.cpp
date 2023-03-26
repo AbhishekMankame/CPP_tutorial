@@ -20,6 +20,14 @@ int main(){
          }
          cout<<endl;
     }
+    cout<<endl;
+    arr[0][0]+=10;
+    for(int i=0;i<arr.size();i++){
+         for(int number: arr[i]){
+            cout<<number<<" ";
+         }
+         cout<<endl;
+    }
 
     return 0;
 }
