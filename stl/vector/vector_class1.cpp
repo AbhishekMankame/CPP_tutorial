@@ -5,6 +5,16 @@ using namespace std;
 
 class Vector{
     //Data Members
+    int *arr;
+    int cs;
+    int ms;
+
+public:
+    Vector(){
+        cs=0;
+        ms=1;
+        arr = new int[ms];
+    }
 
 
     // Constructors, Destructors, Methods
