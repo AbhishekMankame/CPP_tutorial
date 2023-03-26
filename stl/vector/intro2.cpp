@@ -26,6 +26,7 @@ void solve(){
     cout<<arr.capacity()<<endl;
 
     //Pop_back
+    arr.pop_back();
     // Print all the elements
     for(int i=0;i<arr.size();i++){
         cout<<arr[i]<<" ";
