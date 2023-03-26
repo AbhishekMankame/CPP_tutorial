@@ -33,4 +33,5 @@ int main(){
 Time Complexity of recursive function:
 1. Number of function calls --> In this case N calls
 2. What is complexity of each function --> O(1) in this case
+    O(1)*O(n) = O(n)
 */
