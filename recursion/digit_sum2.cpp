@@ -37,3 +37,4 @@ int main(){
 // complexity:
 // 1. Number of function calls -> number of digits in n
 // 2. What is complexity of each function -> O(1)
+// log(n)
