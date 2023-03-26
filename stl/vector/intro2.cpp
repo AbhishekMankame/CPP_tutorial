@@ -32,6 +32,10 @@ void solve(){
         cout<<arr[i]<<" ";
     }
     cout<<endl;
+    //Fill constuctor
+    vector<int> a(10,7);
+
+    
 
 }
 
