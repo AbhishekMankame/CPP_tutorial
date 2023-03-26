@@ -1,3 +1,6 @@
+// Recursive function
+// A function which calls itself is called recursive function
+
 #include<bits/stdc++.h>
 using namespace std;
 
