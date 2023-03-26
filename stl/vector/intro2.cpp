@@ -35,7 +35,7 @@ void solve(){
     //Fill constuctor
     vector<int> a(10,7);
     // Fill
-    vector<int> visited(100,0);
+    vector<int> visited(100,0); 
 
     // Print all the elements
     for(int i=0;i<a.size();i++){
