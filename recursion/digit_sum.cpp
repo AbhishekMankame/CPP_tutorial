@@ -12,8 +12,8 @@ void fast(){
     cout.tie(0);
 }
 
-int sum(int n){
-    if(n==0) return 1; //base condition
+int sum(int n, int a[]){
+    return sum(n-1,a) + a[n];
 
 }
 
@@ -27,7 +27,10 @@ int main(){
     fast();
     int n;
     cin>>n;
-    cout<<fact(n)<<endl;
+    int a[n];
+    for(int i=0;i<n;i++){
+        cin>>a[i];
+    }
 
     
     return 0;
