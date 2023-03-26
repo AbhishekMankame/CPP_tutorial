@@ -4,6 +4,8 @@ using namespace std;
 // sum of array
 // sum(n,a) --> sum of elements in a uptill n index
 
+// sum(n,a) = a[n] + sum(n-1,a)
+
 void fast(){
     ios_base::sync_with_stdio(0); 
     cin.tie(0); 
