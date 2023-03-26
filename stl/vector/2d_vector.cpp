@@ -16,7 +16,7 @@ int main(){
 
     for(int i=0;i<arr.size();i++){
          for(int number: arr[i]){
-            cout<<number;
+            cout<<number<<" ";
          }
          cout<<endl;
     }
