@@ -34,6 +34,11 @@ void solve(){
     cout<<endl;
     //Fill constuctor
     vector<int> a(10,7);
+    // Print all the elements
+    for(int i=0;i<a.size();i++){
+        cout<<a[i]<<" ";
+    }
+    cout<<endl;
 
     
 
