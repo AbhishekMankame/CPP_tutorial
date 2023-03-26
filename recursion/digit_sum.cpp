@@ -33,6 +33,6 @@ int main(){
         cin>>a[i];
     }
 
-    cout<<sum(n,a)<<endl;
+    cout<<sum(n-1,a)<<endl;
     return 0;
 }
