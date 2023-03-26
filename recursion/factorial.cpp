@@ -7,7 +7,7 @@ void fast(){
     cout.tie(0);
 }
 
-void solve(){
+void fact(int n){
 
 }
 
@@ -19,7 +19,9 @@ int main(){
 #endif
 
     fast();
-    solve();
+    int n;
+    cin>>n;
+    fact(n);
 
     
     return 0;
