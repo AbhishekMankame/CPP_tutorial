@@ -23,7 +23,7 @@ int main(){
     fast();
     int n;
     cin>>n;
-    fact(n);
+    cout<<fact(n)<<endl;
 
     
     return 0;
