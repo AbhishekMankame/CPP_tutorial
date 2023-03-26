@@ -28,3 +28,9 @@ int main(){
     
     return 0;
 }
+
+/*
+Time Complexity of recursive function:
+1. Number of function calls
+2. What is complexity of each function
+*/
