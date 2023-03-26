@@ -11,6 +11,7 @@ void fast(){
 }
 
 void func(int n){
+    if(n==0) return;
     func(n-1);
 
 }
