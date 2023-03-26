@@ -4,6 +4,10 @@ using namespace std;
 
 
 class Vector{
+    //Data Members
+
+
+    // Constructors, Destructors, Methods
 
 };
 
