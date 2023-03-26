@@ -1,6 +1,3 @@
-// Recursive function
-// A function which calls itself is called recursive function
-
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -10,11 +7,7 @@ void fast(){
     cout.tie(0);
 }
 
-void func(int n){
-    if(n==0) return;
-    cout<<n<<endl; //Here func(5) is called at first
-    func(n-1);
-    cout<<n<<endl; //Here func(1) will be considered first 
+void solve(){
 
 }
 
@@ -26,7 +19,7 @@ int main(){
 #endif
 
     fast();
-    func(5);
+    solve();
 
     
     return 0;
