@@ -13,6 +13,7 @@ void fast(){
 }
 
 int sum(int n, int a[]){
+    if(n<0) return 0;
     return sum(n-1,a) + a[n];
 
 }
