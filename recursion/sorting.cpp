@@ -7,9 +7,6 @@ void fast(){
     cout.tie(0);
 }
 
-void solve(){
-
-}
 
 int main(){
 #ifndef ONLINE_JUDGE
@@ -19,7 +16,6 @@ int main(){
 #endif
 
     fast();
-    solve();
 
     
     return 0;
