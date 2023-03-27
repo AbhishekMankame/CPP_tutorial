@@ -7,6 +7,7 @@ void fast(){
     cout.tie(0);
 }
 
+// selection sort algorithm
 
 int main(){
 #ifndef ONLINE_JUDGE
