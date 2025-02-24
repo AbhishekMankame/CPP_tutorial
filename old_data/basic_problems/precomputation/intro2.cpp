@@ -1,5 +1,5 @@
-#include<bits/stdc++.h>
-using namespace std;
+#include<bits/stdc++.h> // It is called preprocessor directive
+using namespace std;  // Yaha par ham use karna chahate hai namespace jiska naam std hai
 
 int main(){
 #ifndef ONLINE_JUDGE
