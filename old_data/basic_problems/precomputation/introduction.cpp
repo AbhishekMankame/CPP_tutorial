@@ -7,7 +7,7 @@ Constraints
 1 <= N <= 10^5
 */
 
-#include<bits/stdc++.h> 
+#include<iostream> 
 using namespace std;
 const int M=1e9+7;
 const int N=1e5+10;
