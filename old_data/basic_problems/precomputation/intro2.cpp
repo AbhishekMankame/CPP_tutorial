@@ -9,4 +9,13 @@ int main(){
 #endif
     cout<<"Namaste Duniya"<<endl;
 
+    int n;
+    cout<<"Enter the number: "<<endl;
+    cin>>n;
+    if(n%2==0){
+        cout<<"Even"<<endl;
+    }else{
+        cout<<"Odd"<<endl;
+    }
+    return 0;
 }
