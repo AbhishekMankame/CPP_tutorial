@@ -1,3 +1,3 @@
 Namaste Duniya
 Enter the number: 
-Even
+Odd
