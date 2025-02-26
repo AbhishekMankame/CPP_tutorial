@@ -1,3 +1,0 @@
-Namaste Duniya
-Enter the number: 
-Odd
