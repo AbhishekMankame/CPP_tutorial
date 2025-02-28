@@ -8,6 +8,7 @@ Constraints
 */
 
 // precomputation cannot be used for the array if the size is 10^9 as the maximum size of the array is 10^7 globally
+
 // Time complexity of the code is O(N*Q) = O(N^2) = 10^10 --> won't run in 1 second
 // So, we will use hashing to reduce the time complexity to O(N) + O(Q) = O(N) = 10^5 --> executes easily for 1 second
 #include<bits/stdc++.h>
