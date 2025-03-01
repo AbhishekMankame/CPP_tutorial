@@ -1,3 +1,15 @@
+/* To print the pattern for n=4
+ We need to print the following pattern
+ 11111
+  2222
+   333
+    44
+     5
+
+*/
+
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
