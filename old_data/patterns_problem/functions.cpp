@@ -6,9 +6,19 @@ void fast(){
     cin.tie(0); 
     cout.tie(0);
 }
+void fact(int a){
+    int f=1;
+    for(int i=1;i<=a;i++){
+        f=f*i;
+    }
+    cout<<f<<endl;
+
+}
 
 void solve(){
-
+    int n=5;
+    fact(n);
+    //cout<<fact(n)<<endl;
 }
 
 int main(){
