@@ -15,9 +15,15 @@ void fact(int a){
 
 }
 
+void changeX(int n){
+    n=n*2;
+    cout<<"n ="<<n<<endl;
+}
+
 void solve(){
     int n=5;
-    fact(n);
+    changeX(n);
+    cout<<"n ="<<n<<endl;
     //cout<<fact(n)<<endl;
 }
 
