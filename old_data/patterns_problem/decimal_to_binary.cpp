@@ -24,8 +24,6 @@ void solve(){
     int decNum=6;
     cout<<decToBin(decNum)<<endl;
     
-    
-
 }
 
 int main(){
