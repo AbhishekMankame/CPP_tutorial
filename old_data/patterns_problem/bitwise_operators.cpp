@@ -10,7 +10,7 @@ void fast(){
 void solve(){
     // Bitwise AND
     int a=5, b=7;
-    cout<<(a&b)<<endl;
+    cout<<"Bitwise AND of "<<a<<" and "<< b<< " is "<<(a&b)<<endl;
 
 }
 
