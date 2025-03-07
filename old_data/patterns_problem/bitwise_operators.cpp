@@ -13,6 +13,10 @@ void solve(){
     cout<<"Bitwise AND of "<<a<<" and "<< b<< " is "<<(a&b)<<endl;
     cout<<"Bitwise OR of "<<a<<" and "<< b<< " is "<<(a|b)<<endl;
     cout<<"Bitwise XOR of "<<a<<" and "<< b<< " is "<<(a^b)<<endl;
+    cout<<"Bitwise NOT of "<<a<<" is "<<(~a)<<endl;
+    cout<<"Bitwise NOT of "<<b<<" is "<<(~b)<<endl;
+    cout<<"Bitwise Left Shift of "<<a<<" by 1 is "<<(a<<1)<<endl;
+    cout<<"Bitwise Right Shift of "<<a<<" by 1 is "<<(a>>1)<<endl;
     
 
 }

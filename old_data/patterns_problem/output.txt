@@ -1,3 +1,7 @@
 Bitwise AND of 5 and 7 is 5
 Bitwise OR of 5 and 7 is 7
 Bitwise XOR of 5 and 7 is 2
+Bitwise NOT of 5 is -6
+Bitwise NOT of 7 is -8
+Bitwise Left Shift of 5 by 1 is 10
+Bitwise Right Shift of 5 by 1 is 2
