@@ -18,7 +18,7 @@ int binToDec(int binNum){
         pow=pow*2;
 
     }
-    return ans;
+    return ans; //decimal form of binary number
 }
 
 void solve(){
