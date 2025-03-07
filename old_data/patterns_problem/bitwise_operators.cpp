@@ -11,6 +11,9 @@ void solve(){
     // Bitwise AND
     int a=5, b=7;
     cout<<"Bitwise AND of "<<a<<" and "<< b<< " is "<<(a&b)<<endl;
+    cout<<"Bitwise OR of "<<a<<" and "<< b<< " is "<<(a|b)<<endl;
+    cout<<"Bitwise XOR of "<<a<<" and "<< b<< " is "<<(a^b)<<endl;
+    
 
 }
 
