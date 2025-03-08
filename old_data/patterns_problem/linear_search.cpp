@@ -7,19 +7,22 @@ void fast(){
     cout.tie(0);
 }
 
+int linearSearch(int arr[], int size, int key){
+    for(int i=0;i<size;i++){
+        if(arr[i]==key){
+            // cout<<"The given key "<<key<<" is present at the index "<<endl;
+            return i;
+        }
+    }
+    cout<<"The given key "<<key<<" is not present in the array"<<endl;
+    return -1;
+}
+
 void solve(){
     int arr[5]={12,23,43,21,3};
     int size=5;
     int key=21;
-    for(int i=0;i<size;i++){
-        if(arr[i]==key){
-            cout<<"The given key "<<key<<"is present at the index "<<arr[i]<<endl;
-        }
-        else{
-            cout<<"The given key "<<key<<"is not present in the array"<<endl;
-        }
-    }
-
+    linearSearch(arr,size,key);
 }
 
 int main(){
