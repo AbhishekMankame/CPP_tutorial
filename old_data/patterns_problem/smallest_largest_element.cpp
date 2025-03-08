@@ -25,6 +25,14 @@ void solve(){
     cout<<"Smallest element in the array is "<<smallest<<endl;
     cout<<"Largest element in the array is "<<largest<<endl;
 
+    // To check the smallest and largest element in the array using inbuilt functions
+    int nums1[5]={1,2,3,4,5};
+    int size1=5;
+    int smallest1=*min_element(nums1,nums1+size1);
+    int largest1=*max_element(nums1,nums1+size1);
+    cout<<"Smallest element in the array is "<<smallest1<<endl;
+    cout<<"Largest element in the array is "<<largest1<<endl;
+
 }
 
 int main(){
