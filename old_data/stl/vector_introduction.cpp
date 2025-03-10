@@ -12,8 +12,17 @@ int main(){
     }
 
     vector<char> v3= {'a', 'e', 'i', 'o', 'u'};
-    for(char i: v3){
+    for(char i: v3){   // for each loop
         cout<< i<<endl;
+    }
+    cout<<v3.size()<<endl;
+    v2.pop_back();
+    for(int i:v2){
+        cout<<i<<endl;
+    }
+    v2.push_back(100);
+    for(int i:v2){
+        cout<<i<<endl;
     }
     return 0;
 }
