@@ -26,7 +26,7 @@ int main(){
         cout<<i<<" ";
     }
     cout<<endl;
-    cout<<v.at(5)<<endl; // at mei index waali value print hoti hai
+    cout<<v.at(0)<<endl; // at mei index waali value print hoti hai
     cout<<"First element in V3 vector is "<<v3.front()<<endl; // front mei first index waali value print hoti hai
     cout<<"Last element in V3 vector is "<<v3.back()<<endl; // back mei last index waali value print hoti hai
     return 0;
