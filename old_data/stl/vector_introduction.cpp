@@ -16,13 +16,14 @@ int main(){
         cout<< i<<endl;
     }
     cout<<v3.size()<<endl;
-    v2.pop_back();
+    v2.pop_back(); // pop back mei last index waali value remove ho jaati ha
     for(int i:v2){
-        cout<<i<<endl;
+        cout<<i<<" ";
     }
-    v2.push_back(100);
+    cout<<endl;
+    v2.push_back(100); // push back mei last index waali value add ho jaati hai
     for(int i:v2){
-        cout<<i<<endl;
+        cout<<i<<" ";
     }
     return 0;
 }
