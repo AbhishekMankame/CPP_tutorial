@@ -12,6 +12,9 @@ int main(){
     int n=5;
     int arr[5]={1,2,3,4,5};
 
+    // Subarray: It is a contiguous part of an array
+    
+    // Brute Force Approach
     for(int st=0;st<n;st++){
         for(int end=st;end<n;end++){
             for(int i=st;i<=end;i++){
