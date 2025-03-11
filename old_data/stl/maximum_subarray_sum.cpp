@@ -17,6 +17,6 @@ int main(){
             //cout<<curSum<<" ";
         }
     }
-    cout<<maxSum<<endl;
+    cout<<"Maximum subarray sum: "<<maxSum<<endl;
 
 }
