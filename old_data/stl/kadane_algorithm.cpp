@@ -3,6 +3,9 @@
 using namespace std;
 
 int main(){
+
+    // Kadane's Algorithm: O(n) time complexity
+    // This algoritm is used to find the maximum subarray sun 
     int arr[7]={3,-4,5,4,-1,7,-8};
     int size=7;
 
