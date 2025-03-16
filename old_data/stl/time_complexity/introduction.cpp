@@ -40,6 +40,10 @@ int main(){
     cout<<"Big O notation is used to describe the upper bound of the time complexity of an algorithm"<<endl;
     cout<<"Big O notation is used to denote the worst case time complexity of an algorithm"<<endl;
 
+    /* Worst case or upper bound is denoted by Big O notation
+       Best case or lower bound is denoted by Omega notation
+       Average case is denoted by Theta notation
 
+    */
     return 0;
 }
