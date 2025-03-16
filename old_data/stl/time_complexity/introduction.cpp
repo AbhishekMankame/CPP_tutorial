@@ -48,5 +48,8 @@ int main(){
 
     // Space complexity: It is the amount of memory or space taken by the algorithm as a function of input sizes
     // Space complexity mei hum auxiliary space consider hai, jo ki extra space hota hai jo humara algorithm use karta hai
+
+    // Order of time complexities from Best to Worst
+    // O(1) < O(logN) < O(N) < O(NlogN) < O(N^2) < O(N^3) < O(2^N) < O(N!)
     return 0;
 }
