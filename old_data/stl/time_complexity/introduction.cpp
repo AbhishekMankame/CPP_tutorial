@@ -45,5 +45,8 @@ int main(){
        Average case is denoted by Theta notation
 
     */
+
+    // Space complexity: It is the amount of memory or space taken by the algorithm as a function of input sizes
+    // Space complexity mei hum auxiliary space consider hai, jo ki extra space hota hai jo humara algorithm use karta hai
     return 0;
 }
