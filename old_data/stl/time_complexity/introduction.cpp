@@ -37,6 +37,9 @@ int main(){
     cout<<"Sum of numbers from 1 to 100 using formula: "<<endl;
     cout<<"Sum of n numbers from 1 to 100 is "<<100*(100+1)/2<<endl;
 
+    cout<<"Big O notation is used to describe the upper bound of the time complexity of an algorithm"<<endl;
+    cout<<"Big O notation is used to denote the worst case time complexity of an algorithm"<<endl;
+
 
     return 0;
 }
