@@ -28,7 +28,11 @@ int main(){
         }
         //cout<<endl;
     }
-    cout<<endl;
+    cout<<endl<<endl;;
+
+    cout<<"Examples with O(1) complexity"<<endl;
+    // O(1) complexity --> Constant time complexity
+    // No matter how big the input is, the time taken will be constant
 
 
     return 0;
