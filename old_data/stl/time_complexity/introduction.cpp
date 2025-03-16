@@ -18,6 +18,7 @@ int main(){
 
 
     // Linear Search --> O(N) complexity
+    // Linear time complexity --> Linear kehne ka matlab hai, jitna mera input size increase ho raha hai (x-axis), utne mere number of operations (y-axis) usi proportion mei badh jaata hai
     vector<int> v = {1, 2, 3, 4, 5};
     int x=4;
 
