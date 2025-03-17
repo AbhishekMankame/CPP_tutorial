@@ -25,3 +25,8 @@ int main(){
 
     return 0;
 }
+
+// Let's analyze the time complexity of the code snippet:
+// 1. The code snippet is using the bitset to solve the problem.
+// 2. The code snippet is using the flip() and none() functions of the bitset, which takes constant 
+// 3. Here we are iterating over the nums array to flip the bits of the bitset which takes O(n) time --> Linear time
