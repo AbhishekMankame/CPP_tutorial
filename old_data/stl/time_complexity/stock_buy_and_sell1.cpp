@@ -40,3 +40,7 @@ int main(){
 // 1. We are iterating over the prices array once to find the maximum profit that can be obtained by buying and selling the stock once.
 // 2. Hence, the time complexity of this code is O(N) where N is the size of the prices array.
 // 3. Hence, the code is optimized and runs in linear time.
+
+// Let's discuss about the space complexity of this code:
+// 1. We are using only a few variables to store the maximum profit and the best buying price.
+// 2. Hence, the space complexity of this code is O(1) --> Constant space complexity.
