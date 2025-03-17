@@ -35,3 +35,8 @@ int main(){
 
     return 0;
 }
+
+// Let's discuss about the time complexity of this code:
+// 1. We are iterating over the prices array once to find the maximum profit that can be obtained by buying and selling the stock once.
+// 2. Hence, the time complexity of this code is O(N) where N is the size of the prices array.
+// 3. Hence, the code is optimized and runs in linear time.
