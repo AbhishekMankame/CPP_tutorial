@@ -12,3 +12,16 @@ You need to divide the array into n pairs such that:
 Return true if nums can be divided into n pairs, otherwuise return false.
 
 */
+
+int main(){
+    vector<int> nums={1,2,3,2,1,4,5,4,3,5};
+    bitset<21> bi;
+    for(int i:nums){
+        bi.flip(i);
+    }
+
+    cout<<bi.none()<<endl;
+
+
+    return 0;
+}
