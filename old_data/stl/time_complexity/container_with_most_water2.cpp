@@ -38,6 +38,8 @@ Let's talk about the time complexity of this code:
 2. Hence, the time complexity of this code is O(N) where N is the size of the height array.
 Here, we can see that the time complexity of this code is optimized and it is running in linear time.
 
-
+Let us talk about the space complexity of this code:
+1. We are using only a few variables to store the maximum water and the area.
+2. Hence, the space complexity of this code is O(1) --> Constant space complexity.
 
 */
