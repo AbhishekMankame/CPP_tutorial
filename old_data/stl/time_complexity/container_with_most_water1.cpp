@@ -49,4 +49,8 @@ Let us talk about the space complexity of this code:
 1. We are using only a few variables to store the maximum water and the area.
 2. Hence, the space complexity of this code is O(1) --> Constant space complexity.
 
+// IMPORTANT NOTE: When we submit this code in Leetcode, it will give us TLE (Time Limit Exceeded) because here in the constraint it is given that the value of n is 10^5
+// and we know that to run or execute any code we need 10^8 operations and here as n=10^5 ==> n^2=10^10 which is greater than 10^8.
+// Hence, this code will give TLE, so we need to use the approach which has the time complexity of O(logN) or O(N) approach.
+
 */
