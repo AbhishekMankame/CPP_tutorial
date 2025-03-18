@@ -10,3 +10,23 @@ Two pointers approach ka use karne se hume ek left pointer aur ek right pointer 
 Yaha pe hum left pointer ko 0th index pe aur right pointer ko last index pe initialize karenge.
 
 */
+
+// Let's solve it!!!!
+
+int maxArea(vector<int>& height){
+    int mw=0; // mw is the maximu water matlab yahi humara answer hoga
+    int lp=0;
+    int rp=height.size()-1;
+    while(lp<rp){
+        int w=rp-lp;
+        int ht=min(height[lp], height[rp]);
+        mw=max(mw, w*ht);
+        height[lp]<height[rp]?lp++:rp--;
+    }
+    return mw;
+}
+
+int main(){
+    vector<int> height={1,10,6,2,5,4,8,3,6};
+    cout<<maxArea(height)<<endl;
+}
