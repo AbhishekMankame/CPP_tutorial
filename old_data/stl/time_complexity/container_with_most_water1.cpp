@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<iostream>
 #include<vector>
 #include<algorithm>
 using namespace std;
@@ -13,5 +13,28 @@ Constraints: n==height.length
 
 Topics: Array, Two Pointers, Greedy
 
-
 */
+
+// Let's solve it using Brute Force Approach
+
+int maxArea(vector<int>& height){
+    int mw=0;  // mw is the maximum water means answer for our problem
+    for(int i=0;i<height.size();i++){
+        for(int j=i+1;j<height.size();j++){
+            int w=j-i;
+            int h=min(height[i], height[j]);
+            int area=w*h;
+            mw=max(mw, area);
+        }
+    }
+
+    return mw;
+}
+
+
+int main(){
+    vector<int> height={1,8,6,2,5,4,8,3,7};
+    cout<<maxArea(height)<<endl;
+
+    return 0;
+}
