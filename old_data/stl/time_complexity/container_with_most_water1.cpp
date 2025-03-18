@@ -38,3 +38,15 @@ int main(){
 
     return 0;
 }
+
+/* Here we have used brute force approach to solve this question
+Now let us talk about the time complexity of this code:
+1. We are using two nested loops to iterate over the height array.
+2. Hence, the time complexity of this code is O(N^2) where N is the size of the height array.
+Here, we can see that the time complexity of this code is not optimized and it is not running in linear time.
+
+Let us talk about the space complexity of this code:
+1. We are using only a few variables to store the maximum water and the area.
+2. Hence, the space complexity of this code is O(1) --> Constant space complexity.
+
+*/
