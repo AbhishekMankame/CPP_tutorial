@@ -12,6 +12,8 @@ Constraints:
 1. 1<=prices.length<=10^5
 2. 0<=prices[i]<=10^4
 
+company tags: Amazon, Microsoft, Facebook, Adobe, Apple, Goldman Sachs, Uber
+
 */
 
 // Let's code it!!!!!
