@@ -30,3 +30,14 @@ int main(){
     vector<int> height={1,10,6,2,5,4,8,3,6};
     cout<<maxArea(height)<<endl;
 }
+
+/* Let's discuss about the space and time complexity
+Here we are using two pointers approach to solve this question.
+Let's talk about the time complexity of this code:
+1. We are using only one while loop to iterate over the height array.
+2. Hence, the time complexity of this code is O(N) where N is the size of the height array.
+Here, we can see that the time complexity of this code is optimized and it is running in linear time.
+
+
+
+*/
