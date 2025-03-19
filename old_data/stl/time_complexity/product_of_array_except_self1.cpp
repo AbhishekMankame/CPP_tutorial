@@ -37,3 +37,8 @@ int main() {
 
     return 0;
 }
+
+// Time complexity: O(N^2)
+// Space complexity: O(N)
+
+// Note: This code will give TLE when we submit in the leet code as the constraints mentioned as value of N can be max 10^5, hence N^2 will be 10^10 which is more than 10^8 which is the maximum time limit to run the operation.
