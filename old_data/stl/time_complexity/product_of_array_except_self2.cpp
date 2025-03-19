@@ -29,3 +29,6 @@ int main(){
         cout<<result[i]<<" ";
     }
 }
+
+// Let's analyze the time complexity
+// Here the time complexity is O(N) because we are traversing the array 3 times so it will be O(3N) as we can ignore the constant so it will be O(N)
