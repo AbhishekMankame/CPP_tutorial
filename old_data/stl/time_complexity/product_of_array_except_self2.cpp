@@ -32,3 +32,6 @@ int main(){
 
 // Let's analyze the time complexity
 // Here the time complexity is O(N) because we are traversing the array 3 times so it will be O(3N) as we can ignore the constant so it will be O(N)
+
+// Let's analyze the space complexity
+// Here the space complexity is O(N) because we are using 3 extra arrays of size N so it will be O(3N) as we can ignore the constant so it will be O(N)
