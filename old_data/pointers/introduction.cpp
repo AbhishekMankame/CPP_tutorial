@@ -7,6 +7,7 @@ int main(){
     int a=10;
     int* ptr=&a;
     int** ptr2=&ptr;
+    
     cout<<a<<endl;
     cout<<&a<<endl;
     cout<<ptr<<endl;
