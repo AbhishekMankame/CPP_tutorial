@@ -41,3 +41,6 @@ int main(){
 
     return 0;
 }
+
+// Time complexity of binary search ---> O(log N)
+// Space complexity of binary search ---> O(1)
