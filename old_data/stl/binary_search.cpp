@@ -47,3 +47,10 @@ int main(){
 --> It can be used for searching in computer graphics such as algorithms for ray tracing or texture mapping.
 --> It can be used for searching a database.
 */
+
+/* Advantages of Binary Search
+--> Binary search is faster than linear search, especially for large arrays.
+--> More efficient than other searching algoritms with a similar time complexity, such as interpolation search or exponentila search.
+--> Binary search is well-suited for searching large datasets that are stored in external memory, such as one a hard drive or in the cloud.
+
+*/
