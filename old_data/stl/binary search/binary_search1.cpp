@@ -44,3 +44,4 @@ int main(){
 
 // Time complexity of binary search ---> O(log N)
 // Space complexity of binary search ---> O(1)
+// Space complexity in recursive approach ---> O(log N)
