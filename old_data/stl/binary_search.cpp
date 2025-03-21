@@ -54,3 +54,10 @@ int main(){
 --> Binary search is well-suited for searching large datasets that are stored in external memory, such as one a hard drive or in the cloud.
 
 */
+
+/* Disadvantages of Binary Search
+--> The array should be sorted.
+--> Binray search requires that the data-structure being searched be stored in contiguous memory locations.
+--> Binary search requires that the element of the array be comparable, meaning that they must be able to be ordered.
+
+*/
