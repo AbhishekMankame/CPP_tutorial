@@ -10,4 +10,17 @@ int main(){
     cout<<arr<<endl;
     cout<<*arr<<endl;
     cout<<&arr<<endl;
+
+    // Pointer Arithmetic
+    // Increment and decrement of pointer is done by the size of the data type it is pointing to 
+    int a=10;
+    int* ptr=&a;
+
+    cout<<ptr<<endl;
+    cout<<*ptr<<endl;
+    ptr++;
+    cout<<ptr<<endl;
+    cout<<*ptr<<endl;
+
+    return 0;
 }
