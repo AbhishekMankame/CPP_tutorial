@@ -25,10 +25,18 @@ int main(){
     cout<<ptr<<endl;
     cout<<*ptr<<endl;
 
+    // pointer subtraction
     int* ptr1;
     int* ptr2 = ptr1 +2;
     cout<<ptr1<<endl<<ptr2<<endl;
     cout<<ptr2-ptr1<<endl;
+
+    //comparing pointer
+    int* ptr3;
+    int* ptr4;
+    cout<<endl<<ptr3<<endl<<ptr4<<endl;
+    cout<<(ptr3<ptr4)<<endl;
+
 
     return 0;
 }
