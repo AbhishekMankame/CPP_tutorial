@@ -61,3 +61,12 @@ int main(){
 --> Binary search requires that the element of the array be comparable, meaning that they must be able to be ordered.
 
 */
+
+/* Q&A 
+#Q: What happens if the array is not sorted for binary search?
+Ans: If the array is not sorted, binary search may return incorrect results. It relies on the sorted nature of the array to make decisions about which half of the array to search. 
+
+#Q: When should binary search be used?
+Ans: Binary search should be used while searching for a target value in a sorted array, especially when the size of the array is large. It is particularly efficient for large datasets compared to linear search algorithms.
+
+*/
