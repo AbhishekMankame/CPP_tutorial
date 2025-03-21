@@ -44,4 +44,5 @@ int main(){
 
 // Time complexity of binary search ---> O(log N)
 // Space complexity of binary search ---> O(1)
-// Space complexity in recursive approach ---> O(log N)
+// Space complexity in recursive approach ---> O(log N) due to recursion track
+// The recursive approach makes log N recursive calls (since the space is halved in each step), leading to a recursion depth of O(log N)
