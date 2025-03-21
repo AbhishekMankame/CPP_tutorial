@@ -25,5 +25,10 @@ int main(){
     cout<<ptr<<endl;
     cout<<*ptr<<endl;
 
+    int* ptr1;
+    int* ptr2 = ptr1 +2;
+    cout<<ptr1<<endl<<ptr2<<endl;
+    cout<<ptr2-ptr1<<endl;
+
     return 0;
 }
