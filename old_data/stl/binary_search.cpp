@@ -41,3 +41,9 @@ Auxiliary space: O(1). If the recursive call stack is considered then the auxili
 int main(){
     
 }
+
+/* Applications of Binary Search
+--> Binary search can be used as a building block for more complex algorithms used in machine learning, such as algorithms for training neural networks or finding the optimal hyperparameters for a model.
+--> It can be used for searching in computer graphics such as algorithms for ray tracing or texture mapping.
+--> It can be used for searching a database.
+*/
