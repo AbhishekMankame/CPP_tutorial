@@ -21,6 +21,9 @@ int main(){
     ptr++;
     cout<<ptr<<endl;
     cout<<*ptr<<endl;
+    ptr++;
+    cout<<ptr<<endl;
+    cout<<*ptr<<endl;
 
     return 0;
 }
