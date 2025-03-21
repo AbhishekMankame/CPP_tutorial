@@ -18,6 +18,23 @@ typedef long long int ll;
 --> If the key is not found at middle element, choose which half will be used as the next search space
     --> If the key is smaller than the middle element, then the left side is used for next search
     --> If the key is larger than the middle element, then the right side is used for next search
+--> This process is continued until the key is found or the total search space is exhausted. 
+
+Binary search can be implemented in two ways
+1. Iterative approach
+2. Recursive approach
+
+Iterative approach
+Time complexity --> O(log N)
+Auxiliary space --> O(1)
+
+Recursive approach
+Time complexity
+    Best case: O(1)
+    Average case: O(log N)
+    Worst case: O(log N)
+
+Auxiliary space: O(1). If the recursive call stack is considered then the auxiliary spacce will be O(log N)
 
 */
 
