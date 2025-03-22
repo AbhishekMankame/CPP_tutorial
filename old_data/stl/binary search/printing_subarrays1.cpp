@@ -5,7 +5,7 @@ using namespace std;
 void printAllSubarrays(int arr[], int n){
     for(int i=0;i<n;i++){
         for(int j=i;j<n;j++){
-            for(int k=i;k<j;k++){
+            for(int k=i;k<=j;k++){
                 cout<<arr[k]<<" ";
             }
             cout<<" ";
@@ -20,6 +20,8 @@ int main(){
 
     printAllSubarrays(arr,n);
 }
+
+// Number of subarrays will be proportional to N^2
 
 // Time complexity --> O(N^3)
 // Space complexity --> O(1)
