@@ -26,3 +26,5 @@ int main(){
 
     return 0;
 }
+
+// Time complexity will be O(N) as we are using only one loop
