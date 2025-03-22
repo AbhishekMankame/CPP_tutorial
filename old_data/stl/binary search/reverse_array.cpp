@@ -11,9 +11,6 @@ void reverseArray(int arr[], int n){
         end--;
         start++;
     }
-
-
-
 }
 
 int main(){
