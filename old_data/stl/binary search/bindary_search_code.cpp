@@ -29,8 +29,11 @@ int main(){
 
     vector<int> arr2={-1,0,3,5,9,12};
     int tar2=0;
+    int tar3=40;
 
     cout<<binarySearch(arr2,tar2)<<endl;
+    cout<<binarySearch(arr2,tar3)<<endl;
+
 
     return 0;
 }
