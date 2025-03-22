@@ -23,9 +23,14 @@ int binarySearch(vector<int> arr, int tar){
 }
 
 int main(){
-    vector<int> arr = {-1,8,3,4,5,9,12}; //with odd number of elements
+    vector<int> arr = {-1,0,3,4,5,9,12}; //with odd number of elements
     int tar1=12;
     cout<<binarySearch(arr,tar1)<<endl;
+
+    vector<int> arr2={-1,0,3,5,9,12};
+    int tar2=0;
+
+    cout<<binarySearch(arr2,tar2)<<endl;
 
     return 0;
 }
