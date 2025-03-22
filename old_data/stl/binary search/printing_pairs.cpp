@@ -19,3 +19,6 @@ int main(){
     printAllPairs(arr,n);
 
 }
+
+// Time complexity is O(N^2) as we are using nested loops
+// Space complexity is O(1) as function does not use any extra space apart from few integer variables (i,j)
