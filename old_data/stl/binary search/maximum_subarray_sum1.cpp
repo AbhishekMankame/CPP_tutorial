@@ -26,3 +26,5 @@ int main(){
 
     return 0;
 }
+
+// Note: This is a brute force approach, here we are trying all the possible subarrays with the O(N^3) time
