@@ -36,3 +36,5 @@ int main(){
     return 0;
 
 }
+
+// Time complexity: O(N) + O(N^2)
