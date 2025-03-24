@@ -11,6 +11,8 @@ The sorting algorithm is important in Computer Science because it reduces the co
 Sorting Basics--
 -> In-place sorting: An in-place sorting algorithm uses constant space for producing the output (modifies the given array only). Examples: Selection sort, Bubble sort, Insertion sort, Heap sort
 -> Internal sorting: Internal sorting is when all the data is placed in the main memory or internal memory. In internal sorting, the problem cannot take input beyond allocated memnory size.
+-> External sorting: External sorting is when all the data that needs to be sorted need not to be placed in memory at a time, the sorting is called external sorting. External sorting is used for the massive amount of data. For examples Merge sort can be used in external sorting as the whole array does not have to be present all the time in memory. 
+-->
 
 
 
