@@ -20,8 +20,9 @@ void insertion_sort(int a[], int n){
         // and keep on shifting the elements to the right until we find the correct position
         while(prev>=0 and a[prev]>current){
             a[prev+1]=a[prev];
-            prev--;
+            prev=prev-1;
         }
+        a[prev+1]=current;
     }
     
 }
