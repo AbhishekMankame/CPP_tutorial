@@ -11,7 +11,13 @@ using namespace std;
 
 // Key Idea of Bubble Sort: Take larger element to the end by repeatedly swapping the adjacent elements.
 
+int bubble_sort(int arr[], int n){
+}
+
 int main(){
+    int arr[]={-2,3,4,-1,5,-12,6,1,3};
+    int n=sizeof(arr)/sizeof(int);
+    bubble_sort(arr,n);
 
 
 
