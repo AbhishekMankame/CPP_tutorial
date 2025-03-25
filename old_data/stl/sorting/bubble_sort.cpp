@@ -34,8 +34,8 @@ int main(){
     return 0;
 }
 
-// Time Complexity: O(N^2)
-// Space Complexity: O(1)
+// Time Complexity: O(N^2) --> Here we have two nested loops. The outer loop runs for N-1 times and the inner loop runs for N-1 times in the worst case.
+// Space Complexity: O(1) --> Here we are not using any extra space. Hence the space complexity is O(1).
 // Inplace: Yes --> Does not require any extra space or data structure. 
 // Stable: Yes --> Bubble sort is a stable algorithm. It does not change the relative order of equal elements.
 // Sorting In Place: Yes --> Bubble sort is an in-place algorithm. It does not require any extra space.
