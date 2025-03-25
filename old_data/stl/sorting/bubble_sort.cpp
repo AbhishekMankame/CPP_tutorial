@@ -9,6 +9,8 @@ using namespace std;
 // --> Bubble sort is not a practical sorting algorithm when n is large.
 // --> Bubble sort has a worst-case and average complexity of O(N^2) when n is large.
 
+// Key Idea of Bubble Sort: Take larger element to the end by repeatedly swapping the adjacent elements.
+
 int main(){
 
 
