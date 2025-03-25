@@ -11,6 +11,9 @@ bool compare(int a, int b){
 // Note: Here compare function is not being called, it is being passed as a parameter to the sort function.
 // Inside the sort function it is called multiple times and it controls the comparison or the direction in which the sorting should proceed
 
+// Note: There is inbuilt comparator function greater<int>() which can be used to sort the array in decreasing order.
+// lesser<int>() is used to sort the array in increasing order.
+
 int main(){
     int arr[]={-2,3,4,-1,5,-12,6,1,3};
     int n=sizeof(arr)/sizeof(int);
