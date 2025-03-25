@@ -33,6 +33,29 @@ void counting_sort(int arr[], int n){
     // Create a count array/vector
     //int *freq=new int[largest+1] --> This is dynamic array creation
     vector<int> freq(largest+1,0);
+
+    // Update the freq array
+    for(int i=0;i<n;i++){
+        freq[arr[i]]++;
+    }
+
+    /* The above update frequency code can also be written as
+    
+    for(int i:arr){
+        freq[i]++;
+    }
+    */
+
+    // Put back the elements from freq into the original array 
+    int j=0;
+    for(int i=0;i<=largest;i++){
+        while(freq[i]>0){
+            arr[j]=i;
+            freq[i]--;
+            j++;
+        }
+    }
+
 }
 
 int main(){
