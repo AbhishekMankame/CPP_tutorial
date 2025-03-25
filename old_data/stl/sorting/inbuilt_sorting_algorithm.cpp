@@ -5,8 +5,11 @@ using namespace std;
 
 bool compare(int a, int b){
     cout<<"Comparing "<<a<<" and "<<b<<endl;
-    return a>b;
+    return a<b;
 }
+
+// Note: Here compare function is not being called, it is being passed as a parameter to the sort function.
+// Inside the sort function it is called multiple times and it controls the comparison or the direction in which the sorting should proceed
 
 int main(){
     int arr[]={-2,3,4,-1,5,-12,6,1,3};
