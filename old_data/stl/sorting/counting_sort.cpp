@@ -67,3 +67,10 @@ int main(){
         cout<<arr[i]<<" ";
     }
 }
+
+/*Let's talk about complexities
+Time complexity: O(n+k) where n is the number of elements in input array and k is the range of input. 
+Auxiliary Space: O(n+k)
+The main disadvantage of counting sort is that it is not useful when the range of input data is very large.
+
+*/
