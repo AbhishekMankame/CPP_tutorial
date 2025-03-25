@@ -35,4 +35,12 @@ int main(){
     for(auto x:arr){
         cout<<x<<",";
     }
+    return 0;
 }
+
+/* Let's talk about the complexity
+Time Complexity: O(N^2) in the worst case when the array is sorted in reversre order. 
+O(N) in the best case when the array is already sorted. 
+Space Complexity: O(1) as an extra variable is used for swapping.
+
+*/
