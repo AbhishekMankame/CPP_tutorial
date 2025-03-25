@@ -15,6 +15,10 @@ Sorting Basics--
 -> Stable sorting: When two same items appear in the same order in sorted data as in the original array called stable sort. Examples: Merge sort, Insertion sort, Bubble sort. 
 -> Hybrid sorting: A sorting algorithm is called Hybrid if it uses more than one standard sorting algorithms to sort the array. The idea is to take advantages of multiple sorting algorithms. For example: IntroSort uses insertion sort and quick sort.
 
+Type of sorting techniques--
+There are various sorting algorithms are used in data structures. The following two types of sorting algorithms can be broadly classifies:
+1. Comparison-based sorting: These algorithms use comparison operators to compare elements for sorting the elements. Examples: Bubble sort, Selection sort, Insertion sort, Merge sort, Quick sort, Heap sort. 
+2. Non-comparison-based sorting: These algorithms do not use comparison operators to compare elements for sorting the elements. Examples: Counting sort, Radix sort, Bucket sort.
 
 
 */
