@@ -40,3 +40,11 @@ int main(){
     }
     return 0;
 }
+
+/* Let's talk about the complexity
+Time Complexity: O(N^2) in all the cases. 
+Space Complexity: O(1) as an extra variable is used for swapping purposes.
+Time complexity is same in all the cases as we are always finding the minimum element from the unsorted part and putting it at the beginning. 
+
+
+*/
