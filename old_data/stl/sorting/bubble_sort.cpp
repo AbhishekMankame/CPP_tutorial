@@ -36,3 +36,14 @@ int main(){
 
 // Time Complexity: O(N^2)
 // Space Complexity: O(1)
+// Inplace: Yes --> Does not require any extra space or data structure. 
+// Stable: Yes --> Bubble sort is a stable algorithm. It does not change the relative order of equal elements.
+// Sorting In Place: Yes --> Bubble sort is an in-place algorithm. It does not require any extra space.
+// Online: No --> Bubble sort is not an online algorithm. It does not work in an online manner. Means it does not work on a list of items that is too large to be stored in memory. The entire list must be present in memory before the sorting process begins.
+// Adaptive: No --> Bubble sort is not an adaptive algorithm. It does not take into account the pre-sortedness of the array.
+// When to use Bubble Sort: When the array is almost sorted or when the array is small.
+// When not to use Bubble Sort: When the array is large or when the array is reverse sorted.
+// Bubble sort is not a practical sorting algorithm when n is large.
+// Bubble sort has a worst-case and average complexity of O(N^2) when n is large.
+// Bubble sort is not a stable algorithm. It does not guarantee the relative order of equal elements.
+// Bubble sort is an in-place algorithm. It does not require any extra space.
