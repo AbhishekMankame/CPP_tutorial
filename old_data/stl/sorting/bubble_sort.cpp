@@ -14,7 +14,7 @@ using namespace std;
 void bubble_sort(int a[], int n){
     for(int times=1;times<=n-1;times++){  // repeat this work N-1 times
         //repeated swapping
-        for(int j=0;j<n-times-1;j++){
+        for(int j=0;j<=n-times-1;j++){
             if(a[j]>a[j+1]){
                 swap(a[j],a[j+1]);
 
