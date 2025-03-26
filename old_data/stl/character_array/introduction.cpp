@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
+#include<cstring>
 using namespace std;
 
 /* Character array
@@ -22,8 +23,13 @@ int main(){
     cout<<a<<" "<<endl;
 
     // We can also initialize the character array like this
-    char b[100]="hello"; // Here we need not to write the null character '\0', as it will be automatically appended at the end.
+    char b[]="hello"; // Here we need not to write the null character '\0', as it will be automatically appended at the end.
     cout<<b<<endl;
+    cout<<strlen(a)<<endl; // This will give the length of the character array a
+    cout<<sizeof(a)<<endl; // This will give the size of the character array a
+
+    cout<<strlen(b)<<endl; // Number of visible characters in the character array
+    cout<<sizeof(b)<<endl; // This will add null by default, so this will be +1 or one more than the number of visible characters
 
     return 0;
 }
