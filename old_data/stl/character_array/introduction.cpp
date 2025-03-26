@@ -16,3 +16,10 @@ using namespace std;
 
  char a[100]="hello"; // Automatically appends '\0' at the end
 */
+
+int main(){
+    char a[100]={'a','b','c','d','e'};
+    cout<<a<<" "<<endl;
+
+    return 0;
+}
