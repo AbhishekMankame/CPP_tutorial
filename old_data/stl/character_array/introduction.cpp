@@ -21,5 +21,9 @@ int main(){
     char a[100]={'a','b','c','d','e'};
     cout<<a<<" "<<endl;
 
+    // We can also initialize the character array like this
+    char b[100]="hello"; // Here we need not to write the null character '\0', as it will be automatically appended at the end.
+    cout<<b<<endl;
+
     return 0;
 }
