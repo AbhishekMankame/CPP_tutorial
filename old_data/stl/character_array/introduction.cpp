@@ -31,5 +31,8 @@ int main(){
     cout<<strlen(b)<<endl; // Number of visible characters in the character array
     cout<<sizeof(b)<<endl; // This will add null by default, so this will be +1 or one more than the number of visible characters
 
+    char c[100];
+    cin>>c; // This will take the input until the first space
+    cout<<c<<endl;    
     return 0;
 }
