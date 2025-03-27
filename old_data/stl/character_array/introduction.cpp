@@ -34,5 +34,9 @@ int main(){
     char c[100];
     cin>>c; // This will take the input until the first space
     cout<<c<<endl;    
+    // cin will not take the input after the first space, so we can use getline function to take the input until the new line character
+
+    // Let's see the use of getline function
+    
     return 0;
 }
