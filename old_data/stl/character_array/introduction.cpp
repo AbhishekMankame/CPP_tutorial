@@ -37,6 +37,7 @@ int main(){
     // cin will not take the input after the first space, so we can use getline function to take the input until the new line character
 
     // Let's see the use of getline function
-    
+    //cin.getline(c);
+    cout<<c<<endl;
     return 0;
 }
