@@ -50,6 +50,6 @@ int main(){
         // Update the value of temp
         temp=cin.get(); // taking the input character by character until the new line character is encountered
     }
-    cout<<len<<endl; // This will give the length of the character array
+    cout<<endl<<len<<endl; // This will give the length of the character array
     return 0;
 }
