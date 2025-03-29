@@ -53,4 +53,7 @@ int main(){
     cout<<endl<<len<<endl; // This will give the length of the character array
     // Note: Buffer gets input from the screen once we hit enter, so we need to use cin.get() to take the input character by character until the new line character is encountered.
     return 0;
+
+    // cin.getline(sentence,1000); // This will take the input until the new line character is encountered
+
 }
