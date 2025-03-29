@@ -31,13 +31,25 @@ int main(){
     cout<<strlen(b)<<endl; // Number of visible characters in the character array
     cout<<sizeof(b)<<endl; // This will add null by default, so this will be +1 or one more than the number of visible characters
 
-    char c[100];
-    cin>>c; // This will take the input until the first space
-    cout<<c<<endl;    
+    // char c[100];
+    // cin>>c; // This will take the input until the first space
+    // cout<<c<<endl;    
     // cin will not take the input after the first space, so we can use getline function to take the input until the new line character
 
     // Let's see the use of getline function
     //cin.getline(c);
-    cout<<c<<endl;
+    //cout<<c<<endl;
+
+    char sentence[1000];
+    char temp=cin.get();
+    int len=0;
+    while(temp!='\n'){
+        //sentence[len]=temp; // Storing the character in the array
+        len++; // Incrementing the length of the array
+        cout<<temp;
+        // Update the value of temp
+        temp=cin.get(); // taking the input character by character until the new line character is encountered
+    }
+    cout<<len<<endl; // This will give the length of the character array
     return 0;
 }
