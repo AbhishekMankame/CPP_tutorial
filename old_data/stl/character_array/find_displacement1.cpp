@@ -23,10 +23,18 @@ int main(){
             case 'S': y--; break; // Move south (y coordinate decreases)
             case 'E': x++; break; // Move east (x coordinate increases)
             case 'W': x--; break; // Move west (x coordinate decreases)
-            default: break; // Ignore any other characters
+            //default: break; // Ignore any other characters
         }
     }
     cout<<"Final x and y is: "<<x<<" "<<y<<endl; // Print the final coordinates
 
+    if(x>=0 and y>=0){
+        while(y--){
+            cout<<"N"; // Print 'N' for north moves
+        }
+        while(x--){
+            cout<<"E"; // Print 'E' for east moves
+        }
+    }
     return 0;
 }
