@@ -32,6 +32,7 @@ int main(){
         else if(ch==' ' or ch=='\t'){
             space++;
         }
+        ch=cin.get(); // I missed this line in the previous code due to which it was stuck in infinite loop
     }
     cout<<"Total Alphabets: "<<alpha<<endl;
     cout<<"Total Digits: "<<digit<<endl;
