@@ -18,6 +18,9 @@ using namespace std;
  char a[100]="hello"; // Automatically appends '\0' at the end
 */
 
+// When we type some characters in the console and the content will be remain on the screen until we press the Enter button.
+// In the buffer cin starts reading the characters and when as soon as it reads the whitespace it stops and it only stores the word hello in the input. 
+
 int main(){
     char a[100]={'a','b','c','d','e'};
     cout<<a<<" "<<endl;
