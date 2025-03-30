@@ -42,6 +42,7 @@ int main(){
 
     char sentence[1000];
     char temp=cin.get();
+    cout<<temp<<endl; // This will give the first character of the input
     int len=0;
     while(temp!='\n'){
         //sentence[len]=temp; // Storing the character in the array
