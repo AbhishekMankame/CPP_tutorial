@@ -26,6 +26,7 @@ int main(){
             default: break; // Ignore any other characters
         }
     }
+    cout<<"Final x and y is: "<<x<<" "<<y<<endl; // Print the final coordinates
 
     return 0;
 }
