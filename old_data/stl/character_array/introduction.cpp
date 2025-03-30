@@ -47,14 +47,16 @@ int main(){
     char temp=cin.get();
     cout<<temp<<endl; // This will give the first character of the input
     int len=0;
-    while(temp!='\n'){
+    while(temp!='#'){
         //sentence[len]=temp; // Storing the character in the array
         //len++; // Incrementing the length of the array
         sentence[len++]=temp; // Sorting the character in the array and incrementing the length of the array
-        cout<<temp;
+        //cout<<temp;
         // Update the value of temp
         temp=cin.get(); // taking the input character by character until the new line character is encountered
     }
+    sentence[len]='\0'; // Adding the null character at the end of the array
+    cout<<endl<<sentence<<endl; // This will print the character array
     cout<<endl<<len<<endl; // This will give the length of the character array
     // Note: Buffer gets input from the screen once we hit enter, so we need to use cin.get() to take the input character by character until the new line character is encountered.
     return 0;
