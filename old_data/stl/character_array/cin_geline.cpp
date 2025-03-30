@@ -9,6 +9,6 @@ using namespace std;
 
 int main(){
     char sentence[1000];
-    cin.getline(sentence, 1000,'/'); // Read a line of text from the input string and store it in the character array 'sentence'
+    cin.getline(sentence, 1000,'\n'); // Read a line of text from the input string and store it in the character array 'sentence'
     cout << "The sentence is: " << sentence << endl; // Print the sentence to the console
 }
