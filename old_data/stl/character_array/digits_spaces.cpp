@@ -40,3 +40,8 @@ int main(){
     cout<<"Total Characters: "<<alpha+digit+space<<endl;
 
 }
+
+/*Let's talk about the complexity
+Time Complexity: O(n) where n is the number of characters in the string.
+Space Complexity: O(1) as we are using only a few variables to store the count of digits, alphabets and spaces.
+*/
