@@ -49,7 +49,8 @@ int main(){
     int len=0;
     while(temp!='\n'){
         //sentence[len]=temp; // Storing the character in the array
-        len++; // Incrementing the length of the array
+        //len++; // Incrementing the length of the array
+        sentence[len++]=temp; // Sorting the character in the array and incrementing the length of the array
         cout<<temp;
         // Update the value of temp
         temp=cin.get(); // taking the input character by character until the new line character is encountered
