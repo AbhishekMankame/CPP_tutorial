@@ -20,4 +20,7 @@ int main(){
 
     // strcmp --> It is used to compare two strings. 
 
+    // strcat --> It is used to concatenate two strings. 
+    cout<<strcat(a,b)<<endl; // concatenate a and b and store it in a
+
 }
