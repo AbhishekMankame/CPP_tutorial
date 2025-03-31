@@ -17,4 +17,8 @@ int main(){
     for(int i=0;i<numbers[i][0];i++){
         cout<<numbers[i]<<" "; // Print each string in the array
     }
+    cout<<endl;
+    cout<<numbers[0][2]<<endl; // Print the first string in the array
+    // Here numbers[i] actually prints the entire array of characters
+    // Note: cout treats character array differently
 }
