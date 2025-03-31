@@ -23,4 +23,8 @@ int main(){
     // strcat --> It is used to concatenate two strings. 
     cout<<strcat(a,b)<<endl; // concatenate a and b and store it in a
 
+    char web[]="www.";
+    char domain[]="google.com";
+    cout<<strcat(web,domain)<<endl; // concatenate web and domain and store it in web
+    cout<<web<<endl; // print web
 }
