@@ -9,4 +9,8 @@ int main(){
     char a[1000]="apple";
     char b[1000];
     cout<<strlen(a)<<endl; 
+
+    // strcpy --> it is used to copy the string from one variable to another.
+    // strcpy(b,a); // copy a to b
+
 }
