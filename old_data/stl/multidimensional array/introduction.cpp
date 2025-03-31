@@ -11,6 +11,8 @@ or a 3D array can be used to store data in a cube format.
 
 */
 
+// Here we have passed by reference
+
 void print(int arr[][100], int n, int m){ // Here in 2D array passing the number of rows in optional, but passing the number of columns is must or mandatory
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
@@ -39,3 +41,11 @@ int main(){
     print(arr,n,m); // Call the function to print the array
 
 }
+
+/* How are they stored in the memory??
+The multidimensional arrays are stored in the memory in a contiguous block of memory.
+Two common ways to store multidimensional arrays in memory are row-major order and column-major order.
+--> Row-major order: In this order, the elements of each row are stored in contiguous memory locations. 
+--> Column-major order: In this order, the elements of each column are stored in contiguous memory locations. 
+
+*/
