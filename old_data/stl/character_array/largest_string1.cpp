@@ -33,3 +33,12 @@ Time complexity: O(N*M) where N is the number of string and M is the length of t
 Space complexity: O(M) where M is the length of the largest string. 
 
 */
+
+/* Let's talk about complexity of inbuilt string functions
+strcpy: O(N) where N is the length of the string to be copied. 
+strcat: O(N) where N is the length of the string to be concatenated. 
+strcmp: O(N) where N is the length of the string to be compared. 
+strlen: O(N) where N is the length of the string.
+strchr: O(N) where N is the length of the string. --> strchr(s,c) is used to find the first occurrence of character c in string s.
+
+*/
