@@ -12,5 +12,8 @@ int main(){
 
     // strcpy --> it is used to copy the string from one variable to another.
     // strcpy(b,a); // copy a to b
+    strcpy(b,a);
+    cout<<b<<endl; // print b
+    cout<<a<<endl; // print a
 
 }
