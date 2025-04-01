@@ -8,7 +8,6 @@ using namespace std;
 /* Multidimensional character array
 Multidimensional character array is a 2D array of characters. 
 It is used to store strings in a 2D format. 
-
 */
 
 int main(){
