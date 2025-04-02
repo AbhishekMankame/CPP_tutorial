@@ -24,21 +24,24 @@ void print(int arr[][10], int n, int m){
 
     // Outer loop (Traverse array boundary)
 
-    while(startCol<=endCol){
+    while(startCol<=endCol and startRow<=endRow){
 
         // Start Row
         for(int col=startCol;col<=endCol;col++){
-            cout<<arr[startRow][col];
+            cout<<arr[startRow][col]<<" ";
         }
 
         // End Column
         for(int row=startRow+1;row<=endRow;row++){
-            cout<<arr[row][endCol];
+            cout<<arr[row][endCol]<<" ";
         }
 
         // End Row
         for(int col=endCol-1;col>=startCol;col--){
-            cout<<arr[endRow][col];
+            if(startRow==endRow){
+                break; // Avoid printing the same element again if it's a single row
+            }
+            cout<<arr[endRow][col]<<" ";
         }
 
         // Start Column
@@ -46,7 +49,7 @@ void print(int arr[][10], int n, int m){
             if(startCol==endCol){
                 break; // Avoid printing the same element again if it's a single column
             }
-            cout<<arr[row][startCol];
+            cout<<arr[row][startCol]<<" ";
         }
 
         // Update the variables to point to inner spiral
@@ -59,11 +62,13 @@ void print(int arr[][10], int n, int m){
 
 int main(){
     //Print in spiral form
-    int arr[][4]={{1,2,3,4},
+    int arr[][10]={{1,2,3,4},
                   {5,6,7,8},
                   {9,10,11,12},
                   {13,14,15,16}};
     int n=4,m=4;
+
+    print(arr,n,m);
 
     return 0;
 }
