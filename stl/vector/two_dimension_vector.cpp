@@ -23,4 +23,14 @@ int main(){
         cout<<endl;
     }
 
+    //Updating particular elements
+    arr[0][1]+=10;
+
+    for(int i=0;i<arr.size();i++){
+        for(int j=0;j<arr[i].size();j++){
+            cout<<arr[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+
 }
