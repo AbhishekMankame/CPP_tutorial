@@ -19,4 +19,7 @@ int main(){
     arr.push_back(3); // Adding 3 to the vector
     cout<<"Size of vector: "<<arr.size()<<endl;
     cout<<"Capacity of vector: "<<arr.capacity()<<endl;
+
+    // Here size tells the number of elements in the vector and capacity tells the number of elements that can be stored in the vector without reallocation. 
+    // When we add more elements than the capacity, the vector is reallocated to a large size and the old elements are copied to the new vector. 
 }
