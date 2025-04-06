@@ -15,6 +15,7 @@ Growth of vector:
  --> When a vector is full and a new element is added, the vector will allocate a new array with double the size of the old one, copy the old elements to the new array, and then add the new element. This process is called reallocation. 
  --> This means that the time complexity of adding an element to a vector is O(1) on average, but can be O(n) in the worst case when reallocation occurs. 
  --> The amortized time complexity of adding an element to a vector is O(1), which means that if you add a large number of elements to a vector, the average time taken per element will be O(1). 
+--> For push_back(), the complexity will be O(1) in most of the cases, but O(n) in the worst case when reallocation occurs. 
 
 */
 
