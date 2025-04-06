@@ -41,4 +41,14 @@ int main(){
     for(int i:arr){
         cout<<i<<" ";
     }
+    cout<<endl;
+
+    // Fill constructor
+    vector<int> arr2(5, 10); // Creating a vector of size 5 and filling it with 10
+    for(int i:arr2){
+        cout<<i<<" "; // Print all the elements of the vector using range based for loop
+    }
+    cout<<endl;
+
+    return 0;
 }
