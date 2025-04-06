@@ -22,4 +22,23 @@ int main(){
 
     // Here size tells the number of elements in the vector and capacity tells the number of elements that can be stored in the vector without reallocation. 
     // When we add more elements than the capacity, the vector is reallocated to a large size and the old elements are copied to the new vector. 
+
+    // Print all the elements
+    for(int i=0;i<arr.size();i++){
+        cout<<arr[i]<<" ";
+    }
+    // pop_back() removes the last element of the vector
+    arr.pop_back(); // Removing the last element of the vector
+    cout<<endl;
+
+    for(int i:arr){
+        cout<<i<<" "; // Print all the elements of the vector using range based for loop
+    }
+    cout<<endl;
+
+    // Insert 4 at the end of the vector
+    arr.push_back(4);
+    for(int i:arr){
+        cout<<i<<" ";
+    }
 }
