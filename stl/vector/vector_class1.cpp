@@ -15,7 +15,7 @@ public:
         arr = new int[ms];
     }
 
-    void push_back(int d){
+    void push_back (const int d){
         // Two cases
         if(cs==ms){
             // Create a mew array and delete the old one, double the capacity of the new array
@@ -42,24 +42,24 @@ public:
         }
     }
 
-    bool isEmpty(){
+    bool isEmpty() const{
         return cs==0;
     }
 
     // Front, Back, At(i), [] --> This is operator overloading
-    int front(){
+    int front() const{
         return arr[0];
     }
 
-    int back(){
+    int back() const{
         return arr[cs-1];
     }
 
-    int at(int i){
+    int at(int i) const{
         return arr[i];
     }
 
-    int size(){
+    int size() const{
         return cs;
     }
 
@@ -67,7 +67,13 @@ public:
         return ms;   // Max size is the capacity of the vector
     }
 
-    int operator[](int i){
+    /*Some good practices that we need to follow
+    --> The arguement in the operator overloading should be constant
+    --> Here we can make some functions as constant which doesnot modify any of the attributes of the class. 
+    --> Note: Here we cannot make push_back constant, as this will be modifying the array/vector
+    */
+
+    int operator[](const int i){ // Here i will not be changing
         return arr[i];
     }
     
