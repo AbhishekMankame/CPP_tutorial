@@ -1,5 +1,5 @@
 #include<iostream>
-#include<bits/stdc++.h>
+//#include<bits/stdc++.h>
 using namespace std;
 
 class Vector{
@@ -75,15 +75,16 @@ int main(){
     cout<<v.size();
     cout<<endl<<v.capacity()<<endl;
     v.push_back(2);
-    cout<<v.size()<<endl;
+    cout<<v.size()<<endl; 
     cout<<v.capacity()<<endl;
     v.push_back(3);
     v.push_back(4);
     cout<<v.size()<<endl;
     cout<<v.capacity()<<endl;
     v.push_back(5);
-    cout<<v.size()<<endl;
-    cout<<v.capacity()<<endl;
+    cout<<"Element at the front: "<<v.front()<<endl;
+    cout<<v.back()<<endl;
+    cout<<v.at(1)<<endl;
 
     return 0;
 
