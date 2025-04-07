@@ -43,6 +43,27 @@ public:
         return cs==0;
     }
 
+    // Front, Back, At(i), [] --> This is operator overloading
+    int front(){
+        return arr[0];
+    }
+
+    int back(){
+        return arr[cs-1];
+    }
+
+    int at(int i){
+        return arr[i];
+    }
+
+    int size(){
+        return cs;
+    }
+
+    int capacity(){
+        return ms;   // Max size is the capacity of the vector
+    }
+
 };
 
 int main(){
