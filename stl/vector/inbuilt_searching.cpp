@@ -11,5 +11,14 @@ int main(){
     vector<int>::iterator it = find(arr.begin(),arr.end(), key); // Here we are using iterator to find the key in the vector, here arr.begin() is the starting point and arr.end() is the ending point of the vector.
     // Here it will consider the arr.begin() as closed interval and arr.end() as open interval.
 
+    ///std::cout<<it<<endl; // It will return the address of the output
+    // Indexf = address - base address
+    if(it!=arr.end()){
+        cout<<"Present at index: "<<it-arr.begin()<<endl;
+    }
+    else{
+        cout<<"Element not found!!!"<<endl;
+    }
+
 
 }
