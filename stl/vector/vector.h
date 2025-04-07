@@ -1,10 +1,9 @@
-#include<iostream>
-//#include<bits/stdc++.h>
-using namespace std;
+// By using templates, we can create a generic vector class that can store any data type. This allows us to create vectors of different types without having to write separate classes for each type. 
+template<typename T>
 
 class Vector{
     // Data Members
-    int *arr;
+    T *arr;
     int cs;
     int ms;
 
@@ -12,7 +11,7 @@ public:
     Vector(int max_size=1){
         cs=0;
         ms=max_size;
-        arr = new int[ms];
+        arr = new T[ms];
     }
 
     void push_back (const int d){
@@ -47,15 +46,15 @@ public:
     }
 
     // Front, Back, At(i), [] --> This is operator overloading
-    int front() const{
+    T front() const{
         return arr[0];
     }
 
-    int back() const{
+    T back() const{
         return arr[cs-1];
     }
 
-    int at(int i) const{
+    T at(int i) const{
         return arr[i];
     }
 
@@ -71,40 +70,10 @@ public:
     --> The arguement in the operator overloading should be constant
     --> Here we can make some functions as constant which doesnot modify any of the attributes of the class. 
     --> Note: Here we cannot make push_back constant, as this will be modifying the array/vector
-    */ 
+    */
 
-    int operator[](const int i){ // Here i will not be changing
+    T operator[](const int i){ // Here i will not be changing
         return arr[i];
     }
     
 };
-
-int main(){
-    Vector v;
-    v.push_back(1);
-    cout<<v.size();
-    cout<<endl<<v.capacity()<<endl;
-    v.push_back(2);
-    cout<<v.size()<<endl; 
-    cout<<v.capacity()<<endl;
-    v.push_back(3);
-    v.push_back(4);
-    cout<<v.size()<<endl;
-    cout<<v.capacity()<<endl;
-    v.push_back(5);
-    cout<<"Element at the front: "<<v.front()<<endl;
-    cout<<v.back()<<endl;
-    cout<<v.at(1)<<endl;
-
-    // Let's loop through the vector
-    for(int i=0;i<v.size();i++){
-        cout<<v.at(i)<<" ";
-    }
-    cout<<endl;
-    for(int i=0;i<v.size();i++){
-        cout<<v.at(i)<<" ";
-    }
-
-    return 0;
-
-}
