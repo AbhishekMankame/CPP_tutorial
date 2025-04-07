@@ -32,6 +32,13 @@ public:
         cs++;
     }
 
+    void pop_back(){
+        if(cs>=0){ // Here cs>=0 is used to check if the vector is not empty before popping an element.
+            // If cs is 0, it means the vector is empty and there is no element to pop. 
+            cs--;
+        }
+    }
+
 };
 
 int main(){
