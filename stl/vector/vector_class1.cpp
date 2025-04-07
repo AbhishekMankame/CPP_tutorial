@@ -24,10 +24,11 @@ public:
             for(int i=0;i<cs;i++){
                 arr[i] = oldArray[i];
             }
-        }
-
-
-        arr[cs]=d;
+            // deleting the old array
+            delete[] oldArray; // This is important to avoid memory leak
+            // Here delete[] oldArray is used to delete the old array and free up the memory allocated to it.
+            // If we don't do this, we will have a memory leak as the old array will still be occupying memory even though we are not using it anymore. 
+            // delete[] is inbuilt in C++ and is used to deallocate memory that was previously allocated using new.
         cs++;
     }
 
