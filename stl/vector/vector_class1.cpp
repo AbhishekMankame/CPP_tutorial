@@ -66,6 +66,10 @@ public:
     int capacity(){
         return ms;   // Max size is the capacity of the vector
     }
+
+    int operator[](int i){
+        return arr[i];
+    }
     
 };
 
@@ -87,6 +91,10 @@ int main(){
     cout<<v.at(1)<<endl;
 
     // Let's loop through the vector
+    for(int i=0;i<v.size();i++){
+        cout<<v.at(i)<<" ";
+    }
+    cout<<endl;
     for(int i=0;i<v.size();i++){
         cout<<v.at(i)<<" ";
     }
