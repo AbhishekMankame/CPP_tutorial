@@ -39,6 +39,10 @@ public:
         }
     }
 
+    bool isEmpty(){
+        return cs==0;
+    }
+
 };
 
 int main(){
