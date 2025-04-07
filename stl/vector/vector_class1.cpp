@@ -86,6 +86,11 @@ int main(){
     cout<<v.back()<<endl;
     cout<<v.at(1)<<endl;
 
+    // Let's loop through the vector
+    for(int i=0;i<v.size();i++){
+        cout<<v.at(i)<<" ";
+    }
+
     return 0;
 
 }
