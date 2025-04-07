@@ -27,6 +27,12 @@ int main(){
     for(int i=0;i<v.size();i++){
         cout<<v.at(i)<<" ";
     }
+    cout<<endl;
+
+    Vector<char> vc;
+    vc.push_back('a');
+    vc.push_back('b');
+    cout<<vc.at(0)<<" "<<vc.at(1)<<endl;
 
     return 0;
 

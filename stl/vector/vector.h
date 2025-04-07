@@ -18,9 +18,9 @@ public:
         // Two cases
         if(cs==ms){
             // Create a mew array and delete the old one, double the capacity of the new array
-            int *oldArray = arr;
+            T *oldArray = arr;
             ms=2*ms;
-            arr = new int[ms];
+            arr = new T[ms];
             for(int i=0;i<cs;i++){
                 arr[i] = oldArray[i];
             }
