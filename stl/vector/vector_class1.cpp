@@ -1,4 +1,5 @@
 #include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 class Vector{
@@ -8,9 +9,9 @@ class Vector{
     int ms;
 
 public:
-    Vector(){
+    Vector(int max_size=1){
         cs=0;
-        ms=1;
+        ms=max_size;
         arr = new int[ms];
     }
 
@@ -29,8 +30,10 @@ public:
             // Here delete[] oldArray is used to delete the old array and free up the memory allocated to it.
             // If we don't do this, we will have a memory leak as the old array will still be occupying memory even though we are not using it anymore. 
             // delete[] is inbuilt in C++ and is used to deallocate memory that was previously allocated using new.
-        cs++;
     }
+    arr[cs]=d;
+    cs++;
+}
 
     void pop_back(){
         if(cs>=0){ // Here cs>=0 is used to check if the vector is not empty before popping an element.
@@ -63,9 +66,13 @@ public:
     int capacity(){
         return ms;   // Max size is the capacity of the vector
     }
-
+    
 };
 
 int main(){
+    Vector v;
+    v.push_back(1);
+
+    return 0;
 
 }
