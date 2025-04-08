@@ -1,4 +1,4 @@
-#include<iostream>
+#include<bits/stdc++.h>
 #include<algorithm>
 #include<vector>
 using namespace std;
@@ -29,7 +29,7 @@ using namespace std;
 
 int main(){
     cout<<"Bitwise AND "<<endl;
-    cout<<0<<"&"<<0<<"="<<0&0;
+    //cout<<0<<"&"<<0<<"="<<0&0;
 
     return 0;
 }
