@@ -17,10 +17,19 @@ using namespace std;
 --> Binary Left Shift <<
 --> Binary Right Shift >> 
 
+==> Binary AND &
+0&0 = 0
+0&1 = 0
+1&0 = 0
+1&1 = 1
+
 
 
 */
 
 int main(){
+    cout<<"Bitwise AND "<<endl;
+    cout<<0<<"&"<<0<<"="<<0&0;
 
+    return 0;
 }
