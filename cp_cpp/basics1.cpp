@@ -40,7 +40,9 @@ int main(){
     cout<<fixed<< setprecision(0)<<z<<endl;
     // We donot use double due to it's less precision for larger values
     double g=1e24;
-    cout<<g<<endl; // Yaha par actually 10^24 print hona chahiye, but we can see hear that it is printing 999.... value, this number is very close to 10^24, but it is not 10^24
+    cout<<g<<endl; // Yaha par actually 10^24 print hona chahiye, but we can see hear that it is printing 999.... value, this number is very close to 10^24, but it is not 10^24, so here we cannot store the number accurately
+
+    // Number agar very large in double, the accuracy will decrease, number will not be stored accurately, this precision errors can be seen in double and float
     
 
 
