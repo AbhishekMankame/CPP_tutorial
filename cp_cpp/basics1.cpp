@@ -29,6 +29,15 @@ int main(){
     long long f=d*1LL*e; // Yaha par 1LL ke wajah se woh 1 ko as a long long int treat karta hai
     cout<<f<<endl;
 
+    // As we know that double and float has the high range, then why don't we use that
+    double x=10000;
+    double y=10000;
+    double z=x*y;
+    cout<<z<<endl; // This will print the output in the form of scientific notation
+    // To remove the scientific sign form, we can use fixed keyword
+    cout<<fixed<<z<<endl;
+    
+
 
     return 0;
 }
