@@ -29,7 +29,10 @@ using namespace std;
 
 int main(){
     cout<<"Bitwise AND "<<endl;
-    //cout<<0<<"&"<<0<<"="<<0&0;
+    int a = 5;
+    int b=6;
+    int result = a&b;
+    cout<<"a&b = "<<result<<endl;
 
     return 0;
 }
