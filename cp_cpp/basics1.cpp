@@ -24,6 +24,11 @@ int main(){
     int mn=INT_MIN;
     cout<<"Minimum integer value: "<<mn<<endl;
 
+    int d=100000;
+    int e=100000;
+    long long f=d*1LL*e; // Yaha par 1LL ke wajah se woh 1 ko as a long long int treat karta hai
+    cout<<f<<endl;
+
 
     return 0;
 }
