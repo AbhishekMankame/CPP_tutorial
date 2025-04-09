@@ -18,6 +18,11 @@ int main(){
     int a=100000;
     int b=100000;
     int c = a*b; // yaha par overflow ho jaayega
+    cout<<c<<endl;
+    int mx=INT_MAX;
+    cout<<"Maximum integer value: "<<mx<<endl;
+    int mn=INT_MIN;
+    cout<<"Minimum integer value: "<<mn<<endl;
 
 
     return 0;
