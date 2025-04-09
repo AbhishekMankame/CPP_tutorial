@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main(){
@@ -36,6 +37,10 @@ int main(){
     cout<<z<<endl; // This will print the output in the form of scientific notation
     // To remove the scientific sign form, we can use fixed keyword
     cout<<fixed<<z<<endl;
+    cout<<fixed<< setprecision(0)<<z<<endl;
+    // We donot use double due to it's less precision for larger values
+    double g=1e24;
+    cout<<g<<endl; // Yaha par actually 10^24 print hona chahiye, but we can see hear that it is printing 999.... value, this number is very close to 10^24, but it is not 10^24
     
 
 
