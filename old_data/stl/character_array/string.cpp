@@ -23,4 +23,9 @@ int main(){
     cout<<str[0]<<" "<<str[1]<<endl;
     // String ki size
     cout<<str.size()<<endl;
+
+    // Iterating through whole string
+    for(int i=0;i<str.size();i++){
+        cout<<str[i]<<" ";
+    }
 }
