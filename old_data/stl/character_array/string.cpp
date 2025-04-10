@@ -12,4 +12,10 @@ int main(){
     cin>>str2;
     cout<<str2<<endl;
     cout<<str+str2<<endl;
+    if(str==str2){
+        cout<<"Equal"<<endl;
+    }
+    else{
+        cout<<"Not equal"<<endl;
+    }
 }
