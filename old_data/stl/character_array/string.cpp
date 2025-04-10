@@ -18,4 +18,9 @@ int main(){
     else{
         cout<<"Not equal"<<endl;
     }
+
+    // Accessing particular/specific character
+    cout<<str[0]<<" "<<str[1]<<endl;
+    // String ki size
+    cout<<str.size()<<endl;
 }
