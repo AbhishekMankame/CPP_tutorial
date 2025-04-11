@@ -8,6 +8,6 @@ int main(){
         cout<<1<<endl;
     }
     else{
-        cout<<0<<endl;s
+        cout<<0<<endl;
     }
 }
