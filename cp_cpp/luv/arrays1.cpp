@@ -19,4 +19,20 @@ int main(){
     }
     cout<<sum<<endl;
 
+    // 2D array
+    int x,y;
+    cin>>x>>y;
+    int b[x][y];
+    for(int i=0;i<x;i++){
+        for(int j=0;j<y;j++){
+            cin>>b[i][j];
+        }
+    }
+    for(int i=0;i<x;i++){
+        for(int j=0;j<y;j++){
+            cout<<b[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+
 }
