@@ -38,5 +38,7 @@ int main(){
     // Note: Size of arrays
     // Agar main ke andar local array declare kar rahe hai toh uske array ke size ki limit hoti hai 10^5
     // Global array declaration should be constant, global array ki limit 10^7 ki hoti hai
+    // Reason: Jab bhi hum koi variable locally declare karte hai toh woh stack memory mei initialize hoti hai, jiski size limit around 8mb hoti hai
+    // Par jab bhi hum global variable ko declare karte hai toh woh data segment mei define hota hai, jiski memory ki as such koi limit nahi hoti.
 
 }
