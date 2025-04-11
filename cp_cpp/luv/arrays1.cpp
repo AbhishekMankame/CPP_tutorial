@@ -35,4 +35,8 @@ int main(){
         cout<<endl;
     }
 
+    // Note: Size of arrays
+    // Agar main ke andar local array declare kar rahe hai toh uske array ke size ki limit hoti hai 10^5
+    // Global array declaration should be constant, global array ki limit 10^7 ki hoti hai
+
 }
