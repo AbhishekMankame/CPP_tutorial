@@ -11,5 +11,14 @@ int main(){
         str_rev.push_back(str[i]);
     }
     cout<<str_rev<<endl;
+
+    // Let's code for palindrome of a string
+    if(str==str_rev){
+        cout<<"It is palindrome "<<endl;
+    }
+    else{
+        cout<<"Not a palindrome"<<endl;
+    }
+
     return 0;
 }
