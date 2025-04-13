@@ -24,3 +24,5 @@ int main(){
         
     }
 }
+
+// Time Complexity: O(N) + O(Q) = 2*10^5, this code will pass in 1 second in online judge
