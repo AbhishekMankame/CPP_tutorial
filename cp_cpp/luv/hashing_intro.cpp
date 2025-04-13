@@ -33,3 +33,5 @@ int main(){
         cout<<ct<<endl;
     }
 }
+
+// Time Complexity --> O(N) + O(Q*N) ==> O(N^2) == 10^10, Note: This code will not run in 1 second
