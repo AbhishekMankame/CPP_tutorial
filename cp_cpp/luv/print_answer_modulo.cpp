@@ -14,13 +14,18 @@ Constraints
 1<=N<=100
 */
 
+// Significance of M=10^9+7 ---> It is very close to integer maximum
+
+
+
 
 int main(){
     int n;
     cin>>n;
+    int M=47;
     long long fact=1;
     for(int i=2;i<=n;i++){
-        fact=fact*i;
+        fact=(fact*i)%47;
     }
     cout<<fact<<endl;
 
