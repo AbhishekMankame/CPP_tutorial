@@ -11,12 +11,18 @@ using namespace std;
 
 /* Given a number N. Print it's factorial. Print answer modulo 10^9+7.
 Constraints
-1<=N<=188
+1<=N<=100
 */
 
 
 int main(){
     int n;
+    cin>>n;
+    long long fact=1;
+    for(int i=2;i<=n;i++){
+        fact=fact*i;
+    }
+    cout<<fact<<endl;
 
     return 0;
 }
