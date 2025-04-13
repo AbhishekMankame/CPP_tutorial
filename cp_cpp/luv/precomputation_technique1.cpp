@@ -26,5 +26,8 @@ int main(){
         cin>>n;
         cout<<fact[n]<<endl;
     }
-    
+    return 0;
 }
+
+// Time Complexity --> Normal approach = 10^10 --> This will mostly cause TLE in online judge
+// Tme Complexity --> Using pre computation = 10^5
