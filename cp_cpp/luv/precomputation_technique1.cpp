@@ -29,5 +29,5 @@ int main(){
     return 0;
 }
 
-// Time Complexity --> Normal approach = 10^10 --> This will mostly cause TLE in online judge
-// Tme Complexity --> Using pre computation = 10^5
+// Time Complexity --> Normal approach --> O(T*N) = 10^10 --> This will mostly cause TLE in online judge
+// Tme Complexity --> Using pre computation --> O(N) + O(T) = 10^5 + 10^5 == 10^5
