@@ -16,7 +16,6 @@ Constraints
 
 // Significance of M=10^9+7 ---> It is very close to integer maximum
 
-
 int main(){
     int n;
     cin>>n;
