@@ -19,3 +19,8 @@ Asymptotic analysis is a way to evaluate the performance of an algorithm by focu
 - Programming language differences.
 - Smaller terms become insignificant for large inputs.
 Instead, it focuses on the big picture: how the algorithm scales with input size.
+
+### Why use asymptotic analysis?
+1. Machine-Independent: It doesn't depend on the hardware or programming language.
+2. No Implementation Needed: You can analyze an algorithm without writing code.
+3. Focus on Growth Rate: It helps compare algorithm based on how they perform as the input size grows.
