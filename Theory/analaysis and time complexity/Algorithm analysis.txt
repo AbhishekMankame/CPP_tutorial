@@ -7,3 +7,10 @@ Why Analysis of Algorithms is Important?
 3. It is impossible to predict the exact behaviour of an algorithm. There are too many influencing factors.
 4. The analysis is thus only an approximation; it is not perfect.
 5. More importantly, by analyzing different algorithms, we can compare them to determine the best one for our purpose.
+
+Types of Algorithm Analysis:
+1. Best case
+2. Worst case
+3. Average case
+
+<b>Introduction to Asymptotic Analysis</b>
