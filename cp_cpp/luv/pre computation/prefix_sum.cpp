@@ -34,3 +34,5 @@ int main(){
 
     return 0;
 }
+
+// O(N) + O(Q*N) = 10^10 --> This code will not run in 1 second
