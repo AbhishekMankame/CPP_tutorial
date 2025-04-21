@@ -8,6 +8,8 @@ It works by repeatedly dividing the search interval in half:
 --> If it is less than the target, search the right half.
 --> If it is more, search the left half. 
 
+Prerequisites: Array must be sorted
+
 */
 
 int binarySearchIterative(int arr[], int n, int target){
@@ -37,3 +39,30 @@ int binarySearchRecursive(int arr[], int low, int high, int target){
     else
         return binarySearchRecursive(arr,low,mid-1,target);
 }
+
+/*  Time and space complexity
+Iterative Approach: TC = O(log n)
+                    SC = O(1)
+
+Recursive Approach: TC = O(log n)
+                    SC = O(log n) due to function call stack
+
+Which one is better??
+We will break down based on different aspects:
+1). Performance:
+    Iterative: More efficient in terms of memory
+    Recursive: Slighlty less efficient (extra stack space)
+
+2). Simplicity:
+    Iterative: Slightly more code
+    Recursive: Clean and elegant logic
+
+3). Stack Overflow Risk:
+    Iterative: No
+    Recursive: Yes (for large arrays)
+
+4). Use in Competitive Coding:
+    Iterative: Preferred
+    Recursive: Less common
+
+*/
