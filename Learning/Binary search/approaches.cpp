@@ -2,6 +2,14 @@
 using namespace std;
 typedef long long int ll;
 
+/*Binary Search is an efficient algorithm for finding an element in a sorted array.
+It works by repeatedly dividing the search interval in half:
+--> If the value of the middle element is equal to the target, you're done.
+--> If it is less than the target, search the right half.
+--> If it is more, search the left half. 
+
+*/
+
 int binarySearchIterative(int arr[], int n, int target){
     int low=0,high=n-1;
 
