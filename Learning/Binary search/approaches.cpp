@@ -65,4 +65,6 @@ We will break down based on different aspects:
     Iterative: Preferred
     Recursive: Less common
 
+Verdict: Iterative is usually preferred in practice due to constant space and no recursion limit risk. 
+
 */
