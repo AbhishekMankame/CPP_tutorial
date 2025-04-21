@@ -63,3 +63,18 @@ int fib(int n){
     if(n<=1) return n;
     return fib(n-1) + fib(n-2);
 }
+
+// O(n!) - Factorial Time --> Used in permutations and NP problems
+// Generate all permutations:
+void permute(string s, int l, int r){
+    if(l==r){
+        cout<<s<<endl;
+    }
+    else{
+        for(int i=l;i<=r;i++){
+            swap(s[l],s[i]);
+            permute(s,l+1,r);
+            swap(s[l],s[i]); // backtrack
+        }
+    }
+}
