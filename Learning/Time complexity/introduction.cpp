@@ -86,7 +86,7 @@ int countSteps(int n){
     int steps = 0;
     while(n>1){
         n=log2(n); // Take logarithm repeatedly
-        steps;
+        steps++;
     }
     return steps;
 }
