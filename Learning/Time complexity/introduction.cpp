@@ -48,3 +48,18 @@ void mergeSort(int arr[], int l, int r){
         merge(arr,l,m,r);  // O(n)
     }
 }
+
+// O(n^2) - Quadratic Time --> Usually nested loops - becomes slow for large n. 
+void bubbleSort(int arr[], int n){
+    for(int i=0;i<n-1;i++)
+        for(int j=0;j<n-i-1;j++)
+            if(arr[j]>arr[j+1])
+                swap(arr[j],arr[j+1]);
+}
+
+// O(2^n) - Exponential Time --> Solves problems by trying all combinations (brute-force)
+// E.g., Fibonacci Examples (recursive):
+int fib(int n){
+    if(n<=1) return n;
+    return fib(n-1) + fib(n-2);
+}
