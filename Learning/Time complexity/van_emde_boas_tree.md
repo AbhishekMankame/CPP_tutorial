@@ -14,3 +14,14 @@ It supports:
 
 ### Why it is special?
 - Most balanced binary search trees (like Red-Black Trees or AVL trees) have O(log n) time complexity.
+- The van Emde Boas Tree improves this to O(log log u) where u is the universe size. If u is not very large (like <= 2^32), this is extremely fast!
+
+### Operations Supported
+| Operation | Time Complexity |
+| --------- | --------------- |
+| Insert | O(log log u) |
+| Delete | O(log log u) |
+| Search | O(log log u) |
+| Predecessor | O(log log u) |
+| Successor | O(log log u) |
+| Min/Max | O(log log u) |
