@@ -25,3 +25,31 @@ It supports:
 | Predecessor | O(log log u) |
 | Successor | O(log log u) |
 | Min/Max | O(log log u) |
+
+### Structure of vEB Tree
+A vEB tree of universe size u has:
+- min and max (stores the smallest and largest elements)
+- summary (a smaller vEB tree summarixing which clusters are non-empty)
+- clusters (an array of smaller vEB trees for parts of the universe)
+
+It divides the universe like this:
+- High part: which cluster an element belongs to
+- Low part: index within that cluster
+
+#### Code Example:
+high(x) = floor(x/sqrt(u))
+low(x) = x%sqrt(u)
+index(high,low) = high * sqrt(u) + low
+
+#### Example: Universe u=16
+You divide it int sqrt(u)=4 clusters of size sqrt(u)=4.
+So x=13 would go to cluster high(13)=floor(13/4)=3, with a local index low(13)=1.
+
+#### Use cases
+-  When you need fast predecess/successor queries (e.g., in computational geometry).
+- When your key space is bounded and not too large, e.g., 32-bit integers.
+
+#### Limitations
+- It only works if keys are from a fixed universe.
+- Has high space complexity: O(u), though optimized versions can reduce this.
+
