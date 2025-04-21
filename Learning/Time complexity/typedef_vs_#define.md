@@ -9,3 +9,13 @@ Let's first talk about #define ll long long int
     - No type checking (just a preprocessor macro)
     - Can lead to weird bugs if misused
     - Not scoped - affects the whole file globally
+
+#### typedef long long int ll;
+- Pros:
+    - Proper C++ type alias
+    - Safer (respects scope, better for debugging)
+    - Recognized by tools (syntax highlighting, IDE support)
+    - Can be replaced with using ll=long long in modern C++
+
+- Cons:
+    - Slightly more to type (but rarely)
