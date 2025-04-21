@@ -78,3 +78,15 @@ void permute(string s, int l, int r){
         }
     }
 }
+
+// O(log log n) --> Here time grows with the logarithm of the logarithm of the input size n. 
+// very slow growth rate - even for large n, log log n remains small.
+
+int countSteps(int n){
+    int steps = 0;
+    while(n>1){
+        n=log2(n); // Take logarithm repeatedly
+        steps;
+    }
+    return steps;
+}
