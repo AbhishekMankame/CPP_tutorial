@@ -1,4 +1,4 @@
-## define ll long long int vs typedef long long int ll
+## define ll long long int vs typedef long long int ll;
 Let's first talk about #define ll long long int
 - Pros:
     - Quick to write
@@ -19,3 +19,15 @@ Let's first talk about #define ll long long int
 
 - Cons:
     - Slightly more to type (but rarely)
+
+### So which one to use?
+#### In Competitive Programming (CP):
+- Use #define ll long long - it's common, fast to type, and acceptable.
+#### In Interviews/Production code/Good practice:
+- Use typedef ll long long; or using ll = long long;
+- It's safer, cleaner, and more C++ idiomatic
+
+### Protip:
+- If you are using C++ 11 or later, prefer
+    - using ll=long long;
+    - It's the modern, cleanest way to do type aliasing.
