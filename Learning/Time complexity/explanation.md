@@ -25,3 +25,13 @@ Time complexity describes how the run time of an algorithm grows with respect to
 | 256 | 8 | 3 |
 | 65536 | 16 | 4 |
 | 4294967296 (=2^32) | 32 | 5 |
+
+Even for billions, log log n is around 5
+
+#### When does O(log log n) happen?
+It appears in:
+- Advanced data structures like van Emde Boas trees.
+- Integer-based algorithms where numbers are repeatedly halved.
+- Some primality tests, such as the AKS primality test.
+- Hash table operations with double hashing (in some cases).
+- Sometimes in optimized Union-Find path compressed (amortized).
