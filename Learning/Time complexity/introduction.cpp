@@ -22,3 +22,29 @@ int binarySearch(int arr[], int n, int target){
     }
     return -1;
 }
+
+// O(n) - Linear Time --> Time grows linearly with n
+
+int sum(int arr[], int n){
+    int s=0;
+    for(int i=0;i<n;i++){
+        s+=arr[i];
+    }
+    return s;
+}
+
+// O(nlogn) - Linearithmic Time --> Efficient sorting algorithms fall here
+// Eg: Merge sort
+void merge(int arr[], int l, int m, int r){
+    // Merge two halves
+    // O(n) for merging
+}
+
+void mergeSort(int arr[], int l, int r){
+    if(l<r){
+        int m=(l+r)/2;
+        mergeSort(arr,l,m); //O(log n)
+        mergeSort(arr,m+1,r);
+        merge(arr,l,m,r);  // O(n)
+    }
+}
