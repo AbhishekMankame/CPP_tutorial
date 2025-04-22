@@ -23,3 +23,19 @@ Knowing Big O helps you:
 | O(n^2) | Quadratic Time | 🐌 Slow. Like trying to match every person at a party with every other person for a handshake. Awkward. 🤝 |
 | O(2^n) | Exponential Time | 😱 RUN. This is the chaos of algoirthms. Like doubling bunnies every minute. Soon your roon is just rabbits. 🐇🐇🐇 |
 | O(n!) | Factorial Time | 💀 Don't go there unless you're solving a puzzle to save the world. Like trying every combination of lock digits... manually. 🔐 |
+
+### Big O ignores Small Stuff
+Big O is like your chill friend who doesn't care about the details:
+- We drop constants: O(2n) --> O(n)
+- We drop lower order terms: O(n + log n) --> O(n)
+Why? Because when inputs get HUGE, only the biggest monster matters.
+
+### Big O also works for Space!!!
+Big O isn't just about time! We also measure space complexity:
+- How much extra memory does your algorithm need?
+- Are you creating arrays, trees, galaxies?
+
+### Final Words of Wisdom
+- Big O is not about how fast your machine is, but how your code scales.
+- Always aim for lower Big O - your future self (and users) will thank you.
+- Don't stress over it - even Google engineers Google it. 😅
