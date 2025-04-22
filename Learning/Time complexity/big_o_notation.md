@@ -1,0 +1,2 @@
+### 🧠 Big O Notation: The Drama Queen of Computer Science
+Welcome to the dazzling world of Big O Notation, where we measure how "slow" or "fast" our code is - in a fabulously exaggerated way. Think of Big O as the over-dramatic friend who doesn't care about how your code behaves sometimes - it wants to know how bad it can get when the world is on fire! 🔥
