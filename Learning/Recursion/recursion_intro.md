@@ -20,3 +20,11 @@ Recursion is exactly that. 🧠✨
 Every recursive function need two things:
 1. Base case - When to stop calling itself.
 2. Recursive case - The function calls itself with a smaller problem.
+
+### Classic Example: Factorial
+5! = 5*4*3*2*1=120
+<pre> ```CPP int factorial(int n) {
+    if (n == 0) return 1; // base case 🛑
+    return n * factorial(n - 1); // recursive case 🔁
+}
+``` </pre>
