@@ -22,9 +22,9 @@ Every recursive function need two things:
 2. Recursive case - The function calls itself with a smaller problem.
 
 ### Classic Example: Factorial
-5! = 5*4*3*2*1=120
-<pre> ```CPP int factorial(int n) {
+5! = 5x4x3x2x1=120
+<pre> int factorial(int n) {
     if (n == 0) return 1; // base case 🛑
     return n * factorial(n - 1); // recursive case 🔁
 }
-``` </pre>
+</pre>
