@@ -14,3 +14,15 @@ In average case analaysis, we take all possible inputs and calculates computing 
 
 #### Best Case Analysis (Bogus):
 In the best case analysis, we calculate lower bound on running time of an algorithm. We must know the case that causes minimum number of operations to be executed. In linear search problem, the best case occurs when x is present at the first location. The number of operations in the best case is constant (not dependent on N). So time complexity in the best case would be omega(1).
+
+### Time Complexity Analysis: (In Big-O notation)
+- Best Case: O(1), This will take placce if the element to be searched is on the first index of the given list. So, the number of comparisons, in this case, is 1.
+- Average Case: O(n), This will take place if the element to be searched is on the middle index of the given list.
+- Worst Case: O(n), this will take place if:
+    - The element to be searched is on the last index.
+    - The element to be searched is not present on the list.
+
+### Important Points:
+- Most of the times, we do the worst case analysis to analyze algorithms. In the worst case analysis, we guarantee an upper bound of the running time of an algorithm which is a good piece of information.
+- The average case analysis is not easy to do in most of the practical cases and it is rarely done. In the average case analysis, we must know (or predict) the mathematical distribution of all possible inputs.
+- The best case analysis is bogus. Guaranteeing a lower bound of an algorithm doesn't provide any information as in the worst case, an algorithm may take years to run.
