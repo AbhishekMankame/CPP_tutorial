@@ -20,3 +20,15 @@ Boom. That's binary search - eliminating half the search space in every move. �
 | Best | O(1) - lucky guess!🍀 |
 | Worst | O(log n) - halve every time 📉 |
 🚫 Don't use it on unsorted arrays unless you wants to gaslight yourself. 🤯
+
+### 🔄 Variations You'll see in Interviews:
+1. First or last occurrence of a number
+2. Number of times a sorted array is rotated
+3. Search in a rotated sorted array (chef's kiss question 🤌)
+4. Square root of a number without using sqrt()
+5. Peak element in an array
+
+### Pro Tips:
+- Don't write mid = (left + right)/2 --> It may overflow!!
+- Use mid = left + (right - left)/2 instead. 🧠
+- Make sure your loop condition is left <= right (not < or ==)
