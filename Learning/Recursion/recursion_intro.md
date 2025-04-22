@@ -42,3 +42,10 @@ Every recursive function need two things:
 <pre> int broken(int n){
     return broken(n-1); // where is the STOP!? 😱
 } </pre>
+
+Bro, this is gonna be disaster to be honest!!!
+
+### 🕒 Time Complexity (for factorial):
+- Time: O(n)
+- Space: O(n) (Each function call sits on the call stack, chillin' until it's resolved)
+
