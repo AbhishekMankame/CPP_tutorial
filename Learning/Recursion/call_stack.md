@@ -54,3 +54,13 @@ Boom - Stack Overflow! 💥😵
 Think of it like tabs on your browser:
 You open a new tab for every task.
 Too many open tabs -> your laptop starts huffing and puffing like it's running GTA V on a toaster 😩🔥
+
+### Pro Facts:
+- Each function call is stored with its local variables and return address.
+- Once the function is done, it's popped off
+- Works super fast, but you have limited stack space (don't go too deep without need)
+
+### TL;DR:
+- It's how your program keep track of what function to return to
+- Last in - First out (LIFO)
+- Watch out for infinite calls -> boom 💥 (Stack Overflow)
