@@ -36,3 +36,21 @@ Let's call foo(3):
             foo(3) = 3 + 3 = 6
 </pre>
 Each function waits on top of the call stack for the one it called to finish.
+
+Imagine them stacked like:
+| foo(3) | <- top of the stack
+| foo(2) |
+| foo(1) |
+| foo(0) | <- base case (returns first)
+
+### What happens if it goes on forever?
+<pre> void crash() {
+    crash(); // again... and again... and again...
+}</pre>
+Boom - Stack Overflow! 💥😵
+(Not the helpful website. The actual error.😂)
+
+### Real Life Analogy
+Think of it like tabs on your browser:
+You open a new tab for every task.
+Too many open tabs -> your laptop starts huffing and puffing like it's running GTA V on a toaster 😩🔥
