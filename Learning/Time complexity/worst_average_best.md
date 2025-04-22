@@ -8,3 +8,9 @@ We can have three cases to analyze an algorithm:
 
 #### Worst Case Analysis (Ususally Done):
 In the worst case analysis, we calculate upper bound on running time of an algorithm. We must know the case that causes the maximum number of operations to be executed. For Linear Search, the worst case happens when the element to be searched is not present in the array. When x is not present, the search() functions compares it with all the elements of arr[] one by one. Therefore, worst case time complexity of linear search would be O(N), where N is the number of elements in the array.
+
+#### Average Case Analysis(Sometimes done):
+In average case analaysis, we take all possible inputs and calculates computing time for all of the inputs. Sum of all the calculated values and divide the sum by total number of inputs. We must know (or predict) distribution of cases. For the linear search problems, let us assume that all cases are uniformly distributed (including the case of x not being present in array). So we sum all the cases and divide the sum by (N+1).
+
+#### Best Case Analysis (Bogus):
+In the best case analysis, we calculate lower bound on running time of an algorithm. We must know the case that causes minimum number of operations to be executed. In linear search problem, the best case occurs when x is present at the first location. The number of operations in the best case is constant (not dependent on N). So time complexity in the best case would be omega(1).
