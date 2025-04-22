@@ -49,3 +49,16 @@ Bro, this is gonna be disaster to be honest!!!
 - Time: O(n)
 - Space: O(n) (Each function call sits on the call stack, chillin' until it's resolved)
 
+### 🔥 Recursion Hits in Interviews:
+| Problem | Description |
+| ------- | ----------- |
+| Fibonacci | Classic recursive vs DP optimization ⚔️ |
+| Tower of Hanoi | Moving disks like a magician 🎩 |
+| Permutations & Combinations | All possible outcomes. Like choosing outfits 👕👖👟 |
+| Backtracking problems | Sudoku, N-Queens, Maze solver - mind-bending stuff 😵‍💫 |
+
+### 🧙‍♂️ Pro Tips of Recursion:
+- Always define a base case first.
+- Visualize the call stack.
+- Don't be afraid - computers were literally made to do this fast.
+- If it starts getting too slow, try memoization or dynamic programming 💾✨
