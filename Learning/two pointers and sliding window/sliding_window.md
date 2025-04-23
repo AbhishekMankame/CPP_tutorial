@@ -9,5 +9,20 @@ Sliding Window says:
 ### 🔥 There are 2 main types of windows:
 | Type | Use Case | Window Size |
 | ---- | -------- | ----------- |
-| Fixed Window | You know the size k beforehead |
+| Fixed Window | You know the size k beforehead | Constant (e.g. k=3) |
 | Variable Window | You adjust the window size dynamically | Depends on problem condition |
+
+### 📦 Example 1: Fixed Sliding Window
+Find maximum sum of subarray of size k
+### ✨ Brute Force:
+<pre> // O(n*k) - the slow like a turtle
+for(int i=0;i<=n-k;i++){
+    int sum=0;
+    for(int j=i;j < i+k;j++){
+        sum+= arr[j];
+    }
+    maxSum  =max(maxSum, sum);
+} </pre>
+🤢 Recalculates the sum from scratch every time.
+
+### Sliding Window Version (O(n)):
