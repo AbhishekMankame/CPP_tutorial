@@ -61,4 +61,10 @@ Find the longest substring without repeating characters (🔥LeetCode classic)
         }
     }
     return maxLen;
-}
+} </pre>
+
+### 💡Strategy:
+- Expand the window by moving right ➡️ until you hit a duplicate
+- Shrink the window from left ⬅️ until duplicate is gone
+- Keep tracking the max length along the way
+It's like adjusting your backpack to only carry non-repeating items 🎒
