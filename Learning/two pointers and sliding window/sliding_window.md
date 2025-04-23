@@ -68,3 +68,10 @@ Find the longest substring without repeating characters (🔥LeetCode classic)
 - Shrink the window from left ⬅️ until duplicate is gone
 - Keep tracking the max length along the way
 It's like adjusting your backpack to only carry non-repeating items 🎒
+
+### 🎯 When to use Sliding Window?
+✅ Subarray / Substring problems
+✅ When you're asked for:
+    - Maximum / minimum / count in a contiguous range
+    - Longes / shortest window satisfying a condition
+        ✅ Problems with words like "contiguous", "window", or "subarray"
