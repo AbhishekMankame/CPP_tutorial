@@ -75,3 +75,10 @@ It's like adjusting your backpack to only carry non-repeating items 🎒
     - Maximum / minimum / count in a contiguous range
     - Longes / shortest window satisfying a condition
         ✅ Problems with words like "contiguous", "window", or "subarray"
+
+### 🧠 TL;DR:
+- Sliding Window is about reusing work instead of recalculating
+- Comes in fixed and variable flavors
+- Speends you from O(n^2) ➡️ O(n)
+- Use it when you're working with ranges, substrings, or subarrays
+- Saves time, boosts interviews, and makes your code looks chef's kiss 💋👨‍🍳
