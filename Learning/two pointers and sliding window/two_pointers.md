@@ -30,3 +30,20 @@ Now you have two pointers:
     }
     return false;
 }   </pre>
+
+🎩 Trick: Array must be sorted
+🎯 Stratergy:
+- If the sum is too small -> move left forward
+- If the sum is too big -> move right backward
+- If it's just right -> you win! 🍰
+
+### Example 2: Reverse an Array In-Plcae
+<pre> void reverse(vector<int>& arr){
+    int i=0,j=arr.size()-1;
+    while(i < j){
+        swap(arr[i],arr[j]);
+        i++;
+        j--;
+    }
+} </pre>
+Here, the two pointers are closing in like long-lost lovers in a rom-com 🥹💞
