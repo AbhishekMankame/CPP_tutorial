@@ -39,3 +39,8 @@ Used when the question is:
 | Time Complexity | O(n) | O(n) |
 | Can handle negative numbers? | Only if total sum is used | YES! Very efficient! |
 | Smart factor | 8/10 👨‍🎓 | 11/10 🤯 Algorithmic genius |
+
+### 🎯 TL;DR:
+- Kadane is for finding the maximum subarray sum of any length
+- Sliding Window is for finding the maximum sum of exact length k
+- So they're not the same, but they're both O(n) kings in their own kingdoms 👑👑
