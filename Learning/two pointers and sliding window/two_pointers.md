@@ -47,3 +47,15 @@ Now you have two pointers:
     }
 } </pre>
 Here, the two pointers are closing in like long-lost lovers in a rom-com 🥹💞
+
+### Example 3: Move all zeros to the end
+<pre> void moveZeros(vector<int>& nums) {
+    int left=0;
+    for(int right=0;right < nums.size(); right++){
+        if(nums[right]!=0){
+            swap(nums[left], nums[right]);
+            left++;
+        }
+    }
+} </pre>
+Two pointers are doing a delicate "let's move the good stuff forward, gently push the trash (zeros) back" operation. 🧹🧼
