@@ -26,4 +26,16 @@ Used when the question is:
         maxSum = max(maxSum, currentSum);
     }
     return maxSum;
-}
+} </pre>
+
+### 💡Key Idea in Kadane:
+<pre> You either continue the current subarray, or you start fresh from current element. </pre>
+
+### 📊 Comparison Table:
+| Feature | Sliding Window (Fixed) | Kadane's Algorithm |
+| ------- | ---------------------- | -------- |
+| Subarray size | Fixed (e.g., k=3) | Variable (any size) |
+| Use case | Max sum of subarray of size k | Max sum of any subarray |
+| Time Complexity | O(n) | O(n) |
+| Can handle negative numbers? | Only if total sum is used | YES! Very efficient! |
+| Smart factor | 8/10 👨‍🎓 | 11/10 🤯 Algorithmic genius |
