@@ -37,3 +37,9 @@ for(int i=0;i<=n-k;i++){
      }
      return maxSum;
 } </pre>
+
+### 🧙 What's Happening?
+- Add new element to the window
+- Subtract the one that's now out of view
+- Keep the sum updated without full recalculation
+Think of it like moving your camera to the right without setting it up again every time 🎥➡️
