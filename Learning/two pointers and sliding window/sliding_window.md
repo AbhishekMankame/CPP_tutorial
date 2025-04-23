@@ -26,3 +26,14 @@ for(int i=0;i<=n-k;i++){
 🤢 Recalculates the sum from scratch every time.
 
 ### Sliding Window Version (O(n)):
+<pre> int maxSum(vector<int>& arr, int k){
+    int windowSum = 0;
+    int maxSum = INT_MIN;
+     for(int i=0;i < k; i++) windowSum += arr[i]; // First window
+     maxSum=windowSum;
+     for (int i=k;i < arr.size();i++){
+        windowSum += arr[i] - arr[i - k]; // Slide the window
+        maxSum = max(max,windowSum);
+     }
+     return maxSum;
+} </pre>
