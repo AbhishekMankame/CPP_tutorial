@@ -9,3 +9,12 @@ Now you have two pointers:
 - One starts from the beginning ➡️
 - The other starts from the end ⬅️
 - Or they both start at the beginning and race across like Marion Kart 🏁🚗
+
+### 📦 When to use it:
+✅ Sorted arrays
+✅ Finding pairs that add up to something
+✅ Removing duplicates
+✅ Merging arrays
+✅ Reversing stuff
+✅ Palindrome checking
+✅ Partitioning before quicksort (oh yes, it's there too)
