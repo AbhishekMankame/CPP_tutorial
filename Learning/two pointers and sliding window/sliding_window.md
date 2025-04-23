@@ -43,3 +43,22 @@ for(int i=0;i<=n-k;i++){
 - Subtract the one that's now out of view
 - Keep the sum updated without full recalculation
 Think of it like moving your camera to the right without setting it up again every time 🎥➡️
+
+### 🧩 Example 2: Variable Sliding Window
+Find the longest substring without repeating characters (🔥LeetCode classic)
+<pre> int lengthOfLongestSubstring(string s) {
+    unordered_set<char> seen;
+    int left=0,right=0,maxLen=0;
+    while(right < s.length()) {
+        if(seen.find(s[right])==seen.end()) {
+            seen.insert(s[right]);
+            maxLen = max(maxLen, right - left + 1);
+            right++;
+        }
+        else {
+            seen.erase(s[left]);
+            left++;
+        }
+    }
+    return maxLen;
+}
