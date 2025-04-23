@@ -10,3 +10,20 @@ Example:
 You maintain a window of size k, slide it across, keep updating the sum.
 This is classic Fixed Sliding Window.
 ⚠️ Window size is always the same!
+
+### ⚡Kadane's Algorithm:
+Used when the question is:
+    <pre> "What's the maximum sum of any subarray?"
+    (i.e., size is not fixed) </pre>
+
+### 🔥 Code:
+<pre> int kadane(vector<int>& arr) {
+    int maxSum = arr[0];
+    int currentSum = arr[0];
+
+    for(int i=1; i < arr.size(); i++){
+        currentSum = max(arr[i], currentSum + arr[i]);
+        maxSum = max(maxSum, currentSum);
+    }
+    return maxSum;
+}
