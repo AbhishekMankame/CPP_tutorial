@@ -13,9 +13,9 @@ Want the sum of a subarray [l ... r]?
 One pre-compute pass --> O(n), then unlimited range queries in O(1) each. 💅
 
 ### 🛠️ Building the Prefix Array (C++)
-<pre> vector<<long long>> buildPrefix(const vector<<int>>& nums){
+<pre> vector< long long > buildPrefix(const vector<< int >& nums){
     int n = nums.size();
-    vector<<long long>> pref(n);
+    vector< long long > pref(n);
     pref[0] = nums[0];
 
     for(int i = 1; i < n; ++i){
