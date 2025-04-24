@@ -1,0 +1,8 @@
+## 🎯 Challenge: Longest Subarray With Sum == 0
+(a.k.a. "Find the biggest chunk of numbers that perfectly cancel each other out.")
+
+## 🔍 Problem Statement
+Input: An integer array nums (may contain +ve, -ve, 0).
+Output: Length of the longest contiguous subarray whose elements add upto 0.
+Example: nums = [15, -2, 2, -8, 1, 7, 10, 23] --> Answer = 5
+(The subarray [-2, 2, -8, 1, 7] sums to 0.)
