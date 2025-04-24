@@ -49,3 +49,9 @@ Need sum of elements 1 ... 3 (<b> 4 + 1 + 3 = 8 </b>)
 3. Modulo Magic: For divisibility questions ("Subarray sum divisible by k"), store pref % k.
 4. 2-D Prefix:
 <pre> sum(x1,y1,x2,y2) = P[x2][y2] - p[x1-1][y2] - p[x2][y1-1] + p[x-1][y-1] </pre>
+
+### 🏁TL;DR (too long; didn't read)
+- Prefix sum = running total array.
+- Builds in O(n); answers any range-sum query in O(1)
+- Unlocks hash-map tricks for "subarray sum == k" and friends.
+- Extends to 2-D for lightning-fast matrix queries.
