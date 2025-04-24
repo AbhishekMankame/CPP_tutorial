@@ -13,7 +13,7 @@ Want the sum of a subarray [l ... r]?
 One pre-compute pass --> O(n), then unlimited range queries in O(1) each. 💅
 
 ### 🛠️ Building the Prefix Array (C++)
-<pre> vector< long long > buildPrefix(const vector<< int >& nums){
+<pre> vector< long long > buildPrefix(const vector< int >& nums){
     int n = nums.size();
     vector< long long > pref(n);
     pref[0] = nums[0];
@@ -26,3 +26,10 @@ One pre-compute pass --> O(n), then unlimited range queries in O(1) each. 💅
 
 Time: O(n) Space: O(n)
 (Use long long to dodge overflow monsters 🐉)
+
+### 🎬 Example Walk-Through
+<pre> nums = [2, 4, 1, 3, 5]
+index = 0 1 2 3 4
+pref = [2, 6, 7, 10, 15]    </pre>
+Need sum of elements 1 ... 3 (<pre> 4 + 1 + 3 = 8 </pre>)
+<pre> pref[3] - pref[0] = 10 - 2 = 8 ✅ </pre>
