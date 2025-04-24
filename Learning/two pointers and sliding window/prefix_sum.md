@@ -31,5 +31,11 @@ Time: O(n) Space: O(n)
 <pre> nums = [2, 4, 1, 3, 5]
 index = 0 1 2 3 4
 pref = [2, 6, 7, 10, 15]    </pre>
-Need sum of elements 1 ... 3 (<pre> 4 + 1 + 3 = 8 </pre>)
+Need sum of elements 1 ... 3 (<b> 4 + 1 + 3 = 8 </b>)
 <pre> pref[3] - pref[0] = 10 - 2 = 8 ✅ </pre>
+
+### 📦 Classic Interview Uses
+| Problem Type | How Prefix Sum Helps |
+| ------------ | -------------------- |
+| Range Sum Query | Build pref once; each query in O(1) |
+| Subarray Sum Equals k | Store (currentPref - k) in a hash-map to count matches (O(N)). |
