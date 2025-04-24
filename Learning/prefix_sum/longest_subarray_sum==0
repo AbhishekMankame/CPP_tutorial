@@ -6,3 +6,13 @@ Input: An integer array nums (may contain +ve, -ve, 0).
 Output: Length of the longest contiguous subarray whose elements add upto 0.
 Example: nums = [15, -2, 2, -8, 1, 7, 10, 23] --> Answer = 5
 (The subarray [-2, 2, -8, 1, 7] sums to 0.)
+
+### 🧠 High-Level Idea
+1. Build a running prefix sum as you scan from left -> right
+2. If the same prefix value appears again later, the numbers between those two indices must sum to 0 (because their contributions cancel).
+3. Track the earliest occurence of each prefix sum in a hash map.
+4. Each time you see a duplicate prefix, compute the length of that zero-sum subarray and keep the max.
+
+Why?
+<pre> pref[j] == preff[i] => arr[i+1 ... j] sums to 0 </pre>
+(we also treat prefix 0 as a special case: if pref==0 at index j, the subarray 0...j is itself zero-sum.)
