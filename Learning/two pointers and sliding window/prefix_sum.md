@@ -39,3 +39,6 @@ Need sum of elements 1 ... 3 (<b> 4 + 1 + 3 = 8 </b>)
 | ------------ | -------------------- |
 | Range Sum Query | Build pref once; each query in O(1) |
 | Subarray Sum Equals k | Store (currentPref - k) in a hash-map to count matches (O(N)). |
+| Find Pivot Index | For each i, check prefix[i-1] == total prefix[i]. |
+| Largest Subarray with 0 Sum | Look for equal prefix sums at two indices |
+| 2-D Matrix Sum | Extend to 2-D prefix table (a.k.a. "integral image") |
