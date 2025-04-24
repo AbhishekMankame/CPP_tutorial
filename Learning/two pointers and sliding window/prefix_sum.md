@@ -42,3 +42,10 @@ Need sum of elements 1 ... 3 (<b> 4 + 1 + 3 = 8 </b>)
 | Find Pivot Index | For each i, check prefix[i-1] == total prefix[i]. |
 | Largest Subarray with 0 Sum | Look for equal prefix sums at two indices |
 | 2-D Matrix Sum | Extend to 2-D prefix table (a.k.a. "integral image") |
+
+### 🧙‍♂️ Pro Tips & Variations
+1. Space-Saver: If you only need rolling info, keep a single running sum (currPref) instead of fully array.
+2. Difference Array: Reverse trick for first range updates - handy in competitive programming (lmos method).
+3. Modulo Magic: For divisibility questions ("Subarray sum divisible by k"), store pref % k.
+4. 2-D Prefix:
+<pre> sum(x1,y1,x2,y2) = P[x2][y2] - p[x1-1][y2] - p[x2][y1-1] + p[x-1][y-1] </pre>
