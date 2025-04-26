@@ -186,4 +186,4 @@ QuickSort is so sassy and fast that C++'s std::sort() is basically a modified Qu
 | Selection Sort | O(n^2) | O(n^2) | O(1) | No | Simple but slow |
 | Insertion Sort | O(n) | O(n^2) | O(1) | Yes | Small arrays |
 | Merge Sort | O(n log n) | O(n log n) | O(n) | Yes | Large datasets |
-| Quick Sort | O(n log n) | O(n^2) | O(n log n) | General Purpose |
+| Quick Sort | O(n log n) | O(n^2) | O(n log n) | No | General Purpose |
