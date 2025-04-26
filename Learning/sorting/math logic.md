@@ -35,3 +35,8 @@ Focus on the dominating term: <br>
 Thus:
 <pre> log(n!) = theta(n log n) </pre>
 (Theta means tightly bound - not just upper/lower)
+
+### 5. 💥 Conclusion
+- Any comparison-based sorting must do at least n log n comparisons.
+- Thus, O(n) sorting by comparisons is impossible!
+✅ QED. (quod erat demonstrandum = "thus it is proven.") 👨‍🏫🎯
