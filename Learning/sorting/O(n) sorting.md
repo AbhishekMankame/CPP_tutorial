@@ -56,3 +56,11 @@ Sorting is like solving a giant multiple-choice puzzle. You can't cheat physics.
 - And those CAN achieve O(n) under special conditions! 🚀
 But - they're not comparison-based, they're counting-based or digit-based sorting.
 Different vibe! 🎵
+
+### 🎬 TL;DR
+| Statement | Meaning |
+| --------- | ------- |
+| Sorting needs to figure out one order out of n! | Huge possibilities |
+| Each comparison given tiny info (1 bit) | Tiny progress |
+| Need about log(n!) ~ n log n comparisons minimum | Math agrees |
+| So comparisons-based sorting cannot be faster than O(n log n) | That's nature's law |
