@@ -177,3 +177,10 @@ void quickSort(int arr[], int l, int r){
 
 ### Fun Fact:
 QuickSort is so sassy and fast that C++'s std::sort() is basically a modified QuickSort (intro sort) under the hood!
+
+
+## 🎉 Summary Table
+| Algorithm | Time (Best) | Time (Worst) | Space | Stable | Use Case |
+| --------- | ----------- | ------------ | ------ | ------ | -------- |
+| Bubble Sort | O(n) | O(n^2) | O(1) | Yes | Educational, memes |
+| Selection Sort | O(n^2) | O(n^2) | O(1) | No | Simple but slow |
