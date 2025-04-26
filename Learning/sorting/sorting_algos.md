@@ -94,3 +94,33 @@ Code Sketch:
 ### Fun Fact:
 Tiny arrays (like n <= 10) love insertion sort.
 In fact, many modern algorithms secretly use insertion sort for small cases! 🕵️
+
+### 4. Merge Sort 🛠️ (Divide and Conquer Mastermind)
+Storytime:
+Divide and conquer like a true Roman general:
+- Split the array (array) into two halves.
+- Conquer each half (sort them).
+- Merge them back into a fully sorted army.
+
+Steps:
+- Recursively split the array into halves.
+- Merge two sorted halves into one.
+
+Code Sketch:
+<pre> void merge(int arr[], int l, int m, int r){
+    int n1 = m-1+1, n2 = r-m;
+    int left[n1], right[n2];
+
+    for(int i = 0; i < n1; ++i)
+        left[i] = arr[i+1];
+    for(int i = 0; i < n2; ++i)
+        right[i] = arr[m+1+i];
+
+    int i = 0, j = 0, k = 1;
+    while(i < n1 && j < n2)
+        arr[k++] = (left[i] < right[j]) ? left[i++] : right[j++];
+    while(i < n1)
+        arr[k++] = left[i++];
+    while(j < n2)
+        arr[k++] = right[j++];
+}
