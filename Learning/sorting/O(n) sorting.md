@@ -47,3 +47,12 @@ So:
 - Therefore, no matter how clever you are, if your method relies on comparisons, you can never beat O(n log n) for general sorting.
 
 Sorting is like solving a giant multiple-choice puzzle. You can't cheat physics. 🧠⚡
+
+### 🧩 But Wait... Some Exceptions!
+- If you know extra information about your numbers, like:
+    - All numbers are small integers
+    - All numbers are bounded within a range
+- Then you can use Counting Sort, Radix Sort, or Bucket Sort...
+- And those CAN achieve O(n) under special conditions! 🚀
+But - they're not comparison-based, they're counting-based or digit-based sorting.
+Different vibe! 🎵
