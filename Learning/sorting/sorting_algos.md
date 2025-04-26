@@ -138,3 +138,27 @@ void mergeSort(int arr[], int l, int r){
 
 ### Fun Fact:
 Merge sort is stable (doesn't mix equal elements) and used in external sorting (huge data like 10GB files).
+
+### 5. Quick Sort ⚡(The Rockstar of Sorting)
+Storytime:
+Pick a random person (pivot) at a party:
+- Everyone shorter goes to the left.
+- Everyone taller goes to the right.
+- Recursively do the same.
+
+Steps:
+- Pick a pivot.
+- Partition the < pivot and >pivot groups.
+- Recursively sort.
+
+Code Sketch:
+<pre> int partition(int arr[], int l, int r){
+    int pivot = arr[r];
+    int i = l-1;
+    for(int j=1; j < r; ++j){
+        if(arr[j] < pivot)
+            swap(arr[++i], arr[j]);
+    }
+    swap(arr[i+1],arr[r]);
+    return i+1;
+}
