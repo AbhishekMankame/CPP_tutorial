@@ -18,6 +18,7 @@ Steps:
 - Swap if the left one is bigger.
 - Repeat until the list is sorted.
 
+Code Sketch:
 <pre> void bubbleSort(int arr[], int n){
     for(int i=0; i < n-1; ++i){
         for(int j=0; j < n-i-1; ++j){
@@ -34,3 +35,32 @@ Steps:
 
 ### Fun Fact:
 Bubble sort is so slow that professors usually use it to teach patience, not efficiency. 🐢
+
+### 2. Selection Sort 👑 (a.k.a. "The Pickiest Shopper")
+Storytime:
+Imagine you want to buy the cheapest apple first, then the second cheapest, then the third cheapest... and so on.
+
+Steps:
+- Find the smallest element.
+- Swap it with the first unsorted element.
+- Repeat for the rest.
+
+Code Sketch:
+<pre> void selectionSort(int arr[], int n){
+    for(int i=0; i < n-1; ++i){
+        int minIdx = i;
+        for(int j=i+1; j < n; j++){
+            if(arr[j] < arr[minIdx]){
+                minIdx = j;
+            }
+            swap(arr[i], arr[minIdx]);
+        }
+    }
+} </pre>
+
+### Time Complexity:
+- Always: O(n^2) (sad!)
+
+### Fun Fact:
+Selection sort does the fewer swaps than bubble sort.
+(But still, it's slower than m grandma with a shopping list.)
