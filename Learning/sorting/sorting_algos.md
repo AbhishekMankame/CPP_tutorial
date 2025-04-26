@@ -124,3 +124,17 @@ Code Sketch:
     while(j < n2)
         arr[k++] = right[j++];
 }
+
+void mergeSort(int arr[], int l, int r){
+    if(l >= r) return;
+    int m = l + (r-l)/2;
+    mergeSort(arr, l, m);
+    mergeSort(arr, m+1, r);
+    merge(arr, l, m, r);
+} </pre>
+
+### Time Complexity:
+- Always: O(n log n)
+
+### Fun Fact:
+Merge sort is stable (doesn't mix equal elements) and used in external sorting (huge data like 10GB files).
