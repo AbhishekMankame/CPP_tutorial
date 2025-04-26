@@ -41,3 +41,9 @@ Example:
  ### 🧮 Wait... what is log(n!) actually?  (Note: here it is log to the base 2)
  Using some fancy math (Stirling's Approximation):
     <b> log(n!) ~ n log n </b>
+
+So:
+- You need atleast n log n comparisons in the worst case!
+- Therefore, no matter how clever you are, if your method relies on comparisons, you can never beat O(n log n) for general sorting.
+
+Sorting is like solving a giant multiple-choice puzzle. You can't cheat physics. 🧠⚡
