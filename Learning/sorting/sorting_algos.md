@@ -64,3 +64,33 @@ Code Sketch:
 ### Fun Fact:
 Selection sort does the fewer swaps than bubble sort.
 (But still, it's slower than m grandma with a shopping list.)
+
+### 3. Insertion Sort ✍️ (a.k.a. "The Organized Nerd")
+Storytime:
+Imagine you're sorting cards in your hand:
+You pick one card at a time and insert it into the correct spot.
+
+Steps:
+- Take one element.
+- Insert it into the sorted left part.
+
+Code Sketch:
+<pre> void insertionSort(int arr[], int n){
+    for(int i = 1; i < n; ++i){
+        int key=arr[i];
+        int j = i-1;
+        while(j >= 0 && arr[j] > key) {
+            arr[j+1] = arr[j];
+            --j;
+        }
+        arr[j+1] = key;
+    }
+} </pre>
+
+### Time Complexity:
+- Worst: O(n^2)
+- Best (already sorted): O(n)
+
+### Fun Fact:
+Tiny arrays (like n <= 10) love insertion sort.
+In fact, many modern algorithms secretly use insertion sort for small cases! 🕵️
