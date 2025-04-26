@@ -24,9 +24,9 @@ Example:
 
  ### 🕵️ How Computers "Decide" the Order?
  Whenever a sorting algorithm runs, it basically plays a game:
- -> "Is A smaller than B?"
- -> "Is B smaller than C?"
- -> "Should I swap X and Y?"
+ - "Is A smaller than B?"
+ - "Is B smaller than C?"
+ - "Should I swap X and Y?"
 
  Each comparison gives one little piece of information.
  Like opening tiny clues one by one. 🔍
