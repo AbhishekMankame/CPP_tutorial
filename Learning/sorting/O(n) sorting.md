@@ -54,7 +54,7 @@ Sorting is like solving a giant multiple-choice puzzle. You can't cheat physics.
     - All numbers are bounded within a range
 - Then you can use Counting Sort, Radix Sort, or Bucket Sort...
 - And those CAN achieve O(n) under special conditions! 🚀
-But - they're not comparison-based, they're counting-based or digit-based sorting.
+But - they're not comparison-based, they're counting-based or digit-based sorting.<br>
 Different vibe! 🎵
 
 ### 🎬 TL;DR
