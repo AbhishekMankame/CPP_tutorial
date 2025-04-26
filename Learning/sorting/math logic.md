@@ -24,3 +24,14 @@ Since here L = n!,<br>
 thus:
 <pre> height >= log (n!)</pre>
 Meaning: at least log(n!) comparisons are needed in the worst case. 📈
+
+### 4. Simplifying log(n!)
+Now, using a cool math trick (Stirling's Approximation):
+<pre> n! == (n^n)*(e^(-n))*(sqrt(2*pi*n)) </pre>
+Taking log on both sides:
+<pre> log(n!) == n log n - n log e + (1/2)log(2*pi*n) </pre>
+Focus on the dominating term: <br>
+✔️ n log n is WAY bigger than the other terms for large n. <br>
+Thus:
+<pre> log(n!) = theta(n log n) </pre>
+(Theta means tightly bound - not just upper/lower)
