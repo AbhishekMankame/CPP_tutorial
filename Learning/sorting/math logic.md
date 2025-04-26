@@ -40,3 +40,12 @@ Thus:
 - Any comparison-based sorting must do at least n log n comparisons.
 - Thus, O(n) sorting by comparisons is impossible!
 ✅ QED. (quod erat demonstrandum = "thus it is proven.") 👨‍🏫🎯
+
+### 🎬 TL;DR Table
+| Stop | Idea |
+| ---- | ---- |
+| n elements -> n! possible orders | Explosion of possibilites |
+| Comparison sorting -> Binary yes/no tree |
+| Tree must have >= n! leaves | Must cover all possibilites |
+| Minimum height of tree = log(n!) | Number of comparisons |
+| log(n!) == N log n | Thus O(n log n) minimum |
