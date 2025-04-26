@@ -162,3 +162,18 @@ Code Sketch:
     swap(arr[i+1],arr[r]);
     return i+1;
 }
+
+void quickSort(int arr[], int l, int r){
+    if(l < r){
+        int p = partition(arr, l, r);
+        quickSort(arr, l, p-1);
+        quickSort(arr, p+1, r);
+    }
+} </pre>
+
+### Time Complexity:
+- Best: O(n log n)
+- Worst (bad pivot): 0(n^2) (rare if pivot is random)
+
+### Fun Fact:
+QuickSort is so sassy and fast that C++'s std::sort() is basically a modified QuickSort (intro sort) under the hood!
