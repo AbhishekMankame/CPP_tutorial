@@ -30,3 +30,14 @@ Example:
 
  Each comparison gives one little piece of information.
  Like opening tiny clues one by one. 🔍
+
+ ### ⚡ Here's the Bomb:
+ Each comparison can only give you YES or NO.
+ There's just 1 bit of information.
+ But to choose the correct order out of n! possibilities, you need enough YES/NO decisions to uniquely land on the right arrangement.
+ And mathematically, the minimum number of questions you need is about:
+ <pre> Minimum comparisons needed ~ log(n!) </pre>
+
+ ### 🧮 Wait... what is log(n!) actually?  (Note: here it is log to the base 2)
+ Using some fancy math (Stirling's Approximation):
+    <b> log(n!) ~ n log n </b>
