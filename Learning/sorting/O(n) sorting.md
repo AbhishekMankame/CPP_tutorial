@@ -19,4 +19,14 @@ Example:
  - 5 elements -> 120 orders
  - ...
  - 10 elements -> 3628800 ways!!! 😱
+ 
  n! is MASSIVE even for small n.
+
+ ### 🕵️ How Computers "Decide" the Order?
+ Whenever a sorting algorithm runs, it basically plays a game:
+ -> "Is A smaller than B?"
+ -> "Is B smaller than C?"
+ -> "Should I swap X and Y?"
+
+ Each comparison gives one little piece of information.
+ Like opening tiny clues one by one. 🔍
