@@ -20,8 +20,13 @@ In the array `{4, 2, 2, 8, 3, 3, 1}`, here's what we do:
 4. Count how many times 4 appears (once).
 5. Count how many times 8 appears (once).
 This is the frequency count for each number:
-<pre>1 -> 1 time
+<pre>
+1 -> 1 time
 2 -> 2 times
 3 -> 2 times
 4 -> 1 time
 8 -> 1 time </pre>
+
+In a count array, this looks like this:
+<pre> int count[] = {0, 1, 2, 2, 1, 0, 0, 0, 1}; </pre>
+Where the index represents the value, and the number at that index represents the frequency.
