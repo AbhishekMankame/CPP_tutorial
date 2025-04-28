@@ -81,3 +81,7 @@ void countingSort(int arr[], int n){
 Counting Sort is super efficient when:
 - You have a limited range of values.
 - You're working with integers and not comparing them (imagine sorting marks of students from 0 to 100, it works great!).
+
+### TL;DR:
+- Counting Sort is a coin-counter!🧮 It sorts by counting how many times a number appears, then it places them in order.
+- No Comparisons! O(n + k) time complexity. It's like sorting coins without even looking at their value!
