@@ -96,3 +96,10 @@ Imagine organizing a school dance competition:
 After these steps, you end up with the perfect lineup - WITHOUT anyone fighting about who's taller or who's cooler! 😂🎩👟<br>
 That's Radix Sort!<br>
 Sort by little parts -> gradually build the big order!
+
+### 📜 TL;DR:
+- Radix Sort sorts numbers digit-by-digit starting from the least significant digit.
+- It uses Counting Sort internally for each digit.
+- No comparisons between whole numbers - just looking at digits!
+- Super fast for small number ranges and lots of data.
+- Think of it as "sorting by small fields one at a time" - like postal codes, phone numbers, etc.
