@@ -38,3 +38,8 @@ For example:
 - Then, for 2 (which appears twice), you add two "2"s to the output.
 - Do the same for 3, 4, and 8.
 The result? A sorted array without any comparisons - it's like sorting effortlessly! 💪
+
+### Final Sorted Array:
+<pre> int sortedArr[]={1, 2, 2, 3, 3, 4, 8} </pre>
+
+Tada! ***Sorted without a single comparison. No "is 2 smaller than 3?" nonsense. Just pure counting.🎉***
