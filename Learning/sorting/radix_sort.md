@@ -86,3 +86,13 @@ Where:
 - d = number of digits in max number
 - n = number of elements
 - k = range of digits (0-9 for decimal)
+
+### Funny Analogy:
+Imagine organizing a school dance competition:
+1. First, arrange students by shoe size (smallest first).
+2. Then by hat size.
+3. Then by height.
+
+After these steps, you end up with the perfect lineup - WITHOUT anyone fighting about who's taller or who's cooler! 😂🎩👟<br>
+That's Radix Sort!<br>
+Sort by little parts -> gradually build the big order!
