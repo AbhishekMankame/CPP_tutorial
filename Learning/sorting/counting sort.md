@@ -103,6 +103,16 @@ Negative numbers? Uhh... Counting Sort gets confused like me trying to do taxes.
 1. Huge Space Gobbler (O(k)) 🏰 If your numbers have range (like sorting ages between 1 and 1000000), you'll need a count array of size 1 million!🏰<br>
 Counting Sort's brain melts if the maximum value is way too big compared to the number of elements.<br>
 It becomes like renting an entire stadium to host just 5 people. 🏟️ (Massive waste!)
+2. Only for Integers (and small-ish integers) 🔢
+Counting Sort hates floating points (3.14, 2.718, etc.) and strings (unless you cleverly encode them).<br>
+It's like asking a fish to climb a tree. 🐟🌳 (Just... no.)
+3. Bad for Sparse Data 🕳️
+If you have numbers like `{1, 5000, 1000000}, Couting Sort cries. 😭<br>
+You'll create a HUGE array just to store three numbers.<br>
+Massive space wastage + Sad algorithm = No thanks.
+4. Not a General-purpose Sort 🔧
+For general sorting problems (especially with unknown or big ranges), Counting Sort loses to other algorithms like Merge Sort or Quick Sort.<br>
+Counting Sort is more like a specialized tool, not an all-rounder.
 
 ### TL;DR:
 - Counting Sort is a coin-counter!🧮 It sorts by counting how many times a number appears, then it places them in order.
