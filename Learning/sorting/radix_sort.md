@@ -45,6 +45,7 @@ After sorting by ones place:
 <pre> 170, 90, 802, 2, 24, 45, 75, 66</pre>
 
 - Pass 2: Sort by Tens Place
+
 | Tens digit | Numbers |
 | ---------- | ------- |
 | 0 | 2, 802 |
