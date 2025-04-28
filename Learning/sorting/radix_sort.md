@@ -108,3 +108,9 @@ Sort by little parts -> gradually build the big order!
 In interviews, if someone asks you
 <pre> "Can you sort without comparing numbers directly?" </pre>
 💥 Drop the Radix Sort bomb! 💥
+
+### Some points to remember
+- Use arrays for counting & output for easy memnory management.
+- Counting Sort must be stable, otherwise Radix Sort fails
+- If numbers are too big (like billion+), Radix Sort might get slower compared to Quick Sort.
+- Radix Sort shines when numbers are short, many, and have limited digit length.
