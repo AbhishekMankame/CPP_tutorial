@@ -98,6 +98,12 @@ Simple, sweet, and no drama.
 Since it's based on array indexing, it naturally loves non-negative integers.<br>
 Negative numbers? Uhh... Counting Sort gets confused like me trying to do taxes. 😵 (but can be handled with tweaks)
 
+### 😩 Disadvantages (Counting Sort's Secret Flaws)
+(Yes, even superheroes have weeknesses...👀)
+1. Huge Space Gobbler (O(k)) 🏰 If your numbers have range (like sorting ages between 1 and 1000000), you'll need a count array of size 1 million!🏰<br>
+Counting Sort's brain melts if the maximum value is way too big compared to the number of elements.<br>
+It becomes like renting an entire stadium to host just 5 people. 🏟️ (Massive waste!)
+
 ### TL;DR:
 - Counting Sort is a coin-counter!🧮 It sorts by counting how many times a number appears, then it places them in order.
 - No Comparisons! O(n + k) time complexity. It's like sorting coins without even looking at their value!
