@@ -40,3 +40,13 @@ using namespace std;
         arr[i] = output[i];
     }
  }
+
+ // Main Radix Sort function
+ void radixSort(int arr[], int n){
+    int maxElement = getMax(arr, n);
+
+    // Do counting sort for every digit (exp = 1, 10, 100, 1000, ...)
+    for(int exp = 1; maxElement/exp > 0; exp *= 10){
+        countingSort(arr, n, exp);
+    }
+ }
