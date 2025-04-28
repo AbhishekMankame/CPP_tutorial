@@ -34,6 +34,7 @@ Then move to tens place... then hundreds place... and so on!
 Sort `[170, 45, 75, 90, 802, 24, 2, 66]`
 - Pass 1: Sort by Ones Place<br>
 (numbers ending digits)
+
 | Ones digit | Numbers |
 | ---------- | ------- |
 | 0 | 170, 90 |
@@ -41,6 +42,7 @@ Sort `[170, 45, 75, 90, 802, 24, 2, 66]`
 | 4 | 24 |
 | 5 | 45, 75 |
 | 6 | 66 |
+
 After sorting by ones place:
 <pre> 170, 90, 802, 2, 24, 45, 75, 66</pre>
 
