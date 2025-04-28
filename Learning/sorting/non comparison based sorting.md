@@ -86,6 +86,17 @@ Counting Sort is super efficient when:
 1. Super Sonic Speed (O(n + k)) 🚀
     Counting Sort is like The Flash of sorting algorithms - when conditions are right (small range of numbers), it can sort faster than a rocket launch.<br>
     No messy comparisons, no "Is 5 bigger than 6?"... just pure counting action.
+2. Stable Sorting 🧘‍♂️ Counting Sort is the calm monk of sorting. It preserves the order of elements that are equal.<br>
+Imagine sorting people by age, and two people aged 25 still keep their original friendship order.👫
+3. Great for Limited Range Number 🎯 If you're sorting numbers like 0 to 100 (think exam scores, ages, numbers of cookies 🍪 you eat daily), Counting Sort is perfect.<br>
+You don't need to reinvent the wheel when you have this simple and super effective method.
+4. No Brain Power Needed (no comparisons) 🧠
+You don't need to be Sherlock Holmes and compare every element.<br>
+It's like: "Hey, just count how many!" -> Done ✅<br>
+Simple, sweet, and no drama.
+5. Perfect for Non-negative Integers 🧸
+Since it's based on array indexing, it naturally loves non-negative integers.<br>
+Negative numbers? Uhh... Counting Sort gets confused like me trying to do taxes. 😵 (but can be handled with tweaks)
 
 ### TL;DR:
 - Counting Sort is a coin-counter!🧮 It sorts by counting how many times a number appears, then it places them in order.
