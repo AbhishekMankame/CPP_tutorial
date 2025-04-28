@@ -118,7 +118,7 @@ Counting Sort is more like a specialized tool, not an all-rounder.
 | Category | Couting Sort |
 | -------- | ------------ |
 | Speed | 🚀 When range is small, it's a beast |
-| Stability | 🧘‍♂️ Zem Master (keeps equal elements in order) |
+| Stability | 🧘‍♂️ Zen Master (keeps equal elements in order) |
 | Memory Usage | 🏰 Stadium level (can be bad!) |
 | Data Type | Loves non-negative integers only |
 | Best For | 🎯 Small range, lots of elements |
@@ -126,3 +126,6 @@ Counting Sort is more like a specialized tool, not an all-rounder.
 ### TL;DR:
 - Counting Sort is a coin-counter!🧮 It sorts by counting how many times a number appears, then it places them in order.
 - No Comparisons! O(n + k) time complexity. It's like sorting coins without even looking at their value!
+- Super effective when your numbers are small and non-negative.
+- But careful! It eats memory if the range is too big and doesn't like floats or strings.
+- Think of it as a snipper, not a general soldier.🎯 
