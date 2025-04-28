@@ -17,6 +17,7 @@ Instead of comparing numbers like 170 vs 45, we first look only at the ones plac
 | 24 | 4 |
 | 2 | 2 |
 | 66 | 6 |
+
 Now sort based on ones place!<br>
 Then move to tens place... then hundreds place... and so on!
 
