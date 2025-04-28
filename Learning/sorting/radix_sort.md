@@ -59,3 +59,16 @@ After sorting by ones place:
 
 After sorting by tens place:
 <pre> 2, 802, 24,45, 66, 75, 170, 90</pre>
+
+- Pass 3: Sort by Hundreds Place
+
+| Hundreds digit | Numbers |
+| -------------- | ------- |
+| 0 | 2, 24, 45, 66, 75. 90 |
+| 1 | 170 |
+| 8 | 802 |
+
+After sorting by hundreds place:
+<pre>2, 24, 45, 66, 75, 90, 170, 802</pre>
+Ta-Da! Fully Sorted!<br>
+NO COMPARISONS between numbers! Only digits!
