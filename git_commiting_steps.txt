@@ -1,0 +1,26 @@
+# 1. Go to your project folder
+cd path/to/your/project
+
+# 2. (Optional) Initialize git if not already initialized
+git init
+
+# 3. (Only once) Add remote repository
+git remote add origin https://github.com/your-username/your-repo-name.git
+
+# 4. (Optional) Rename branch to main (only once)
+git branch -M main
+
+# 5. Check status
+git status
+
+# 6. Add changes
+git add .
+
+# 7. Commit changes
+git commit -m "Your meaningful commit message"
+
+# 8. Pull latest changes from GitHub to avoid conflicts
+git pull origin main --rebase
+
+# 9. Push changes to GitHub
+git push -u origin main
