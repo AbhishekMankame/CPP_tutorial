@@ -33,7 +33,7 @@ Then move to tens place... then hundreds place... and so on!
 ### LIVE EXAMPLE:
 Sort `[170, 45, 75, 90, 802, 24, 2, 66]`
 - Pass 1: Sort by Ones Place<br>
-(numbers ending digits)
+(numbers ending digits)<br>
 
 | Ones digit | Numbers |
 | ---------- | ------- |
