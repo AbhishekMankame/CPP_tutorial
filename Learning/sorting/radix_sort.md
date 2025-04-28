@@ -70,5 +70,19 @@ After sorting by tens place:
 
 After sorting by hundreds place:
 <pre>2, 24, 45, 66, 75, 90, 170, 802</pre>
-Ta-Da! Fully Sorted!<br>
+Ta-Da! Fully Sorted! 🎉<br>
 NO COMPARISONS between numbers! Only digits!
+
+### 🚀 Radix Sort: Summary
+
+| Property | Value |
+| -------- | ----- |
+| Time Complexity | O(d*(n + k)) |
+| Space Complexity | O(n + k) |
+| Stable | Yes ✅ |
+| Comparison based? | No ❌ |
+
+Where:
+- d = number of digits in max number
+- n = number of elements
+- k = range of digits (0-9 for decimal)
