@@ -17,3 +17,28 @@ Instead of comparing numbers like 170 vs 45, we first look only at the ones plac
 | 24 | 4 |
 | 2 | 2 |
 | 66 | 6 |
+Now sort based on ones place!<br>
+Then move to tens place... then hundreds place... and so on!
+
+### 🎉Step-by-Step: The Dance Floor Moves
+1. Find the maximum number - to know how many digits we need to process.<br>
+(Ex: `802` -> 3 digits)
+2. For each digit place (1s, 10s, 100s...):
+- Apply Counting Sort based on that digit:
+
+#### 💥Key Secret:
+<pre> We must use Stable Sorting (like Counting Sort) so that order of equal digits stays same when moving to next digit!</pre>
+
+### LIVE EXAMPLE:
+Sort `[170, 45, 75, 90, 802, 24, 2, 66]`
+- Pass 1: Sort by Ones Place<br>
+(numbers ending digits)
+| Ones digit | Numbers |
+| ---------- | ------- |
+| 0 | 170, 90 |
+| 2 | 802, 2 |
+| 4 | 24 |
+| 5 | 45, 75 |
+| 6 | 66 |
+After sorting by ones place:
+<pre> 170, 90, 802, 2, 24, 45, 75, 66 <pre>
