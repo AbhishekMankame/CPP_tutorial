@@ -30,3 +30,11 @@ This is the frequency count for each number:
 In a count array, this looks like this:
 <pre> int count[] = {0, 1, 2, 2, 1, 0, 0, 0, 1}; </pre>
 Where the index represents the value, and the number at that index represents the frequency.
+
+### Step 2: Place the Numbers Back in the Sorted Array
+Now, instead of comparing the numbers, we use the counts to rebuild the sorted array. This is like lining people up by heights, but based on how many of each size you have in your party!<br>
+For example:
+- You start with the smallest number (1). Since it appears once, you put one "1" in the output array.
+- Then, for 2 (which appears twice), you add two "2"s to the output.
+- Do the same for 3, 4, and 8.
+The result? A sorted array without any comparisons - it's like sorting effortlessly! 💪
