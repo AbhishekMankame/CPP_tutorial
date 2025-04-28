@@ -43,6 +43,7 @@ Sort `[170, 45, 75, 90, 802, 24, 2, 66]`
 | 6 | 66 |
 After sorting by ones place:
 <pre> 170, 90, 802, 2, 24, 45, 75, 66</pre>
+
 - Pass 2: Sort by Tens Place
 | Tens digit | Numbers |
 | ---------- | ------- |
