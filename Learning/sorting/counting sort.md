@@ -114,6 +114,15 @@ Massive space wastage + Sad algorithm = No thanks.
 For general sorting problems (especially with unknown or big ranges), Counting Sort loses to other algorithms like Merge Sort or Quick Sort.<br>
 Counting Sort is more like a specialized tool, not an all-rounder.
 
+### 🧠 Final Funny Sumamry
+| Category | Couting Sort |
+| -------- | ------------ |
+| Speed | 🚀 When range is small, it's a beast |
+| Stability | 🧘‍♂️ Zem Master (keeps equal elements in order) |
+| Memory Usage | 🏰 Stadium level (can be bad!) |
+| Data Type | Loves non-negative integers only |
+| Best For | 🎯 Small range, lots of elements |
+
 ### TL;DR:
 - Counting Sort is a coin-counter!🧮 It sorts by counting how many times a number appears, then it places them in order.
 - No Comparisons! O(n + k) time complexity. It's like sorting coins without even looking at their value!
