@@ -76,3 +76,8 @@ void countingSort(int arr[], int n){
 - No comparisons! It's like playing a game where you don't need to check who's taller. You just count how many times they've shown up. 😎
 - Counting Sort is super fast when the range of numbers is small. But... don't try using it for sorting something like names or floating point numbers. It's made for integers with small ranges.
 - Space Complexity: It needs an extra array (the counting array), so if you have a lot of distinct numbers, your space usage could grow. But it's O(n + k), where n is the number of elements, and k is the range of values.
+
+### Use Case:
+Counting Sort is super efficient when:
+- You have a limited range of values.
+- You're working with integers and not comparing them (imagine sorting marks of students from 0 to 100, it works great!).
