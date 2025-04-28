@@ -103,3 +103,8 @@ Sort by little parts -> gradually build the big order!
 - No comparisons between whole numbers - just looking at digits!
 - Super fast for small number ranges and lots of data.
 - Think of it as "sorting by small fields one at a time" - like postal codes, phone numbers, etc.
+
+### 📢 Bonus Tip:
+In interviews, if someone asks you
+<pre> "Can you sort without comparing numbers directly?" </pre>
+💥 Drop the Radix Sort bomb! 💥
