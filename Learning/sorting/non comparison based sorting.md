@@ -43,3 +43,31 @@ The result? A sorted array without any comparisons - it's like sorting effortles
 <pre> int sortedArr[]={1, 2, 2, 3, 3, 4, 8} </pre>
 
 Tada! ***Sorted without a single comparison. No "is 2 smaller than 3?" nonsense. Just pure counting.🎉***
+
+### Step 3: Adjust for Output
+Once the counting is done, you can rebuild the original array using the frequency array. Just start placing elements in their new sorted positions.<br>
+Here's what the code might look like in action:
+
+### Code Snippet
+<pre>
+void countingSort(int arr[], int n){
+    // Step 1: Find the maximum value in the array
+    int max = *max_element(arr, arr + n);
+
+    // Step 2: Create the count array and initialize it
+    int count[max + 1] = {0}; // Create a count array of size (max + 1)
+
+    // Step 3: Count the frequency of each number in the array
+    for(int i = 0; i < n; i++){
+        count[arr[i]]++;
+    }
+
+    // Step 4: Reconstruct the sorted array
+    int index = 0;
+    for(int i = 0; i <= max; i++){
+        while(count[i]>0){
+            arr[index++] = i;
+            count[i]--;
+        }
+    }
+} </pre>
