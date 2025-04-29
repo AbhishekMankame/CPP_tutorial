@@ -60,3 +60,9 @@ int fib(int n){
     }
     return b;
 } </pre>
+
+### 🎉Bob is now:
+- Lazy ✅
+- Efficient ✅
+- Happy ✅
+- And rich (turtles are selling like NFTs)🐢💰
