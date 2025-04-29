@@ -38,3 +38,7 @@ Like Bob starting from the whole week and breaking it down:
  - Solving complex problems by breaking them into smaller subproblems.
  - Solving each subproblem only once, and storing its result.
  - Reusing stored results to avoild redundant work.
+
+ ### 🔥 Bonus Joke
+ Why did Bob break up with his girlfriend?
+ <pre> Because she kept bringing up past issues he had already memoized! 😆</pre>
