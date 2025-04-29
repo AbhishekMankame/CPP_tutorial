@@ -61,3 +61,13 @@ Since numbers are between `0` and `1`, make 10 buckets (`bucket index = value * 
 | Worst | O(n^2) if all land into 1 bucket (sad party💔) |
 
 (where `k` = number of buckets)
+
+### ⚡Advantages:
+✅ Faster than O(n log n) for uniformy distributed data. <br>
+✅ Super simple to implement when conditions are right.<br>
+✅ Great for floating point numbers or fixed range numbers.
+
+### ⚡Disadvantages:
+❌ Needs extra space for buckets. <br>
+❌ Not efficient when data is not uniformy distributed. <br>
+❌ Choosing wrong number of buckets = 💥disaster!
