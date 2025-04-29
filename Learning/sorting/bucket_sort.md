@@ -71,3 +71,10 @@ Since numbers are between `0` and `1`, make 10 buckets (`bucket index = value * 
 ❌ Needs extra space for buckets. <br>
 ❌ Not efficient when data is not uniformy distributed. <br>
 ❌ Choosing wrong number of buckets = 💥disaster!
+
+### 📸 Full Funny Picture:
+Imagine Bucket Sort like a wedding photoshoot:
+- You have short people, tall people, and medium people.
+- Photographer makes groups: "Shorties here! Giants there!" 📸
+- Inside each group, organize nicely.
+- Then click final majestic photo = Sorted Array!
