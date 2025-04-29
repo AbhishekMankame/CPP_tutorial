@@ -13,3 +13,14 @@ Let's say he's at house `i`. He has two choices:
 
 So the recurrence becomes:
 <pre>dp[i] = max(dp[i-1], nums[i] + dp[i-2]) </pre>
+
+### 🧾 Let's See an Example:
+<pre> Houses: [2, 7, 9, 3, 1] </pre>
+Bob's plan:
+
+- House 0: Rob 2
+- House 1: Max(2, 7) = 7
+- House 2: Max(7, 9+2) = 11
+- House 3: Max(11, 3+7) = 10
+- Houes 4: Max(11, 11+1) = 12<br>
+So Bob can steal $12 safely 💸
