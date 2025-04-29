@@ -52,3 +52,12 @@ Since numbers are between `0` and `1`, make 10 buckets (`bucket index = value * 
 3. Distribute elements into appropriate buckets.
 4. Sort each bucket individually (Insertion Sort is usually used inside!).
 5. Concatenate all buckets back to a single array.
+
+### 🚀Time Complexity:
+| Case | Time |
+| ---- | ---- |
+| Best | O(n + k) |
+| Average | O(n + k) |
+| Worst | O(n^2) if all land into 1 bucket (sad party💔) |
+
+(where `k` = number of buckets)
