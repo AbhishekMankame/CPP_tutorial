@@ -33,3 +33,8 @@ Like Bob starting from the whole week and breaking it down:
  -  And so on...
 
  Both are good. Bob doesn't care - he just doesn't want to repeat himself.
+
+ ### 🤯 TL;DR - Dynamic Programming is:
+ - Solving complex problems by breaking them into smaller subproblems.
+ - Solving each subproblem only once, and storing its result.
+ - Reusing stored results to avoild redundant work.
