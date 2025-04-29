@@ -78,3 +78,6 @@ Imagine Bucket Sort like a wedding photoshoot:
 - Photographer makes groups: "Shorties here! Giants there!" 📸
 - Inside each group, organize nicely.
 - Then click final majestic photo = Sorted Array!
+
+### 🧠Mind-Blowing Summary:
+<pre> Bucket Sort organizes elements into multiple smaller groups ("buckets") based on their value ranges, sorts each group individually, and then combines them to get a fully sorted array. It's like hosting a pool party where friends are grouped by height, chilled, and finally lined up for the best summer selfie!🌴📸✨
