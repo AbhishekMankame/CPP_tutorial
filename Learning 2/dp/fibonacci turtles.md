@@ -22,3 +22,15 @@ BUT... when he tires to calculate `fib(50)`, his PC explodes 💥<br>
 Why? Because it recalculates the same valies a bazillion times!<br>
 Bob (after seeing a million `fib(3)` calls):
 <pre>"I'm not doing this again. I'm too lazy for this nonsense."</pre>
+
+### 🧠 The Smart Bob - Memoization Style
+Bob grabs sticky notes 🗒️ and stick them to the fridge:
+<pre>
+int memo[1000]; // big enough
+
+int fib(int n){
+    if(n <= 1) return n;
+    if(memo[n]!=0) return memo[n];
+    return memo[n] = fib(n-1) + fib(n-2);
+} </pre>
+Now every value is calculated once, and Bob's computer stays happy 😌
