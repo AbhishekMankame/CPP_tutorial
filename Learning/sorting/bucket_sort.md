@@ -45,3 +45,10 @@ Since numbers are between `0` and `1`, make 10 buckets (`bucket index = value * 
 ✅ Sort inside each bucket if needed (tiny sorting like Insertion Sort ✅)<br>
 ✅ Join buckets one after another ➡️ Sorted Array!
 <pre> Sorted: 0.12, 0.23, 0.34, 0.38, 0.45, 0.67, 0.89</pre>
+
+### 🛠️ C++ -ish Steps:
+1. Find maximum and minimum values to understand range.
+2. Create an array of buckets.
+3. Distribute elements into appropriate buckets.
+4. Sort each bucket individually (Insertion Sort is usually used inside!).
+5. Concatenate all buckets back to a single array.
