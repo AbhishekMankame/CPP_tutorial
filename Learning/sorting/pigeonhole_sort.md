@@ -66,3 +66,11 @@ int main(){
 | Stable | ✅ Can be made stable |
 | In-place | ❌ (Needs extra space for holes) |
 | Best Use Case | When range ~ n |
+
+### ⚠️ Limitations:
+- If range is much larger than `n`, it's wasteful (imagine 5 pigeons but 10000 😵).
+- Needs extra space - not good for memory-sensitive tasks.
+
+### 🪄 TL;DR Fun Wrap:
+<pre>
+"If each value gets its own cozy pigeonhole and values aren't flying all over the place (i.e. range is tight), then Pigeonhole Sort swoops in and gets the job done fast and feathery!" 🕊️✨
