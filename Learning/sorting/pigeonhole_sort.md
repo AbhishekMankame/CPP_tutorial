@@ -13,3 +13,31 @@ Let's say we have a class of kids aged between 10 and 15:
 We create holes (buckets) labeled 10 to 15 and ask each kid to sit in their corresponding age hole.<br>
 Once all kids are in, we ask them to come out in order from hole 10 to 15.<br>
 Boom 💥- sorted ages!
+
+### 💻 C++ Code:
+<pre>
+void pigeonholeSort(int arr[], int n){
+    // Step 1: Find min and max
+    int minVal = arr[0], minVal = arr[0];
+    for(int i=1;i < n; i++){
+        if(arr[i] < minVal) minVal = arr[i];
+        if(arr[i] > maxVal) maxVal = arr[i];
+    }
+    int range = maxVal - minVal + 1;
+
+    // Step 2: Create pigeonholes
+    int holes[range] = {0};
+
+    // Step 3: Put the pigeons in holes 🕊️
+    for(int i = 0; i < n; i++){
+        holes[arr[i] - minVal]++;
+    }
+
+    // Step 4: Pull pigeons out in order
+    int index = 0;
+    for(int i=0; i< range; i++){
+        while(holes[i] --> 0){
+            arr[index++] = i + minVal;
+        }
+    }
+}
