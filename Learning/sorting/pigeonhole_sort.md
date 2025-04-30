@@ -41,3 +41,18 @@ void pigeonholeSort(int arr[], int n){
         }
     }
 }
+
+int main(){
+    int arr[] = {8, 3, 2, 7, 4, 6, 8, 5};
+    int n = sizeof(arr) / sizeof(arr[0]);
+
+    cout<<"Original array: ";
+    for (int i = 0; i < n; i++) cout << arr[i] << " ";
+
+    pigeonholeSort(arr, n);
+
+    cout << "\nSorted array: ";
+    for (int i = 0; i < n; i++) cout << arr[i] << " ";
+    cout << endl;
+    return 0;
+}
