@@ -56,3 +56,13 @@ int main(){
     cout << endl;
     return 0;
 }
+</pre>
+
+### ✅ Summary Table
+| Property | Value |
+| -------- | ----- |
+| Time Complexity | O(n + range) |
+| Space | O(range) |
+| Stable | ✅ Can be made stable |
+| In-place | ❌ (Needs extra space for holes) |
+| Best Use Case | When range ~ n |
