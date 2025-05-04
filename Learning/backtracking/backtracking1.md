@@ -37,4 +37,11 @@ void generateSubsets(string str, string current, int index) {
     // Choice 2: Exclude this character (backtrack!)
     generateSubsets(str, current, index + 1);
 }
+
+int main(){
+    string str = "abc";
+    cout<< "All subsets of "\" << str << "\":" << endl;
+    generateSubsets(str, "", 0);
+    return 0;
+}
 </pre>
