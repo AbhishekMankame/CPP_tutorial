@@ -57,3 +57,8 @@ int main(){
 "c"
 ""
 </pre>
+Each time we include or exclude a character, we go deeper down the rabbit hole, and when we reach the end - we backtrack like a dramatic soap opera twist 🎭.
+
+### 🔥TL;DR in Sass Mode:
+<pre>
+Backtrack is like trying to pick an outfit for a party. You try a shirt, nah. Try pants, nope. Then that glitter jacket? Maybe. If it's not working, you strip it all off and try something else - until you slay 💃🔥</pre>
