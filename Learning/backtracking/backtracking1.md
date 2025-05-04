@@ -45,3 +45,15 @@ int main(){
     return 0;
 }
 </pre>
+
+### 🧵 Output:
+<pre>
+"abc"
+"ab"
+"ac"
+"a"
+"bc"
+"b"
+"c"
+""
+</pre>
