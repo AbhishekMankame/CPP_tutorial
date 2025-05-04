@@ -21,3 +21,20 @@ Backtracking goes like this:
 - Undo 🍄, try 🧀
     - Add 🌶️ → 🧀🌶️ ✅
 You don't try 🧀🍄again - that's already covered! Backtracking avoids that kind of redundancy like a good ex.
+
+### 🧑‍💻Classic Example - Subsets Generator:
+Let's write a simple C++ code to generate all subsets of a string using backtracking:
+<pre>
+void generateSubsets(string str, string current, int index) {
+    if(index == str.length()) {
+        cout << "\" << current << "\" << endl;
+        return;
+    }
+
+    // Choice 1: Include this character
+    generateSubsets(str, current + str[index], index + 1);
+
+    // Choice 2: Exclude this character (backtrack!)
+    generateSubsets(str, current, index + 1);
+}
+</pre>
