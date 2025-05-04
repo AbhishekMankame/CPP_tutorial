@@ -61,10 +61,10 @@ int main(){
 ### ✅ Summary Table
 | Property | Value |
 | -------- | ----- |
-| Time Complexity | O(n + range) |
-| Space | O(range) |
-| Stable | ✅ Can be made stable |
-| In-place | ❌ (Needs extra space for holes) |
+| Time Complexity | O(n + range) - Super fast if birds stay near each other |
+| Space | O(range) - Need 1 cage per possible bird |
+| Stable | ✅ Can be made stable - Yes but only if you build extra cages like a bird hotel 🏨|
+| In-place | ❌ (Needs extra space for holes) - Not stable, we literally built cages!|
 | Best Use Case | When range ~ n |
 
 ### ⚠️ Limitations:
@@ -73,4 +73,5 @@ int main(){
 
 ### 🪄 TL;DR Fun Wrap:
 <pre>
-"If each value gets its own cozy pigeonhole and values aren't flying all over the place (i.e. range is tight), then Pigeonhole Sort swoops in and gets the job done fast and feathery!" 🕊️✨
+"If each value gets its own cozy pigeonhole and values aren't flying all over the place (i.e. range is tight), then Pigeonhole Sort swoops in and gets the job done fast and feathery!" 🕊️✨ </pre>
+
