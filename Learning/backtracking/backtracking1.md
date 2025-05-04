@@ -11,3 +11,13 @@ Backtracking is a general algorithmic technique that tries out all possible opti
 1. Choose: Pick one possible choice.
 2. Explore: Dive deeper assuming this was the correct choice.
 3. Un-choose (BACKTRACK): If it fails, undo the choice and try the next option.
+
+### 🍕 Let's See a Fun Example:
+You want to order a pizza with 2 toppings out of [🍄, 🧀, 🌶️].<br>
+Backtracking goes like this:
+- Choose 🍄
+    - Add 🧀 → 🍄🧀 ✅
+    - Add 🌶️ → 🍄🌶️ ✅
+- Undo 🍄, try 🧀
+    - Add 🌶️ → 🧀🌶️ ✅
+You don't try 🧀🍄again - that's already covered! Backtracking avoids that kind of redundancy like a good ex.
