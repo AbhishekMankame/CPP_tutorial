@@ -10,6 +10,7 @@ std::vector<std::pair<int, int>> guests = {
     {1,5}, {2,6}, {4,7}
 };
 </pre>
+
 We convert each guest into two events:
 - `(arrival_time, +1)` -> Someone enters 🚶
 - `(departure_time, -1)` -> Someone leaves 👋
