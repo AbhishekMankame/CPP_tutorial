@@ -17,3 +17,21 @@ We convert each guest into two events:
 
 ### 🧹The Sweep
 We sort all these events by time and walk through them in order, updating the guest count:
+
+<pre>
+std::vector<std::pair<int, int>> events;
+
+for(auto g : guests) {
+    events.push_back({g.first, +1});
+    events.push_back({g.second, -1});
+}
+
+std::sort(events.begin(), events.end());
+
+int maxGuests = 0, currentGuests = 0;
+
+for(auto e : events) {
+    currentGuests += e.second;
+    maxGuests = std::max(maxGuests, currentGuests);
+}
+</pre>
