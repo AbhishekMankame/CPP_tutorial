@@ -14,3 +14,6 @@ std::vector<std::pair<int, int>> guests = {
 We convert each guest into two events:
 - `(arrival_time, +1)` -> Someone enters 🚶
 - `(departure_time, -1)` -> Someone leaves 👋
+
+### 🧹The Sweep
+We sort all these events by time and walk through them in order, updating the guest count:
