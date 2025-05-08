@@ -39,3 +39,10 @@ for(auto e : events) {
 ### 🏆 Result
 <pre>
 Maximum celebrities on the red carpet at once: 3</pre>
+
+### 💡 Why it's cool
+The Sweep Line Algorithm is incredibly useful for:
+- Finding overlaps in intervals (events, guests, bookings)
+- Building skylines from the building outlines 🏙️
+- Detecting segement intersections ✂️
+It's fast, elegant, and makes you feel like a red carpet logistics wizard! 🪄
