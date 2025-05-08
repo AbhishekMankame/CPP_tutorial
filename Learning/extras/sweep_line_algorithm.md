@@ -35,3 +35,7 @@ for(auto e : events) {
     maxGuests = std::max(maxGuests, currentGuests);
 }
 </pre>
+
+### 🏆 Result
+<pre>
+Maximum celebrities on the red carpet at once: 3</pre>
