@@ -12,3 +12,23 @@ Imagine everyone in a room starts as their own little friend circle (singleton s
 - We merge circles (`union`)
 - Later, we can check if two people are somehow connected (`find`) <br>
 Over time, friend circles grow, and you want to check who belongs to which.
+
+### 🔧 Basic Code (with Path Compression + Union by Rank)
+<pre>
+class DSU {
+public:
+    std::vector<int> parent, rank;
+
+    DSU(int n){
+        parent.resize(n);
+        rank.resize(n, 0);
+        for(int i=0;i < n; ++i) parent[i] = i;
+    }
+
+    int find(int x){
+        if(parent[x]!=x){
+            parent[x] = find(parent[x]); //Path Compression
+        return parent[x];
+        }
+    }
+}
