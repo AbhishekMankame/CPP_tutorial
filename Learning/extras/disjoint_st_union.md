@@ -17,7 +17,7 @@ Over time, friend circles grow, and you want to check who belongs to which.
 <pre>
 class DSU {
 public:
-    std::vector<int> parent, rank;
+    std::vector< int > parent, rank;
 
     DSU(int n){
         parent.resize(n);
