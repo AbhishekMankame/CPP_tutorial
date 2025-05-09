@@ -47,3 +47,6 @@ public:
     }
 };
 </pre>
+
+### ⚡️Time Complexity:
+- Each `find` and `union` operation runs in O(a(N)), where `a` is the inverse Ackermann function -> practically constant.
