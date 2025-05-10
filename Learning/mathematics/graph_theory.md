@@ -22,3 +22,11 @@ So `Edges = 6 / 2 = 3`
 ### 🧠 Used in:
 - Checking if your input graph makes sense
 - Finding how many edges exist just by counting degrees
+
+### 🌳 2. Trees: "Connected but Drama-Free"
+<pre>A tree is a friend circle where everyone is connected, but no drama loops (a.k.a. cycles) exist.</pre>
+📏 Maths Facts:
+
+- Tree with `N` nodes han `N - 1` edges
+- If edges >= N --> somebody is spreading rumors (a cycle exists!)<br>
+🌴Think of it like a drama-free Whatsapp group: no backstabbing, no love triangles, just direct messaging only.
