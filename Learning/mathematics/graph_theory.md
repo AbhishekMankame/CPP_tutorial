@@ -34,4 +34,14 @@ So `Edges = 6 / 2 = 3`
 <pre> If everyone is chatting, but only with people in their clique (group), how many groups are there? </pre>
 👯‍♀️ Each connected component is a seperate freind group.<br>
 In code: use DFS or BFS to visit all friends in a group.<br>
-In real life: that one corner of the party where no one mingles with others 😆
+In real life: that one corner of the party where no one mingles with others 😆<br>
+If your graph has:
+
+- 7 nodes
+- 3 groups of friends<br>
+Then minimum edges required = `N - C = 7 - 3 = 4` <br>
+💡Used in:
+
+- Island problems 🏝️
+- Friend circles 🤝
+- Counting how many groups in a graph
