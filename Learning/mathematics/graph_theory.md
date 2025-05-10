@@ -30,3 +30,8 @@ So `Edges = 6 / 2 = 3`
 - Tree with `N` nodes han `N - 1` edges
 - If edges >= N --> somebody is spreading rumors (a cycle exists!)<br>
 🌴Think of it like a drama-free Whatsapp group: no backstabbing, no love triangles, just direct messaging only.
+### 🔌3. Connected Components: "How many cliques are in the party?"
+<pre> If everyone is chatting, but only with people in their clique (group), how many groups are there? </pre>
+👯‍♀️ Each connected component is a seperate freind group.<br>
+In code: use DFS or BFS to visit all friends in a group.<br>
+In real life: that one corner of the party where no one mingles with others 😆
