@@ -20,3 +20,12 @@ Let's see how fast it grows:
 | 3 | 2 | 29 |
 | 4 | 1 | 65533 |
 | 4 | 2 | AHHHHH 😱 |
+
+Even calculating `A(4, 2)` would basically make your laptop melt into a puddle.
+
+### 🧩 Where It's actually useful
+- The inverse Ackermann function (a(n)) shows up in:
+    - Disjoint Set Union (DSU)
+    - Some range-query data structures
+- Surprisingly, a(n) <= 5 for all practical `n` values (even up to the number of atoms in the universe 😅).<br>
+So, when we say DSU runs in O(a(n)), it's almost O(1) - which is why DSU is so fast.
