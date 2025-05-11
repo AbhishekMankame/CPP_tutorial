@@ -13,7 +13,7 @@ int largestSubarraySum(int arr[], int n){
     int largest_sum = 0;
     for(int i=0; i<n; i++){
         for(int j=i;j<n;j++){
-            int subarraySum = prefix[j] - prefix[i-1];
+            int subarraySum = i > 0 ? prefix[j] - prefix[i-1] : prefix[j];
             largest_sum = max(largest_sum,subarraySum);
         }
     }
