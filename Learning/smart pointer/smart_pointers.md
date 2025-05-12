@@ -15,4 +15,9 @@ There are 3 main types:<br>
 - Automatically deletes the object when it goes out of scope.
 - Cannot be copied (but can be moved).
 <pre>
-#include<\iostream>
+#include<`iostream`>
+#include<`memory`>
+
+int main(){
+    std::unique_ptr<`int`>
+}
