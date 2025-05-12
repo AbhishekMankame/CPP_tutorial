@@ -18,6 +18,7 @@ int main(){
         }
         else {
             cout<<"["<<arr[i]<<","<<arr[j]<<"]"<<endl;
+            break;
         }
     }
 }
