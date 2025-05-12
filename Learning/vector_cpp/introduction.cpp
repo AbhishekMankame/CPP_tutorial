@@ -37,4 +37,12 @@ int main(){
 
     // Capacity of the vector
     cout<<arr.capacity()<<endl;
+
+    // pop_back() --> Removes the last element of the vector
+    arr.pop_back();
+
+    for(int i : arr) {
+        cout<<i<<" ";
+    }
+    cout<<endl;
 }
