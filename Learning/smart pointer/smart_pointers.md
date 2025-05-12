@@ -9,3 +9,10 @@ There are 3 main types:<br>
 | `std::unique_ptr` | Exclusive ownership | Only one owner allowed |
 | `std::shared_ptr` | Shared ownership | Multiple owners allowed |
 | `std::weak_pointer` | Non-owning observer | Used with `shared_ptr` to break cycles |
+
+### 1. 🔐 `std::unique_ptr`
+- Only one smart pointer can own the object at a time.
+- Automatically deletes the object when it goes out of scope.
+- Cannot be copied (but can be moved).
+<pre>
+#include<\iostream>
