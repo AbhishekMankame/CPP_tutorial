@@ -18,3 +18,13 @@ Since 4 is equal to 4.
 */
 
 // Note: Here as array is sorted we will use modified version of binary search
+
+#include<iostream>
+#include<vector>
+#include<algorithm>
+using namespace std;
+
+int lowerBound(vector<int> A, int Val){
+    int s = 0;
+    int e = A.size() - 1;
+}
