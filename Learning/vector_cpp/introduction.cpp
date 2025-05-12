@@ -10,3 +10,11 @@ Points to Note:
 - Vectors can be used to create dynamic 1D and 2D Arrays
 - Unlike arrays, vectors are passed by value to a function, we may can still pass them by refernece if need arises.
 */
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    vector<int> arr = {1, 2, 10, 12, 15};
+    cout<<arr.size()<<endl;
+}
