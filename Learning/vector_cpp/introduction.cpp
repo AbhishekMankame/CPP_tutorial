@@ -16,5 +16,13 @@ using namespace std;
 
 int main(){
     vector<int> arr = {1, 2, 10, 12, 15};
+
+    // push_back()
+    arr.push_back(32);
+
+    // Size of the vector (No. of elements)
     cout<<arr.size()<<endl;
+
+    // Capacity of the vector
+    cout<<arr.capacity()<<endl;
 }
