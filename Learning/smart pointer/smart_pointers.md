@@ -19,5 +19,8 @@ There are 3 main types:<br>
 #include<`memory`>
 
 int main(){
-    std::unique_ptr<`int`>
+    std::unique_ptr<`int`> ptr = std::make_unique<`int`>(10);
+    std::cout<<*ptr<< std::endl;
+    return 0; // memory is automatically freed
 }
+</pre>
