@@ -27,4 +27,15 @@ int maxSubarray(vector<int> A){
     if(allNeg){
         return largest;
     }
+
+    // Kadane's Logic
+    int cs=0;
+    int ans = 0;
+    for(int x:A){
+        cs = cs + x;
+        if(cs<0)    cs = 0;
+        ans = max(cs, ans);
+    }
+
+    return ans;
 }
