@@ -11,5 +11,10 @@ Answer: 3
 Since 3 is just smaller than 4 in the array.
 
 Example 2:
+A = {1, 2, 3, 4, 6} Val = 4
+Answer: 4
+Since 4 is equal to 4.
 
 */
+
+// Note: Here as array is sorted we will use modified version of binary search
