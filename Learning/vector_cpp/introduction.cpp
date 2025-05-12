@@ -53,4 +53,11 @@ int main(){
         cout<<i<<" ";
     }
     cout<<endl;
+
+    // Fill Constructor
+    vector<int> arr1(10,7);
+    for(int i:arr1){
+        cout<<i<<" ";
+    }
+    cout<<endl;
 }
