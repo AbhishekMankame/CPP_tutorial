@@ -24,3 +24,7 @@ int main(){
     return 0; // memory is automatically freed
 }
 </pre>
+
+### 2. 🤝 std::shared_ptr
+- Multiple smart pointers can share the ownership.
+- The object is destroyed when the last `shared_ptr` pointing to it is destroyed.
