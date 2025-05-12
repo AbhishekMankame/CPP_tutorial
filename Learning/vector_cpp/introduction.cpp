@@ -45,4 +45,12 @@ int main(){
         cout<<i<<" ";
     }
     cout<<endl;
+
+    // Insert function --> To insert element at specific position
+    arr.insert(arr.begin() + 2, 3);
+
+    for(int i : arr){
+        cout<<i<<" ";
+    }
+    cout<<endl;
 }
