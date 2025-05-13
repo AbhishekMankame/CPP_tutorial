@@ -24,3 +24,9 @@ for(int i = 0; i < 1000000; i++){
 }
 </pre>
 This leaks millions of integers!
+
+### ✅ Fix:
+<pre>
+int* ptr = new int(42);
+delete ptr; // memory freed
+</pre>
