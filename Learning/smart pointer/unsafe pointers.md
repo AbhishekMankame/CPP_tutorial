@@ -95,3 +95,4 @@ p = nullptr; // ❌ Memory leaked - no way to `delete` now </pre>
 | Dangling Pointer | Undefined behavior, crashes | Set to `nullptr` after `delete` |
 | Unintialized | Garbage value -> crash | Initialize or declaration |
 | Wild Pointer | Illegal address, immediate crash | Never hardcode address |
+| Memory Leak | Lost memory -> slower/crash later | Track all `new` with `delete`, use smart pointers |
