@@ -76,3 +76,14 @@ int* p = (int*)0xDEADBEFE; // ❌ Wild and totally invalid
 </pre>
 🔥 Use case (only valid in OS/hardware dev), but never in application-level code. <br>
 🧨 Crash if deferenced.
+
+### 5. 💧 Memory Leak (Lost Pointer)
+🔸What it is:<br>
+You allocated memory with `new`, but lost all access to it (overwritten, reassigned, or went out of scope).
+<pre>
+int* p = new int(10);
+p = nullptr; // ❌ Memory leaked - no way to `delete` now </pre>
+
+✅ Best Practice:
+- Use smart pointers (`unique_ptr`, `shared_ptr`)
+- Carefully manage ownership and always `delete` what you `new`
