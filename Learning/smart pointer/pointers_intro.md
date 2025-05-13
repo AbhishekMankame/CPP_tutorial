@@ -44,3 +44,23 @@ std::cout << *p; // prints 25
 delete p; // free memory
 </pre>
 🔥You must call `delete` to free the memory. Otherwise, it causes a memory leak.
+
+### 🔸5. Commom Mistakes
+❌ Memory Leak
+<pre>
+int* p = new int(50);
+// forgot to delete
+</pre>
+- Every time this code runs, memory is consumed and never released.<br>
+❌ Dangling Pointer
+<pre>
+int* p = new int(30);
+delete p; // memory is freed
+*p = 99; // ❌ undefined behavior - you're writing to deleted memory!
+</pre>
+❌ Double Delete
+<pre>
+int* p = new int(70);
+delete p;
+delete p; // ❌ crash or undefined behavior
+</pre>
