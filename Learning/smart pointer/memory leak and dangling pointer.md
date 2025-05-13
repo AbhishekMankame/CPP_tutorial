@@ -51,3 +51,12 @@ delete ptr; // memory freed
 int* ptr = new int(10);
 ptr = new int(20); // original memory (10) is leaked
 </pre>
+
+### 📉 Example: Server That Leaks Memory
+<pre>
+void handleRequest() {
+    int* data = new int[1000];
+    // forgot delete[]
+}
+</pre>
+If `handleRequest()` runs for every HTTP request, and each time leaks memory, the server will crash under load.
