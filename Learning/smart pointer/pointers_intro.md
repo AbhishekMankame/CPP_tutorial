@@ -65,3 +65,11 @@ int* p = new int(70);
 delete p;
 delete p; // ❌ crash or undefined behavior
 </pre>
+
+### 🔸6. `nullptr` in Modern C++
+- Before C++11: we used `NULL` or `0` to indicate a pointer isn't pointing to anything.
+- Now: use `nullptr`
+<pre>
+int* p = nullptr;
+</pre>
+It's type-safe and preferred.
