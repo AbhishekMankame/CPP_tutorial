@@ -42,3 +42,8 @@ void print(int* p){
     std::cout << *p;
 } </pre>
 - When you don't own the memory (e.g., accessing a buffer, array, etc)
+
+### ❌ Not Recommended For:
+- Managing dynamically allocated memory (`new`) - too risky.
+- Sharing ownership (use `shared_ptr`).
+- Transferring ownership (use `unique_ptr`).
