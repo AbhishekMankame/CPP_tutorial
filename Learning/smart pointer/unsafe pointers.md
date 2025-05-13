@@ -87,3 +87,8 @@ p = nullptr; // ❌ Memory leaked - no way to `delete` now </pre>
 ✅ Best Practice:
 - Use smart pointers (`unique_ptr`, `shared_ptr`)
 - Carefully manage ownership and always `delete` what you `new`
+
+### 🔐 Summary Table
+| Type | What Happens | Safe Practice |
+| ---- | ------------ | ------------- |
+| Null Pointer | Crash on dereference | Check with `if (p != nullptr) |
