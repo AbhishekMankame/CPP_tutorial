@@ -14,3 +14,13 @@ int* ptr = &x;
 std::cout << *ptr << std::endl; // Output: 42
 </pre>
 This `ptr` is a raw pointer.
+
+### 🧠 Key Characteristics of Raw Pointers
+| Feature | Behavior |
+| ------- | -------- |
+| Type | `T*` (e.g., `int*`, `double*`, `MyClass*`) |
+| Ownership | ❌ No ownership tracking - you manage the memory |
+| Memory management | ❌ You must manually use `new` and `delete` |
+| Safety | ❌ Prone to memory leaks, dangling pointers |
+| Null state | Can be `nullptr` or `NULL` |
+| Performance | ✅ Very lightweight - no runtime overhead |
