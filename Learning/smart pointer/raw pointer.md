@@ -29,3 +29,16 @@ This `ptr` is a raw pointer.
 1. Forgetting to delete -> memory leaks
 2. Delete twice -> crash
 3. Dereferencing null or dangling pointer -> undefined behavior
+
+### ✅ Use Cases (when raw pointers are okay)
+- Pointing to stack variables:
+<pre>
+int a = 5;
+int* p = &a;
+</pre>
+- Passing large data without copying (e.g., function parameters):
+<pre>
+void print(int* p){
+    std::cout << *p;
+} </pre>
+- When you don't own the memory (e.g., accessing a buffer, array, etc)
