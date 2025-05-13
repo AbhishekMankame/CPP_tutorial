@@ -1,6 +1,11 @@
 ## 🧠 2. What is a Dangling Pointer?
 🔸<b> Definition:</b><br>
 A dangling pointer is a pointer that points to memory that has been deallocated or freed. Accessing this pointer is undefined behaviour - it can crash or return garbage. <br>
+A dangling pointer points to memory that's no longer valid - either:
+- Freed (via `delete`)
+- Went out of scope (stack variable)
+Accessing it = undefined behavior. <br>
+
 ✅ Example:
 <pre>
 int* p = new int(99);
