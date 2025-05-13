@@ -67,3 +67,12 @@ Always initialize pointers:
 <pre>
 int* p = nullptr;
 </pre>
+
+### 4. 🕷️ Wild Pointer
+🔸What it is:<br>
+A pointer that points to invalid memory - often hardcoded or corrputed.
+<pre>
+int* p = (int*)0xDEADBEFE; // ❌ Wild and totally invalid
+</pre>
+🔥 Use case (only valid in OS/hardware dev), but never in application-level code. <br>
+🧨 Crash if deferenced.
