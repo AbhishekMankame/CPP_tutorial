@@ -93,3 +93,5 @@ p = nullptr; // ❌ Memory leaked - no way to `delete` now </pre>
 | ---- | ------------ | ------------- |
 | Null Pointer | Crash on dereference | Check with `if (p != nullptr)` |
 | Dangling Pointer | Undefined behavior, crashes | Set to `nullptr` after `delete` |
+| Unintialized | Garbage value -> crash | Initialize or declaration |
+| Wild Pointer | Illegal address, immediate crash | Never hardcode address |
