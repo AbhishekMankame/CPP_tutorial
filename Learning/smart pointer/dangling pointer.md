@@ -39,3 +39,12 @@ delete ptr;
 ptr = nullptr; // safe - you can test for nullptr later
 </pre>
 Option 2: Use smart pointers! (They clea up automatically.)
+
+### 🔥 Real-World Consequences:
+| Problem | Description |
+| ------- | ----------- |
+| 💥Crashes | You might read/write into invalid memory, causing segmentation faults or access violations. |
+| 🪲Silent data corruption | You could be modifying that another part of the program now owns - causing weird, random bugs |
+| 🔐Security vulnerabilities | Attackers might exploit dangling pointers to run malicious code (common in buffer overflow exploits). |
+| 🧩Hard-to-debug issues | The program might sometimes and crash later with no clear cause. |
+| 🧪Undefined behavior | Literally anything can happen - overwrite important data, crash, or give wrong output. |
