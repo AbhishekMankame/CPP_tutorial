@@ -65,3 +65,8 @@ int main(){
 - No need for manual `delete`
 - Avoids memory leaks and dangling pointers
 - Exception-safe
+
+### ⚠️ Common Pitfalls
+- Don't create multiple `unique_ptr`s to the same raw pointer.
+- Watch out for circular references with `shared_ptr` (use `weak_ptr`).
+- Don't mix raw and smart pointers (e.g., don't `delete` a raw pointer that's owned by a smart pointer).
