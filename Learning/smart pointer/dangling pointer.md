@@ -24,4 +24,13 @@ int* giveDangling() {
     int x = 10;
     return &x; // ❌ x goes out of scope after function returns
 }
+</pre>
 - x lives on the stack and is destroyed when the function ends.
+### ✅ Fix:
+Option 1: Set pointer to `nullptr` after delete:
+<pre>
+int* ptr = new int(88);
+delete ptr;
+ptr = nullptr; // safe - you can test for nullptr later
+</pre>
+Option 2: Use smart pointers! (They clea up automatically.)
