@@ -19,3 +19,12 @@ std::cout<< *p; // prints 42
 </pre>
 - `*p` is the dereference operator.
 - It means: "go to the address stored in `p` and get the value there."
+
+### 🔸2. Visual Diagram (Imagine This)
+<pre>
+x = 42
+Address of x (say): 0x1234
+
+p = &x  -> p holds 0x1234
+*p = 42 -> dereferencing p gives the value 42
+</pre>
