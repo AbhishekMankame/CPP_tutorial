@@ -82,3 +82,11 @@ int* p = &x;
 int** pp = &p;
 std::cout << **pp; // prints 10
 </pre>
+
+### 🔸8. Pointers and Arrays
+Arrays and pointers are closely related in C++:
+<pre>
+int arr[3] = {1, 2, 3};
+int* p = arr; // points to arr[0]
+std::cout << *(p+1); // prints 2
+</pre>
