@@ -53,3 +53,11 @@ Use smart pointers (like `std::unique_ptr`, `std::shared_ptr`) to:
 - Automatically manage memory
 - Prevent leaks and double frees
 - Be exception-safe
+
+### 🔁 Summary
+| Raw Pointer | Smart Pointer |
+| ----------- | ------------- |
+| Manually managed | Automatically managed |
+| Fast, flexible | Safe, but has some overhead |
+| Easy to misuse | Harded to leak or crash |
+| Use with caution | Preferable in modern C++ |
