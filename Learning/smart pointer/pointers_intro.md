@@ -52,6 +52,7 @@ int* p = new int(50);
 // forgot to delete
 </pre>
 - Every time this code runs, memory is consumed and never released.<br>
+
 ❌ Dangling Pointer
 <pre>
 int* p = new int(30);
