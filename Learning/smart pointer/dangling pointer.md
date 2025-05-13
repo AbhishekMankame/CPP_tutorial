@@ -10,3 +10,18 @@ delete ptr; // memory is deallocated
 - After `delete`, `ptr` still holds the same address
 - But that address no longer belongs to us.
 - Using it is like walking into a demolished house - dangerous and invalid.
+
+### 🔥Common Scenarios for Dangling Pointers
+🔹Case 1: Accessing after delete
+<pre>
+int* p = new int(5);
+delete p;
+std::cout<< *p; // ❌ dangling
+</pre>
+🔹Case 2: Returning address of a local variable
+<pre>
+int* giveDangling() {
+    int x = 10;
+    return &x; // ❌ x goes out of scope after function returns
+}
+- x lives on the stack and is destroyed when the function ends.
