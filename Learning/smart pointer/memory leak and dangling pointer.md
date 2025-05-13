@@ -60,3 +60,9 @@ void handleRequest() {
 }
 </pre>
 If `handleRequest()` runs for every HTTP request, and each time leaks memory, the server will crash under load.
+
+### 🧾 Summary Table
+| Issue | When It Happens | Fix |
+| ----- | --------------- | --- |
+| Memory Leak | Memory allocated but never freed | Always `delete` what you `new` |
+| Dangling Pointer | Accessing memory after it's deallocated | Don't use freed memory; set pointer to `nullptr` |
