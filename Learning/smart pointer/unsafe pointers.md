@@ -33,3 +33,22 @@ std::cout << *p; // ❌ Crash: segmentation fault
 ✅ Best Practice:<br>
 Always initilize pointers to `nullptr` until assigned.
 
+### 2. 💀 Dangling Pointer
+🔸 What it is: <br>
+Pointer that points to memory no longer valid (freed or out-of-scope).
+<pre>
+int* p = new int(10);
+delete p;
+*p = 99; // ❌ Dangling: memory was already deleted!
+</pre>
+
+🧨 Dangerous Because:
+- You're modifying memory you no longer own.
+- May corrupt other data.
+
+✅ Best Practice:<br>
+Set pointer to `nullptr` after deleting:
+<pre>
+delete p;
+p = nullptr;
+</pre>
