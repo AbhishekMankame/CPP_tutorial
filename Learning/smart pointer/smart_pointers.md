@@ -28,3 +28,14 @@ int main(){
 ### 2. 🤝 std::shared_ptr
 - Multiple smart pointers can share the ownership.
 - The object is destroyed when the last `shared_ptr` pointing to it is destroyed.
+<pre>
+#include< iostream >
+#include< memory >
+int main(){
+    std::shared_ptr< int > p1 = std::make_shared< int >(20);
+    std::shared_ptr< int > p2 = p1; // shared ownership
+    std::cout<< *p1 <<"," << p2 << std::endl;
+    std::cout<< "Use count: "<< p1.use_count() << std::endl;
+    return 0;
+}
+</pre>
