@@ -35,3 +35,12 @@ p = &x  -> p holds 0x1234
 std::cout<< x; // now x is 100
 </pre>
 - Changing `*p` actually changes `x`, since `p` points to `x`.
+
+### 🔸4. Dynamic Memory: `new` and `delete`
+Unlike stack variables, dynamic memory is allocated from the heap using `new`.
+<pre>
+int* p = new int(25); // dynamically allocate an int with value 25
+std::cout << *p; // prints 25
+delete p; // free memory
+</pre>
+🔥You must call `delete` to free the memory. Otherwise, it causes a memory leak.
