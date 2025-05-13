@@ -25,7 +25,7 @@ int main(){
 }
 </pre>
 
-### 2. 🤝 std::shared_ptr
+### 2. 🤝 `std::shared_ptr`
 - Multiple smart pointers can share the ownership.
 - The object is destroyed when the last `shared_ptr` pointing to it is destroyed.
 <pre>
@@ -37,5 +37,25 @@ int main(){
     std::cout<< *p1 <<"," << p2 << std::endl;
     std::cout<< "Use count: "<< p1.use_count() << std::endl;
     return 0;
+}
+</pre>
+
+### 3. `std::weak_ptr`
+- Doesn't increase the reference count.
+- Useful to avoid circular references (e.g. in graphs or trees)
+<pre>
+#include< iostream >
+#include< memory >
+
+int main(){
+    std::shared_ptr< int > sp = std::make_shared< int >(100);
+    std::weak_ptr< int > wp = sp;
+
+    if(auto temp = wp.lock()){
+        std::cout<< "Value: " << *temp << std::endl;
+    }
+    else {
+        std::cout<< "Object expired\n";
+    }
 }
 </pre>
