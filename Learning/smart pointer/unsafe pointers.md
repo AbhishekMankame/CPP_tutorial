@@ -96,3 +96,7 @@ p = nullptr; // ❌ Memory leaked - no way to `delete` now </pre>
 | Unintialized | Garbage value -> crash | Initialize or declaration |
 | Wild Pointer | Illegal address, immediate crash | Never hardcode address |
 | Memory Leak | Lost memory -> slower/crash later | Track all `new` with `delete`, use smart pointers |
+
+### ✅ Final Tip:
+Want to remember unsafe pointer types easily? Think of them like "C++ villians":
+<pre>Null, Dangling, Uninitialized, Wild and Leaky - the five pointer monsters you want to avoid.</pre>
