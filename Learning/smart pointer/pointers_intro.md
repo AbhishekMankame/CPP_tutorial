@@ -12,3 +12,10 @@ Breakdown:
 - `&x` gives the address of `x`.
 - `int *p` declares a pointer to an integer.
 - Now `p` stores the address of `x`. 
+
+### Accessing the Value
+<pre>
+std::cout<< *p; // prints 42
+</pre>
+- `*p` is the dereference operator.
+- It means: "go to the address stored in `p` and get the value there."
