@@ -42,3 +42,12 @@ delete ptr; // memory freed
 | 🪲 Hard-to-detect bugs | Leak don't crash immediately - they build up silently over time. |
 | ⚠️ OS instability | Critical software leaking memory can slow down or freeze the entire system. |
 | 🔐 Security risk | Malicious attackers can exploit memory leaks to launch Denial of Service (DoS) attacks. |
+
+### 🧠 Root Causes:
+- Forgot to `delete` memory
+- Early `return` in function skips `delete`
+- Lost pointer (overwritten):
+<pre>
+int* ptr = new int(10);
+ptr = new int(20); // original memory (10) is leaked
+</pre>
