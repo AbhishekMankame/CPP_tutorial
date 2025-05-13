@@ -48,3 +48,20 @@ Option 2: Use smart pointers! (They clea up automatically.)
 | 🔐Security vulnerabilities | Attackers might exploit dangling pointers to run malicious code (common in buffer overflow exploits). |
 | 🧩Hard-to-debug issues | The program might sometimes and crash later with no clear cause. |
 | 🧪Undefined behavior | Literally anything can happen - overwrite important data, crash, or give wrong output. |
+
+### 🧠Root Causes:
+- Accessing memory after `delete`:
+<pre>
+int* p = new int(5);
+delete p;
+std::cout<< *p; // ❌ undefined behavior
+</pre>
+
+- Returning address of local variable:
+<pre>
+int* foo() {
+    int x = 10;
+    return &x; // ❌ x is destroyed when function ends
+}
+</pre>
+- Using stale pointers in containers of arrays after resizing
