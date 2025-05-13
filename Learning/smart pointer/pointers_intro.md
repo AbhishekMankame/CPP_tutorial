@@ -73,3 +73,12 @@ delete p; // ❌ crash or undefined behavior
 int* p = nullptr;
 </pre>
 It's type-safe and preferred.
+
+### 🔸7. Pointer to Pointer
+You can have a pointer that points to another pointer:
+<pre>
+int x = 10;
+int* p = &x;
+int** pp = &p;
+std::cout << **pp; // prints 10
+</pre>
