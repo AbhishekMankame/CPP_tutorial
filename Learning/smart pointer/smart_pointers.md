@@ -40,7 +40,7 @@ int main(){
 }
 </pre>
 
-### 3. `std::weak_ptr`
+### 3. 👀 `std::weak_ptr`
 - Doesn't increase the reference count.
 - Useful to avoid circular references (e.g. in graphs or trees)
 <pre>
@@ -59,3 +59,9 @@ int main(){
     }
 }
 </pre>
+
+### 🧼 Why Use Smart Pointers?
+- Automatic memory management
+- No need for manual `delete`
+- Avoids memory leaks and dangling pointers
+- Exception-safe
