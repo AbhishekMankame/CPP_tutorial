@@ -28,3 +28,10 @@ Address of x (say): 0x1234
 p = &x  -> p holds 0x1234
 *p = 42 -> dereferencing p gives the value 42
 </pre>
+
+### 🔸3. Modifying Values Through Pointers
+<pre>
+*p = 100;
+std::cout<<x; // now x is 100
+</pre>
+- Changing `*p` actually changes `x`, since `p` points to `x`.
