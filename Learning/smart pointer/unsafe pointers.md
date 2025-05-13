@@ -91,4 +91,4 @@ p = nullptr; // ❌ Memory leaked - no way to `delete` now </pre>
 ### 🔐 Summary Table
 | Type | What Happens | Safe Practice |
 | ---- | ------------ | ------------- |
-| Null Pointer | Crash on dereference | Check with `if (p != nullptr) |
+| Null Pointer | Crash on dereference | Check with `if (p != nullptr)` |
