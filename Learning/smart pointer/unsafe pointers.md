@@ -52,3 +52,18 @@ Set pointer to `nullptr` after deleting:
 delete p;
 p = nullptr;
 </pre>
+
+### 3. 🪦 Uninitialized Pointer
+🔸What it is: <br>
+Pointer declares but never assigned - contains random garbage address.
+<pre>
+int* p;
+*p = 50; // ❌ Unpredictable crash
+</pre>
+🧨 Problem:<br>
+You don't know where it's pointing. Could corrput memory.
+✅ Best practice: <br>
+Always initialize pointers:
+<pre>
+int* p = nullptr;
+</pre>
