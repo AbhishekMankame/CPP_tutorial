@@ -90,3 +90,13 @@ int arr[3] = {1, 2, 3};
 int* p = arr; // points to arr[0]
 std::cout << *(p+1); // prints 2
 </pre>
+
+### 🔸9. Summary Table
+| Syntax | Meaning |
+| ------ | ------- |
+| `int* p;` | Declares a pointer to an int |
+| `&x` | Address of x |
+| `*p` | Value at the address p points to |
+| `new` | Allocates memory on the heap |
+| `delete` | Frees memory from the heap |
+| `nullptr` | Null pointer (C++ 11+) |
