@@ -84,3 +84,9 @@ Even though `p` and `q` look unrelated, this causes a currupt write.
 | Memory Leak | `unique_ptr` and `shared_ptr` free memory automatically |
 | Dangling Pointer | Smart pointers set themselves to `nullptr` after deallocation |
 | Multiple deletes | `shared_ptr` handles reference counting |
+
+### ✅ Summary Table
+| Issue | Real Danger | Fix |
+| ----- | ----------- | --- |
+| Memory Leak | Slowdowns, crashes, resource exhaustion | Always `delete`, or use smart pointers |
+| Dangling Pointer | Crashes, silent bugs, security holes | Don't use freed memory; set to `nullptr`, or use smart pointers |
