@@ -65,3 +65,15 @@ int* foo() {
 }
 </pre>
 - Using stale pointers in containers of arrays after resizing
+
+### ⚠️ Example: Overwriting Important Data
+<pre>
+int* p = new int(99);
+delete p;
+
+// Later in program...
+int* q = new int(55); // might get same memory as p
+
+*p = 888; // oops! corrupting q's memory
+</pre>
+Even though `p` and `q` look unrelated, this causes a currupt write.
