@@ -24,3 +24,8 @@ This `ptr` is a raw pointer.
 | Safety | ❌ Prone to memory leaks, dangling pointers |
 | Null state | Can be `nullptr` or `NULL` |
 | Performance | ✅ Very lightweight - no runtime overhead |
+
+### 🔥Dangers of Raw Pointers
+1. Forgetting to delete -> memory leaks
+2. Delete twice -> crash
+3. Dereferencing null or dangling pointer -> undefined behavior
