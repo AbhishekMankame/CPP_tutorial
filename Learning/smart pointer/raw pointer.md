@@ -47,3 +47,9 @@ void print(int* p){
 - Managing dynamically allocated memory (`new`) - too risky.
 - Sharing ownership (use `shared_ptr`).
 - Transferring ownership (use `unique_ptr`).
+
+### ✅ Smart Pointer Alternative
+Use smart pointers (like `std::unique_ptr`, `std::shared_ptr`) to:
+- Automatically manage memory
+- Prevent leaks and double frees
+- Be exception-safe
