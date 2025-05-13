@@ -1,5 +1,5 @@
 ## 🧠 1. What is a Memory Leak?
-🔸Definition:<br>
+🔸<b>Definition:</b><br>
 A memory leak happens when a program allocates memory on the heap using `new` (or `malloc`) but fails to release it using `delete` (or `free`).
 ### What Happens:
 - The memory is reserved, but the program loses all reference to it.
@@ -14,3 +14,13 @@ void memoryLeakExample(){
 }
 </pre>
 🔴 Problem: `delete ptr;` is missing. So this 4 bytes of memory is leaked.
+
+### 🚨Real Danger:
+In loops or long-running apps, this adds up quickly:
+<pre>
+for(int i = 0; i < 1000000; i++){
+    int* ptr = new int(i);
+    // forgot delete
+}
+</pre>
+This leaks millions of integers!
