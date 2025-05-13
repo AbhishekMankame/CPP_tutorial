@@ -77,3 +77,10 @@ int* q = new int(55); // might get same memory as p
 *p = 888; // oops! corrupting q's memory
 </pre>
 Even though `p` and `q` look unrelated, this causes a currupt write.
+
+### 🛡️ How Smart Pointers Help
+| Problem | Smart Pointer Solution |
+| ------- | ---------------------- |
+| Memory Leak | `unique_ptr` and `shared_ptr` free memory automatically |
+| Dangling Pointer | Smart pointers set themselves to `nullptr` after deallocation |
+| Multiple deletes | `shared_ptr` handles reference counting |
