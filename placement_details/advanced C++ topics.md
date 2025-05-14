@@ -4,3 +4,12 @@
 - Stack vs Heap memory
 - Manual memory management (`new` / `delete`)
 - Memory leaks, dangling pointers, RAII
+
+### 🔹2. Object-Oriented Programming (OOP)
+- Classes, objects, constructors/destructors
+- Inheritence and polymorphism
+- Virtual functions and vtable
+- Abstract classes and interfaces
+- Access specifiers (`public`, `private`, `protected`)
+- Composition vs Inheritence
+- Diamond problem and virtual inheritence
