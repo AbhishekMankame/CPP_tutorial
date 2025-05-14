@@ -26,3 +26,10 @@
 - Iterators and interator traits
 - Lambda functions
 - `std::function`, `std::bind`, function pointers
+
+### 🔹5. Templates
+- Function and class template
+- Template specialization
+- Variadic templates
+- SFINAE (Substitution Failure Is Not An Error)
+- `constexpr`, `decltype`, and `auto`
