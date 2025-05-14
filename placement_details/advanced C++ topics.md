@@ -73,3 +73,13 @@ These aren't always required, but really impress interviewers if brought up appr
 - Writing lock-free data structures (e.g., queues)
 - ABI compatibility and name mangling
 - `std::any`, `std::variant`, `std::optional` (C++17+)
+
+### 🧪What Google/Microsoft Interviewers Focus On:
+| Area | Importance | Asked in Interviews |
+| ---- | ---------- | ------------------- |
+| Problem Solving (DSA) | ⭐⭐⭐⭐⭐ | Always |
+| OOP Design & Code Quality | ⭐⭐⭐⭐ | Frequently |
+| Template & STL | ⭐⭐⭐⭐ | Often (especially STL) |
+| Multithreading | ⭐⭐⭐ | Microsoft often asks |
+| Smart Pointers/RAII | ⭐⭐⭐⭐ | Very likely |
+| Memory Leaks, Performance | ⭐⭐⭐⭐ | Critical in systems |
