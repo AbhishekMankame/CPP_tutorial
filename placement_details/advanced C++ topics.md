@@ -59,3 +59,8 @@
 - Graph representations (adjacency list/matrix)
 - Union-Find (Disjoint Set Union)
 - Heap (Min/Max)
+
+### 🔹10. Compile-Time Programming
+- `constexpr`, `static_assert`
+- Template metaprogramming (basic)
+- Type traits from `<type_traits>`
