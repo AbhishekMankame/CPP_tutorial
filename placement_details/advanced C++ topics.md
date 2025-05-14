@@ -13,3 +13,9 @@
 - Access specifiers (`public`, `private`, `protected`)
 - Composition vs Inheritence
 - Diamond problem and virtual inheritence
+
+### 🔹3. Smart Pointers & RAII
+- `unique_ptr`, `shared_ptr`, `weak_ptr`, `make_shared`, `make_unique`
+- Ownership semantics
+- Custom deleters
+- Resource Acquisition Is Initialization (RAII)
