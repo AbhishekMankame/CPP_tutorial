@@ -33,3 +33,10 @@
 - Variadic templates
 - SFINAE (Substitution Failure Is Not An Error)
 - `constexpr`, `decltype`, and `auto`
+
+### 🔹6. Multithreading and Concurrency (asked at Microsoft/Meta)
+- `std::thread`, `std::mutex`, `std::lock_guard`, `std::unique_lock`
+- Condition variables
+- Race conditions and deadlocks
+- Thread-safe data structures
+- Atomics (`std::atomic`)
