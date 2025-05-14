@@ -19,3 +19,10 @@
 - Ownership semantics
 - Custom deleters
 - Resource Acquisition Is Initialization (RAII)
+
+### 🔹4. STL (Standard Template Library)
+- Containers: `vector`, `map`, `set`, `unordered_map`, `priority_queue`, etc.
+- Algorithms: `sort`, `binary_search`, `lower_bound`, `find`, etc.
+- Iterators and interator traits
+- Lambda functions
+- `std::function`, `std::bind`, function pointers
