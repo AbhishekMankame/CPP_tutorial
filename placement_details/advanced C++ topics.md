@@ -52,3 +52,10 @@
 - Factory, Singleton, Observer, Stratergy, etc.
 - SOLID principles
 - How to apply patterns in C++
+
+### 🔹9. Advanced Data Structures (used with STL or from scratch)
+- Custom hash functions (especially for `unordered_map`)
+- Trie, Segment Tree, Fenwick Tree
+- Graph representations (adjacency list/matrix)
+- Union-Find (Disjoint Set Union)
+- Heap (Min/Max)
