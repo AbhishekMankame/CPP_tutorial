@@ -64,3 +64,12 @@
 - `constexpr`, `static_assert`
 - Template metaprogramming (basic)
 - Type traits from `<type_traits>`
+
+### 🧠 Bonus: Topics That Show Expertise
+These aren't always required, but really impress interviewers if brought up appropriately:
+- Custom memory allocators
+- Inline assembly in C++
+- Cache optimization and memory alignment
+- Writing lock-free data structures (e.g., queues)
+- ABI compatibility and name mangling
+- `std::any`, `std::variant`, `std::optional` (C++17+)
