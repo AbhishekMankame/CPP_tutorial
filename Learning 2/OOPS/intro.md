@@ -29,3 +29,17 @@ public:
     }
 };
 </pre>
+
+### 🚗 2. What is an Object?
+An object is a real instance of the class - like a real car created from the blueprint.
+<pre>
+int main(){
+    Car car1;   // Created object
+    car1.brand = "Toyota";  // Access members
+    car1.color = "Red";
+    car1.speed = 0;
+
+    car1.startEngine(); // Call method
+    return 0;
+}
+</pre>
