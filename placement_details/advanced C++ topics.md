@@ -47,3 +47,8 @@
 - `std::move`, `std::forward`
 - Rule of 3/5/0
 - Perfect forwarding
+
+### 🔹8. Design Patterns (System Design in C++)
+- Factory, Singleton, Observer, Stratergy, etc.
+- SOLID principles
+- How to apply patterns in C++
