@@ -43,3 +43,15 @@ int main(){
     return 0;
 }
 </pre>
+Output:
+<pre>
+Engine started for Toyota</pre>
+
+### 🛠️ Key Concepts:
+| Term | Meaning |
+| ---- | ------- |
+| Class | Blueprint/template |
+| Object | Instance of a class |
+| Data Members | Variables inside a class |
+| Member Functions | Functions inside a class |
+| Access Specifiers | Control access (`public`, `private`, `protected`) |
