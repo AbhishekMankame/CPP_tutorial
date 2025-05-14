@@ -40,3 +40,10 @@
 - Race conditions and deadlocks
 - Thread-safe data structures
 - Atomics (`std::atomic`)
+
+### 🔹7. Move Semantics & Rvalue References
+- Lvalues vs Rvalues
+- Copy constructor vs Move constructor
+- `std::move`, `std::forward`
+- Rule of 3/5/0
+- Perfect forwarding
