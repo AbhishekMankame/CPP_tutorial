@@ -55,3 +55,10 @@ Engine started for Toyota</pre>
 | Data Members | Variables inside a class |
 | Member Functions | Functions inside a class |
 | Access Specifiers | Control access (`public`, `private`, `protected`) |
+
+### 🔐 Acccess Specifiers (Brief Intro)
+| Specifier | Meaning |
+| --------- | ------- |
+| `public` | Accessible from outside the class |
+| `private` | Only accessible inside the class |
+| `protected` | Like private, but accessible to derived classes |
