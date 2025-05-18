@@ -33,7 +33,7 @@ int binarySearchRecursive(int arr[], int low, int high, int target){
     if(low>high){
         return -1;  // base case: not found
     }
-    int mid = low + (high + low)/2;
+    int mid = low + (high - low)/2;
     if(arr[mid]==target)
         return mid;
     else if(arr[mid]<target)
