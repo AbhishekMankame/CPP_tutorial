@@ -12,6 +12,7 @@ Prerequisites: Array must be sorted
 
 */
 
+// Iterative Approach 
 int binarySearchIterative(int arr[], int n, int target){
     int low=0,high=n-1;
 
@@ -27,6 +28,7 @@ int binarySearchIterative(int arr[], int n, int target){
     return -1; // not found
 }
 
+// Recursive Approach 
 int binarySearchRecursive(int arr[], int low, int high, int target){
     if(low>high){
         return -1;  // base case: not found
